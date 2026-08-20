@@ -1,0 +1,89 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Les quatre dossiers avant de prendre l'avion",
+  "subtitulo": "ESTA, passeport, réservation et adresse, réglés avant de dormir",
+  "introAudioKey": "eua-b04-q-i",
+  "introPt": "La veille du vol, tu confirmes ta réservation par téléphone avec l'hôtel. Écoute l'échange et remarque ce que chacun demande.",
+  "cenario": "Au téléphone, la veille du vol, en confirmant la réservation de l'hôtel.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b04-q01",
+      "voz": "target_en_f",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aïde laïke tou konne-FEURME maï rè-zeur-VÈÏ-chonne",
+      "pt": "Je voudrais confirmer ma réservation."
+    },
+    {
+      "audioKey": "eua-b04-q02",
+      "voz": "target_en_m",
+      "es": "Sure, what name is it under?",
+      "tts": "Sure, what name is it under?",
+      "pinyin": "choure, ouatte nèïme iz itte ONNE-deur",
+      "pt": "Bien sûr, c'est à quel nom ?"
+    },
+    {
+      "audioKey": "eua-b04-q03",
+      "voz": "target_en_f",
+      "es": "What's the full address?",
+      "tts": "What's the full address?",
+      "pinyin": "ouatse de foule e-DRÈSSE",
+      "pt": "Quelle est l'adresse complète ?"
+    },
+    {
+      "audioKey": "eua-b04-q04",
+      "voz": "target_en_m",
+      "es": "Yes, we're open all night. You're all set.",
+      "tts": "Yes, we're open all night. You're all set.",
+      "pinyin": "yèsse, ouir ôpeune ole naïte. your ole sète",
+      "pt": "Oui, on est ouvert toute la nuit. Tout est réglé."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "En tant que citoyen français, que te faut-il pour voyager aux États-Unis en touriste ?",
+      "opcoes": [
+        "Un visa de touriste B1/B2",
+        "Une autorisation ESTA valide et un passeport biométrique",
+        "Rien, la carte d'identité suffit",
+        "Un permis spécial seulement si tu restes plus de dix jours"
+      ],
+      "correta": 1,
+      "explica": "La France fait partie du Programme d'exemption de visa : il faut une ESTA valide, pas de visa."
+    },
+    {
+      "pergunta": "Pourquoi demander la confirmation de réservation par email, et ne pas se fier qu'à l'appli ?",
+      "opcoes": [
+        "Parce que les applis plantent toujours",
+        "Pour avoir un objet enregistré qui fonctionne sans internet",
+        "C'est une obligation légale",
+        "Pour économiser de l'argent"
+      ],
+      "correta": 1,
+      "explica": "Une confirmation gardée en dehors de l'appli survit à un wifi en panne ou une batterie vide."
+    },
+    {
+      "pergunta": "Que génèrent les douanes américaines (CBP) à l'arrivée en avion ?",
+      "opcoes": [
+        "Un formulaire papier à remplir avant le vol",
+        "L'enregistrement d'entrée I-94, de façon électronique",
+        "Un nouveau visa à l'aéroport",
+        "Rien, il n'y a aucun enregistrement"
+      ],
+      "correta": 1,
+      "explica": "Aucun papier à remplir à l'avance ; le I-94 est généré électroniquement à l'entrée."
+    },
+    {
+      "pergunta": "Pourquoi demande-t-on si la réception de l'hôtel est ouverte vingt-quatre heures sur vingt-quatre ?",
+      "opcoes": [
+        "Pour négocier le prix",
+        "Parce qu'une réservation valide peut échouer si personne n'accueille le voyageur la nuit",
+        "C'est obligatoire de toujours le demander",
+        "Pour demander une chambre plus grande"
+      ],
+      "correta": 1,
+      "explica": "Confirmer l'horaire évite qu'une arrivée tardive ne se heurte à une réception fermée."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — La phrase qui ne se dit pas à moitié",
+  "subtitulo": "« I'm allergic to ___ » et la carte écrite",
+  "introAudioKey": "eua-b13-q-i",
+  "introPt": "Avant que le plat n'arrive à table, il faut signaler l'allergie et confirmer que c'est bien compris. Écoute l'échange et décide ce qui correspond.",
+  "cenario": "À table, avant que la commande ne soit confirmée.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b13-q01",
+      "voz": "target_en_f",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïme e-LEUR-jike tou PI-natse",
+      "pt": "Je suis allergique aux cacahuètes."
+    },
+    {
+      "audioKey": "eua-b13-q02",
+      "voz": "target_en_m",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gate itte, aïll lète de KI-tchenne nôou",
+      "pt": "C'est noté, je préviens la cuisine."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Comment dit-on une allergie en anglais ?",
+      "opcoes": [
+        "No ___, please",
+        "I'm allergic to ___",
+        "I'm looking for ___",
+        "Can I get ___?"
+      ],
+      "correta": 1,
+      "explica": "« I'm allergic to ___ » est la phrase-marteau : elle se dit toujours entière, sans l'ajuster ni la raccourcir."
+    },
+    {
+      "pergunta": "Pourquoi cette phrase n'est-elle pas traitée comme une formule ouverte qu'on peut raccourcir ?",
+      "opcoes": [
+        "Parce qu'elle est plus longue que les autres",
+        "Parce que changer sa forme lui enlève du poids juste quand c'est le plus important",
+        "Parce qu'elle ne s'utilise qu'au restaurant",
+        "Parce qu'il n'existe pas de forme courte en anglais"
+      ],
+      "correta": 1,
+      "explica": "À la différence de « Can I get ___? », il n'y a ici aucune place pour improviser le registre : le sérieux dépend de la dire entière."
+    },
+    {
+      "pergunta": "En plus de le dire à voix haute, qu'est-ce qu'il vaut mieux apporter ?",
+      "opcoes": [
+        "Une photo du plat",
+        "Une carte écrite avec l'allergie en anglais",
+        "Le menu entièrement traduit",
+        "Rien de plus, la voix suffit"
+      ],
+      "correta": 1,
+      "explica": "La carte écrite ne dépend pas de la prononciation dans un moment de stress ; c'est un renfort, pas un remplacement de la voix."
+    },
+    {
+      "pergunta": "Le serveur file en cuisine après que tu as dit ton allergie. Que se passe-t-il ?",
+      "opcoes": [
+        "Il exagère sans raison",
+        "Il traite l'information comme critique, une pratique courante et légale aux États-Unis",
+        "Il n'a pas compris ce que tu as dit",
+        "Il va te facturer un supplément"
+      ],
+      "correta": 1,
+      "explica": "Beaucoup de restaurants confirment les allergies déclarées directement avec la cuisine, en accord avec la norme légale d'étiquetage des allergènes."
+    },
+    {
+      "pergunta": "En quoi cette partie diffère-t-elle de B12 (« No ___, please ») ?",
+      "opcoes": [
+        "Elles sont exactement pareilles",
+        "B12 retire une préférence ; B13 communique un risque pour la santé",
+        "B13 ne concerne que les boissons",
+        "B12 est plus formelle"
+      ],
+      "correta": 1,
+      "explica": "B12 ajuste la commande par goût. B13 signale un risque réel, et la cuisine — comme toi — doit le traiter avec plus de sérieux."
+    }
+  ]
+}

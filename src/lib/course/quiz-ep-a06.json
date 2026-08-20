@@ -1,0 +1,89 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Leur calendrier",
+  "subtitulo": "Les jours fériés fédéraux, Thanksgiving et les deux questions qui ouvrent n'importe quelle porte fermée",
+  "introAudioKey": "eua-a06-q-i",
+  "introPt": "Tu avais prévu le musée pour un jour qui s'avère férié. Écoute l'échange et réponds.",
+  "cenario": "L'entrée d'un musée, un lundi comme un autre.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a06-q01",
+      "voz": "target_en_m",
+      "es": "Sorry, we're closed today — it's Presidents' Day.",
+      "tts": "Sorry, we're closed today — it's Presidents' Day.",
+      "pt": "Désolé, on est fermé aujourd'hui — c'est le Presidents' Day."
+    },
+    {
+      "audioKey": "eua-a06-q02",
+      "voz": "target_en_f",
+      "es": "Is the mall open today?",
+      "tts": "Is the mall open today?",
+      "pt": "Le centre commercial est ouvert aujourd'hui ?"
+    },
+    {
+      "audioKey": "eua-a06-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, everything's open except government stuff.",
+      "tts": "Yeah, everything's open except government stuff.",
+      "pt": "Oui, tout est ouvert, sauf les trucs du gouvernement."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Combien de jours fériés fédéraux les États-Unis observent-ils par an ?",
+      "opcoes": [
+        "Cinq",
+        "Onze",
+        "Vingt",
+        "Aucun officiellement"
+      ],
+      "correta": 1,
+      "explica": "Il y a onze dates par an où ferment le gouvernement fédéral, les banques et la poste."
+    },
+    {
+      "pergunta": "Le musée est fermé pour jour férié. Qu'est-ce que ça signifie pour les magasins normaux ?",
+      "opcoes": [
+        "Ils ferment tous aussi",
+        "La plupart restent ouverts, sauf Thanksgiving et Noël",
+        "Seules les banques ferment",
+        "Impossible de le savoir"
+      ],
+      "correta": 1,
+      "explica": "Le commerce ne suit presque jamais la liste des jours fériés fédéraux, sauf à ces deux dates."
+    },
+    {
+      "pergunta": "Quand tombe Thanksgiving ?",
+      "opcoes": [
+        "Le premier lundi de novembre",
+        "Le quatrième jeudi de novembre",
+        "Le 25 décembre",
+        "Le dernier vendredi de novembre"
+      ],
+      "correta": 1,
+      "explica": "Thanksgiving tombe toujours le quatrième jeudi de novembre."
+    },
+    {
+      "pergunta": "Qu'est-ce que Black Friday ?",
+      "opcoes": [
+        "Un autre jour férié fédéral",
+        "Le lendemain de Thanksgiving, avec de grosses soldes dès le matin",
+        "Le jour où le gouvernement ferme",
+        "Un festival religieux"
+      ],
+      "correta": 1,
+      "explica": "C'est le début traditionnel de la saison des achats de fin d'année, avec des magasins ouvrant avant l'aube."
+    },
+    {
+      "pergunta": "Quelles sont les deux questions qui te donnent le vrai calendrier d'un lieu ?",
+      "opcoes": [
+        "Ça coûte combien ? et c'est où ?",
+        "C'est férié ? et vous, vous ouvrez ?",
+        "Vous fermez à quelle heure ? et vous prenez la carte ?",
+        "Il y a une réduction ? et vous avez un parking ?"
+      ],
+      "correta": 1,
+      "explica": "La première donne la règle nationale ; la seconde, la vraie réponse pour ce commerce précis."
+    }
+  ]
+}

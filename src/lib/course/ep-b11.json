@@ -1,0 +1,317 @@
+{
+  "id": "b11",
+  "slot": "B11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4A",
+  "titulo": "S'asseoir et commander la première tournée",
+  "subtitulo": "« Can I get ___? » à table, l'eau gratuite, et pourquoi le pourboire n'est pas un extra",
+  "cena": "La serveuse arrive avec son carnet ouvert, tu as déjà survolé le menu, et tu as trois secondes avant qu'elle ne demande ce que vous allez boire.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas commander une table, une boisson et un plat sans mémoriser une phrase différente pour chaque chose. La plupart des touristes continuent de pointer le menu en silence.",
+  "moldes": ["GET"],
+  "clique": {
+    "contagem": [
+      "la table pour deux",
+      "la première tournée de boissons",
+      "le refill du soda",
+      "l'addition à la fin"
+    ],
+    "desconto": "Personne ne t'a donné une phrase pour demander une table, une autre pour demander une boisson et une autre pour demander l'addition. Tu as construit les trois avec « Can I get » et la chose dont tu avais besoin.",
+    "piso": "La prochaine fois que tu t'assoiras dans un restaurant aux États-Unis, tu n'attendras pas qu'on te demande ce que tu veux : tu le demanderas toi-même, avec une formule que tu sais déjà utiliser."
+  },
+  "permissao": "Tu n'as pas à tout commander d'un coup ni à te souvenir de tout le menu. « Can I get » plus une chose à la fois est une phrase complète, et tu peux la dire autant de fois que nécessaire.",
+  "permissaoAudioKey": "eua-b11-n09",
+  "espelho": "Dans n'importe quel restaurant de ton pays aussi, tu décides quand demander l'addition et quand non ; la seule nouveauté ici, c'est que le pourboire que tu laisses n'est pas une récompense pour une bonne attitude, c'est le salaire de la personne qui t'a servi.",
+  "fichasCulturais": [
+    {
+      "sinal": "À la fin du repas, la serveuse apporte une machine et te montre trois boutons : 18 %, 20 %, 25 % — et parfois un quatrième petit bouton qui dit « no tip ».",
+      "suaLeitura": "Je dois choisir un des trois grands pourcentages, c'est normal.",
+      "oQueEAli": "Le salaire de base d'un serveur aux États-Unis n'est que de 2,13 $ de l'heure ; le pourboire est le revenu réel, pas un bonus. La moyenne effective dans un restaurant avec service à table tourne autour de 19 %, et moins de 15 % se lit comme si quelque chose s'était mal passé.",
+      "oQueVoceFaz": "Tu choisis 18-20 % à table avec service complet. Tu appuies sur le bouton sans gêne : c'est comme ça que cette personne est payée.",
+      "oQueMelhora": "Tu comprends exactement ce que tu paies et pourquoi, plutôt que de deviner un chiffre au hasard sous pression.",
+      "ondeNaoVale": "Ça ne s'applique pas de la même façon au comptoir d'un café où tu payes juste et repars : là, l'écran peut demander 25-30 % pour aucun service, et choisir « no tip » est socialement accepté.",
+      "evidencia": "FATO",
+      "audioKeys": ["eua-b11-n07"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "gorjeta-salario-base",
+      "afirmacao": "The federal minimum wage for a tipped worker is just $2.13 an hour. The tip is not a bonus — it is most of that person's real income.",
+      "fonte": "U.S. Department of Labor",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["eua-b11-n07"]
+    },
+    {
+      "id": "gorjeta-media-efetiva",
+      "afirmacao": "The average tip at a full-service restaurant runs close to 19%. Anything under 15% reads as a complaint about the service.",
+      "valor": "~19%",
+      "fonte": "Toast POS, dados de transações 2024-2025",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "FATO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Partie onze. Le poing marque la syllabe forte : get, CHECK, TA-ble. Une par mot."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n02",
+      "bloco": "cena",
+      "pt": "La serveuse arrive avec son carnet ouvert. Tu as déjà survolé le menu ; tu as trois secondes avant qu'elle demande ce que vous allez boire."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p01",
+      "promptPt": "Au comptoir de l'hôtel, hier tu cherchais l'ascenseur sans connaître le mot exact. Dis ce que tu cherches. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "LOOKING",
+      "audioKey": "eua-b11-t01",
+      "es": "I'm looking for the elevator.",
+      "tts": "I'm looking for the elevator.",
+      "pinyin": "aïme LOU-kigne for di È-le-vèï-teur",
+      "pt": "Je cherche l'ascenseur."
+    },
+    {
+      "consulta": ["chegar/entrar"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "EXCUSE",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p00",
+      "promptPt": "Le restaurant est plein et personne ne te voit entrer. Attire l'attention de quelqu'un avant que le mauvais serveur ne t'approche. Parle maintenant.",
+      "audioKey": "eua-b11-t00",
+      "es": "Excuse me!",
+      "tts": "Excuse me!",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi !"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n03",
+      "bloco": "molde",
+      "pt": "La formule du jour : « Can I get » plus ce que tu veux. Table, boisson, plat et addition, avec la même phrase."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-t02",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "kn aï guète e TÈÏ-boule for tou",
+      "pt": "Vous nous donnez une table pour deux ?"
+    },
+    {
+      "consulta": ["mesa/mesa"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "a table for two",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b11-p02",
+      "promptPt": "Tu arrives avec ton partenaire dans un restaurant sans réservation. Demande une table pour deux. Parle maintenant.",
+      "audioKey": "eua-b11-t02",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "kn aï guète e TÈÏ-boule for tou",
+      "pt": "Vous nous donnez une table pour deux ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b11-r01",
+      "es": "Sure, right this way.",
+      "tts": "Sure, right this way.",
+      "pinyin": "choure, raïte diss ouèï",
+      "pt": "Bien sûr, par ici."
+    },
+    {
+      "consulta": ["mesa/agua-refill"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "some water",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p03",
+      "promptPt": "Avant de décider quoi boire, demande de l'eau. Aux États-Unis, l'eau à table est toujours gratuite. Parle maintenant.",
+      "audioKey": "eua-b11-t03",
+      "es": "Can I get some water?",
+      "tts": "Can I get some water?",
+      "pinyin": "kn aï guète samme OUA-teur",
+      "pt": "Vous m'apportez de l'eau ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n04",
+      "pt": "L'eau à table est toujours gratuite, et le soda a presque toujours un refill gratuit. Il suffit de lever le verre vide."
+    },
+    {
+      "consulta": ["mesa/bebida"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "a beer",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p04",
+      "promptPt": "Demande une bière pour commencer. Parle maintenant.",
+      "audioKey": "eua-b11-t04",
+      "es": "Can I get a beer?",
+      "tts": "Can I get a beer?",
+      "pinyin": "kn aï guète e bir",
+      "pt": "Vous m'apportez une bière ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-r02",
+      "es": "Can I see some ID?",
+      "tts": "Can I see some ID?",
+      "pinyin": "kn aï si samme aï-DI",
+      "pt": "Je peux voir une pièce d'identité ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n05",
+      "pt": "On te demande une pièce d'identité même à l'âge légal : c'est la coutume. Le passeport physique fonctionne ; la photo sur téléphone non."
+    },
+    {
+      "consulta": ["mesa/comida"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "the burger",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b11-p05",
+      "promptPt": "Tu as déjà décidé quoi manger. Commande le burger. Parle maintenant.",
+      "audioKey": "eua-b11-t05",
+      "es": "Can I get the burger?",
+      "tts": "Can I get the burger?",
+      "pinyin": "kn aï guète de BEUR-gueur",
+      "pt": "Je peux avoir le burger ?"
+    },
+    {
+      "consulta": ["pagar/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "the check",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p06",
+      "promptPt": "Vous avez fini de manger et la serveuse ne revient pas d'elle-même. Demande l'addition. Parle maintenant.",
+      "audioKey": "eua-b11-t06",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "kn aï guète de tchèke, pliize",
+      "pt": "Je peux avoir l'addition, s'il vous plaît ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n06",
+      "pt": "L'addition n'arrive pas toute seule : aux États-Unis, c'est toi qui la demandes. Sans « Can I get the check », on peut te laisser assis tout l'après-midi."
+    },
+    {
+      "consulta": ["mesa/mesa"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a highchair",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b11-p07",
+      "promptPt": "Tu viens avec ton jeune enfant qui a besoin d'une chaise haute. Demande s'ils en ont une. Parle maintenant.",
+      "audioKey": "eua-b11-t07",
+      "es": "Do you have a highchair?",
+      "tts": "Do you have a highchair?",
+      "pinyin": "dou you jav e JAÏ-tchère",
+      "pt": "Vous avez une chaise haute ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n07",
+      "bloco": "capsula",
+      "pt": "Et quand la machine arrive, elle demande presque toujours un pourboire avant même de voir le total. Parlons-en."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n08",
+      "pt": "Le salaire de base d'un serveur n'est que de deux dollars treize l'heure : le pourboire est le vrai salaire, pas une récompense."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n08b",
+      "pt": "La moyenne à table tourne autour de dix-neuf pour cent ; moins de quinze sonne comme une plainte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n09",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de tout commander en même temps. « Can I get » plus une chose à la fois est une phrase complète, répétable à volonté."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b11-n10",
+      "bloco": "clique",
+      "pt": "Table, eau, bière, plat, addition. Personne ne t'a donné cinq phrases : toutes construites avec « Can I get »."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b11-s01",
+      "es": "Can I get a table for two? Can I get some water? Can I get the check?",
+      "tts": "Can I get a table for two? Can I get some water? Can I get the check?",
+      "pinyin": "kn aï guète e TÈÏ-boule for tou ? kn aï guète samme OUA-teur ? kn aï guète de tchèke",
+      "pt": "Répète la même formule avec trois choses différentes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b11-n11",
+      "bloco": "recap",
+      "pt": "B11 bouclée. Table, eau, boisson, plat et addition : cinq étapes, une seule formule."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Le cheval de bataille du restaurant",
+    "secoes": [
+      {
+        "titulo": "La formule ouverte",
+        "corpo": "« Can I get » plus ce que tu veux fonctionne à table, au bar et au comptoir de fast-food. Le mot ne change pas de forme ; seule la chose change."
+      },
+      {
+        "titulo": "La version plus formelle",
+        "corpo": "« I'd like ___ » fait le même travail avec un registre plus soigné, typique d'un endroit chic. Tu la reconnais si tu l'entends, mais tu n'en as pas besoin pour survivre."
+      },
+      {
+        "titulo": "L'eau et le refill",
+        "corpo": "L'eau à table est gratuite par coutume dans presque tous les États-Unis, et beaucoup de sodas ont un refill gratuit. Pas besoin de le demander deux fois : lève juste le verre."
+      },
+      {
+        "titulo": "Pourquoi le pourboire n'est pas optionnel à table",
+        "corpo": "Le salaire fédéral d'un travailleur à pourboire est de 2,13 $ de l'heure — le pourboire complète le vrai salaire. À table avec service complet, 18-20 % est la norme sociale, pas un extra de politesse."
+      }
+    ]
+  }
+}

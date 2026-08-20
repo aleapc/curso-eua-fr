@@ -1,0 +1,84 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — Billet, règle, véhicule",
+  "subtitulo": "Confirmer la destination, découvrir la règle de la carte et confirmer le véhicule avant de monter",
+  "introAudioKey": "eua-b09-q-i",
+  "introPt": "À la station, tu confirmes la destination puis demandes si tu dois badger la carte avant de monter sur le quai. Écoute l'échange.",
+  "cenario": "À la station de métro, en achetant le billet et en confirmant la règle du système.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b09-q01",
+      "voz": "target_en_f",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "daze diss trèïne gôou daoune-TAOUNE",
+      "pt": "Ce train va au centre-ville ?"
+    },
+    {
+      "audioKey": "eua-b09-q02",
+      "voz": "target_en_m",
+      "es": "Yes, but you'll need to transfer once.",
+      "tts": "Yes, but you'll need to transfer once.",
+      "pinyin": "yèsse, batte youll nide tou TRANSSE-feur ouance",
+      "pt": "Oui, mais vous devrez faire une correspondance."
+    },
+    {
+      "audioKey": "eua-b09-q03",
+      "voz": "target_en_f",
+      "es": "Do I need to tap this card?",
+      "tts": "Do I need to tap this card?",
+      "pinyin": "dou aï nide tou tape diss karde",
+      "pt": "Je dois badger cette carte ?"
+    },
+    {
+      "audioKey": "eua-b09-q04",
+      "voz": "target_en_m",
+      "es": "Yes, right there at the gate.",
+      "tts": "Yes, right there at the gate.",
+      "pinyin": "yèsse, raïte dère atte de guèïte",
+      "pt": "Oui, juste là au portillon."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Pourquoi ne faut-il pas supposer un seul mot fixe pour le billet dans n'importe quelle ville des États-Unis ?",
+      "opcoes": [
+        "Parce que l'anglais n'a pas de mot pour billet",
+        "Parce qu'il n'y a pas de système national unique ; chaque ville utilise le sien",
+        "Parce que les billets n'existent plus",
+        "Parce que c'est toujours gratuit"
+      ],
+      "correta": 1,
+      "explica": "Chaque ville a son propre système de transport, sa carte ou son appli ; ce qui est utile, c'est de demander la destination."
+    },
+    {
+      "pergunta": "Qu'est-ce qui reste pareil dans « Do I need to ___? » d'une question à l'autre ?",
+      "opcoes": ["L'action", "« Do I need to »", "La destination", "La réponse"],
+      "correta": 1,
+      "explica": "« Do I need to » ouvre la question d'obligation ; ce qui change, c'est l'action."
+    },
+    {
+      "pergunta": "Quelle est la dernière étape avant de monter dans le train ou le bus, même si le numéro est déjà sur le panneau ?",
+      "opcoes": [
+        "Payer à nouveau",
+        "Confirmer à voix haute qu'il va vers ta destination",
+        "Demander une réduction",
+        "Rien, il n'y a plus besoin de confirmer"
+      ],
+      "correta": 1,
+      "explica": "Confirmer deux fois — à l'achat et en montant — règle deux risques différents : l'achat et l'embarquement."
+    },
+    {
+      "pergunta": "Comment gère-t-on les numéros de ligne ou de quai dans cette partie ?",
+      "opcoes": [
+        "On les mémorise à voix haute",
+        "On les lit sur l'écran et on les pointe si besoin",
+        "Ils n'ont pas d'importance",
+        "Il faut toujours les épeler"
+      ],
+      "correta": 1,
+      "explica": "Produire les chiffres n'est pas nécessaire pour monter dans le bon véhicule ; il suffit de lire et de pointer."
+    }
+  ]
+}

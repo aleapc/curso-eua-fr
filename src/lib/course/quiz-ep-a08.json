@@ -1,0 +1,89 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — Les adieux",
+  "subtitulo": "Comment partir de façon à te faire réinviter",
+  "introAudioKey": "eua-a08-q-i",
+  "introPt": "C'est l'heure de partir du dîner. Écoute l'échange final et réponds.",
+  "cenario": "La fin d'un dîner chez un hôte.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a08-q01",
+      "voz": "target_en_f",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pt": "Je vais y aller, mais merci beaucoup."
+    },
+    {
+      "audioKey": "eua-a08-q02",
+      "voz": "target_en_m",
+      "es": "Of course! So glad you came.",
+      "tts": "Of course! So glad you came.",
+      "pt": "Bien sûr ! Je suis vraiment content que tu sois venu."
+    },
+    {
+      "audioKey": "eua-a08-q03",
+      "voz": "target_en_f",
+      "es": "Your lasagna was seriously the best I've had.",
+      "tts": "Your lasagna was seriously the best I've had.",
+      "pt": "Tes lasagnes, c'était vraiment les meilleures que j'aie jamais mangées."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "À la différence de la France, qu'est-ce qui suffit en général pour dire au revoir à un groupe décontracté aux États-Unis ?",
+      "opcoes": [
+        "Dire au revoir à chaque personne par son prénom",
+        "Un au revoir général vers toute la pièce",
+        "Ne dire au revoir à personne",
+        "Seulement remercier l'hôte par écrit après coup"
+      ],
+      "correta": 1,
+      "explica": "Un au revoir général suffit en général dans les réunions décontractées, à la différence de la coutume française."
+    },
+    {
+      "pergunta": "Quel compliment « voyage » le plus loin, selon cette partie ?",
+      "opcoes": [
+        "« C'était sympa »",
+        "« Tes lasagnes étaient les meilleures que j'aie mangées »",
+        "Aucun compliment ne voyage",
+        "Seulement les compliments écrits"
+      ],
+      "correta": 1,
+      "explica": "Le compliment précis est répété à celui qui l'a fait, même absent de la pièce ; le compliment générique reste sur place."
+    },
+    {
+      "pergunta": "Tu as déjà remercié en personne en partant. Vaut-il la peine d'envoyer un message après ?",
+      "opcoes": [
+        "Non, ce serait répétitif",
+        "Oui, un message court le jour même est un geste bien vu",
+        "Seulement si tu as oublié quelque chose chez eux",
+        "Seulement dans les occasions très formelles"
+      ],
+      "correta": 1,
+      "explica": "Un texto bref de remerciement le jour même renforce le merci verbal et laisse une bonne impression."
+    },
+    {
+      "pergunta": "Laquelle de ces formules ne fait PAS partie de la « liste de poche » qui conclut le cours ?",
+      "opcoes": [
+        "Do you have ___?",
+        "Can I get ___?",
+        "Where's the ___?",
+        "What's your opinion on ___?"
+      ],
+      "correta": 3,
+      "explica": "La liste de poche regroupe des formules de survie — demander, localiser, connaître le prix — pas demander des avis."
+    },
+    {
+      "pergunta": "Que montre le fait de proposer « we should keep in touch — can I get your number ? » ?",
+      "opcoes": [
+        "Que ce n'était qu'une politesse vide",
+        "Un intérêt réel à poursuivre la relation au-delà de la visite",
+        "Que tu veux partir vite",
+        "Que tu n'as pas apprécié la soirée"
+      ],
+      "correta": 1,
+      "explica": "Demander le détail concret transforme un au revoir poli en relation qui peut continuer."
+    }
+  ]
+}

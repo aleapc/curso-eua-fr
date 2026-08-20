@@ -1,0 +1,82 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Le plat que tu n'allais pas commander",
+  "subtitulo": "Choisir entre deux, pas deviner parmi vingt",
+  "introAudioKey": "eua-i03-q-i",
+  "introPt": "Un tableau de spécialités sans traduction. Écoute comment le voyageur renvoie le choix au serveur.",
+  "cenario": "Un restaurant aux États-Unis avec un tableau des spécialités du jour.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i03-q01",
+      "voz": "target_en_m",
+      "es": "Today we've got the salmon or the short rib special.",
+      "tts": "Today we've got the salmon or the short rib special.",
+      "pinyin": "tou-DÈÏ oui gate de SA-monne or de chorte ribe ess-PÈ-chale",
+      "pt": "Aujourd'hui on a le saumon ou la spécialité de plat côtes."
+    },
+    {
+      "audioKey": "eua-i03-q02",
+      "voz": "target_en_f",
+      "es": "Which do you recommend: the salmon or the short rib?",
+      "tts": "Which do you recommend: the salmon or the short rib?",
+      "pinyin": "ouitche dou you rè-co-MENDE de SA-monne or de chorte ribe",
+      "pt": "Vous recommandez lequel : le saumon ou le plat côtes ?"
+    },
+    {
+      "audioKey": "eua-i03-q03",
+      "voz": "target_en_m",
+      "es": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "tts": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "pinyin": "ONE-esste-li, de chorte ribe. itse de ouanne ÈVE-ri-ouanne OR-deu-rigne tou-naïte",
+      "pt": "Franchement, le plat côtes. C'est celui que tout le monde commande ce soir."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans la formule d'ESCOLHA ?",
+      "opcoes": ["Les deux options exactes", "« Which do you recommend »", "Le nom du plat", "Le prix"],
+      "correta": 1,
+      "explica": "« Which do you recommend » ouvre la formule ; ce qui change, ce sont les deux choses entre lesquelles tu choisis."
+    },
+    {
+      "pergunta": "Pourquoi demander ce qu'on recommande ne trahit-il pas que tu es touriste ?",
+      "opcoes": [
+        "Parce qu'on commande toujours la même chose",
+        "Parce que le tableau des spécialités change chaque jour, même les habitués ne le savent pas à l'avance",
+        "Parce que personne n'écoute",
+        "Parce que c'est une question bizarre"
+      ],
+      "correta": 1,
+      "explica": "Les spécialités dépendent de ce que la cuisine a de frais ce jour-là."
+    },
+    {
+      "pergunta": "Dans un magasin de vêtements, tu vois deux t-shirts du même modèle en couleurs différentes. Que dis-tu ?",
+      "opcoes": [
+        "Do you have a soup of the day?",
+        "Which do you recommend: the blue one or the black one?",
+        "Where's the specials board?",
+        "What time do you close?"
+      ],
+      "correta": 1,
+      "explica": "La même formule ESCOLHA fonctionne en dehors du restaurant, avec n'importe quelle paire d'options."
+    },
+    {
+      "pergunta": "Tu as choisi la spécialité de plat côtes mais tu ne veux pas d'oignon. Que dis-tu ?",
+      "opcoes": ["No onions on that, please", "Where's the onions?", "How much are onions?", "I lost my onions"],
+      "correta": 0,
+      "explica": "C'est la formule WITHOUT de B12, réutilisée avec un nouveau remplissage."
+    },
+    {
+      "pergunta": "Qu'est-ce qui NE change PAS entre la formule de cet épisode et le reste du cours ?",
+      "opcoes": [
+        "Do you have et Where's continuent de fonctionner pareil",
+        "Il faut apprendre une nouvelle grammaire",
+        "La formule ESCOLHA remplace Do you have",
+        "On n'utilise plus please"
+      ],
+      "correta": 0,
+      "explica": "ESCOLHA se combine avec les formules déjà connues, elle ne les remplace pas."
+    }
+  ]
+}

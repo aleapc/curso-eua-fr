@@ -1,0 +1,67 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — La file qui existe vraiment",
+  "subtitulo": "Faire la queue et attendre en silence, jusqu'à ton tour",
+  "introAudioKey": "eua-i02-q-i",
+  "introPt": "Un café animé, file droite, tout le monde silencieux. Écoute comment le voyageur confirme la file et commande sans se presser.",
+  "cenario": "Un comptoir de café aux États-Unis, heure de pointe du matin.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i02-q01",
+      "voz": "target_en_f",
+      "es": "Excuse me, is this the end of the line?",
+      "tts": "Excuse me, is this the end of the line?",
+      "pinyin": "ex-KIOUZE mi, iz diss de ènde of de laïne",
+      "pt": "Excusez-moi, c'est ici la fin de la file ?"
+    },
+    {
+      "audioKey": "eua-i02-q02",
+      "voz": "target_en_m",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "yèpe, raïte bi-JAÏNDE mi",
+      "pt": "Oui, juste derrière moi."
+    },
+    {
+      "audioKey": "eua-i02-q03",
+      "voz": "target_en_f",
+      "es": "Can I get a medium latte, please?",
+      "tts": "Can I get a medium latte, please?",
+      "pinyin": "kn aï guète e MI-dioume LA-tèï, pliize",
+      "pt": "Je peux avoir un latte moyen, s'il vous plaît ?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Dans un comptoir animé sans cordon ni numéro visible, qu'est-ce qui détermine l'ordre ?",
+      "opcoes": ["Qui parle le plus fort", "Qui est arrivé le premier, respecté en silence", "Qui est le plus proche de la caisse", "Il n'y a pas d'ordre"],
+      "correta": 1,
+      "explica": "La file existe même sans être marquée visiblement ; l'ordre d'arrivée est respecté."
+    },
+    {
+      "pergunta": "À quoi sert « Excuse me, is this the end of the line? » ?",
+      "opcoes": ["À commander ton café", "À confirmer où te placer dans la file", "À demander l'addition", "À changer ta commande"],
+      "correta": 1,
+      "explica": "Ça confirme la fin de la file avant de s'y placer, sans passer devant personne."
+    },
+    {
+      "pergunta": "C'est ton tour au comptoir. Quelle formule utilises-tu pour commander ?",
+      "opcoes": ["What time do you open?", "Can I get a medium latte, please?", "Where's the restroom?", "How much is it?"],
+      "correta": 1,
+      "explica": "C'est la même formule que B11 : Can I get, et la chose."
+    },
+    {
+      "pergunta": "Tu as commandé ton café mais tu ne veux pas de crème. Que dis-tu ?",
+      "opcoes": ["No cream, please", "I lost my cream", "Do you have cream?", "Where's the cream?"],
+      "correta": 0,
+      "explica": "C'est la formule WITHOUT de B12, réutilisée telle quelle."
+    },
+    {
+      "pergunta": "Pourquoi te demande-t-on ton prénom pour la commande ?",
+      "opcoes": ["Curiosité de l'employé", "Pour t'appeler quand c'est prêt", "Pour le programme de fidélité", "Ce n'est pas nécessaire de le donner"],
+      "correta": 1,
+      "explica": "C'est de la logistique de comptoir, pas de la conversation — un prénom court suffit."
+    }
+  ]
+}

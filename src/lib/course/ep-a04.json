@@ -1,0 +1,245 @@
+{
+  "id": "a04",
+  "slot": "A04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "La vieille querelle",
+  "subtitulo": "Chaque pays a une ligne dont on plaisante entre soi et qu'un visiteur ferait mieux de ne pas franchir — ici, elle passe entre les côtes et le centre",
+  "cena": "Quelqu'un au bar vient de dire « flyover country » avec un ton particulier, la moitié de la table a ri, et une personne non.",
+  "moldura": "ganha",
+  "frasePiso": "Le mouvement sûr dans la vieille querelle d'un autre pays est toujours le même : demander d'où ils viennent et les laisser se nommer eux-mêmes.",
+  "fatosDatados": [
+    {
+      "id": "eua-flyover-country",
+      "afirmacao": "«Flyover country» is a term for the central United States, sometimes used by people on the coasts in a dismissive sense — implying a place only flown over, not visited — and at other times worn with pride by people who live there, as a rejection of coastal condescension.",
+      "fonte": "Merriam-Webster («flyover country»); consenso jornalístico sobre o uso do termo",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a04-n03"]
+    },
+    {
+      "id": "eua-hospitalidade-sulista",
+      "afirmacao": "Southern hospitality — a slower pace, more small talk with strangers, and a stronger expectation of warmth toward visitors — is a widely recognized regional trait, while the fast, blunt style common in Northeastern cities is often perceived, by both outsiders and other Americans, as brusque rather than unfriendly.",
+      "fonte": "Consenso de fontes culturais regionais sobre estilos de comunicação nos EUA",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a04-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a04-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Chaque pays a une ligne dont on plaisante entre soi et qu'un visiteur ferait mieux de ne pas toucher. Aujourd'hui, apprends à l'entendre."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a04-n02",
+      "bloco": "callback",
+      "pt": "Révision d'hier. Quelqu'un commence à te raconter une longue histoire de famille. Encourage-le à continuer, comme hier."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a04-p01",
+      "promptPt": "Parle maintenant.",
+      "audioKey": "eua-a04-t01",
+      "es": "Tell me more about that.",
+      "tts": "Tell me more about that.",
+      "pinyin": "tèl mi môr e-BAOUTE dat",
+      "pt": "Raconte-moi en plus."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a04-n03",
+      "bloco": "cena",
+      "pt": "Au bar, quelqu'un dit « flyover country » avec un certain ton. La moitié rit. Une personne non."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a04-o01",
+      "receptivo": true,
+      "es": "Ah, must be nice out there in flyover country.",
+      "tts": "Ah, must be nice out there in flyover country.",
+      "pt": "👂 Blague avec une pointe. Remarque la pointe ; toi, tu n'utiliseras pas ce mot.",
+      "pinyin": "a, maste bi naïse aoute deur inne FLAÏ-ô-veur KANNE-tri"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a04-n04",
+      "bloco": "corpo",
+      "pt": "« Flyover country » désigne le centre du pays. Pour certains sur la côte, c'est une blague ; pour qui y vit, ça peut piquer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a04-p02",
+      "promptPt": "Évite complètement les étiquettes. Pose la question neutre qui le laisse se nommer lui-même. Parle maintenant.",
+      "audioKey": "eua-a04-t02",
+      "es": "So, where are you from, originally?",
+      "tts": "So, where are you from, originally?",
+      "pinyin": "sô, ouèr ar you, o-RI-ji-na-li",
+      "pt": "Et alors, tu viens d'où à l'origine ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a04-o02",
+      "es": "Kansas. Born and raised.",
+      "tts": "Kansas. Born and raised.",
+      "pt": "Kansas. Né et élevé là-bas.",
+      "pinyin": "KANNE-zasse. borne annde rèïzde"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a04-n05",
+      "bloco": "capsula",
+      "pt": "Il s'est nommé lui-même, ce mot est donc sûr à utiliser. La rivalité est réelle : petites villes contre grandes villes."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a04-p03",
+      "promptPt": "Utilise le mot qu'il t'a lui-même donné, et demande sur le lieu, pas sur la rivalité. Parle maintenant.",
+      "audioKey": "eua-a04-t03",
+      "es": "I don't know much about Kansas. What's it like?",
+      "tts": "I don't know much about Kansas. What's it like?",
+      "pinyin": "aï dônte nôou match e-BAOUTE KANNE-zasse. ouatse itte laïke",
+      "pt": "Je ne connais pas bien le Kansas. C'est comment ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a04-o03",
+      "es": "Quiet. Wide open. Way slower than here.",
+      "tts": "Quiet. Wide open. Way slower than here.",
+      "pt": "Calme. Très ouvert. Bien plus lent qu'ici.",
+      "pinyin": "KOUAÏ-ette. ouaïde Ô-peune. ouèï SLÔOU-eur dane jir"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a04-n06",
+      "pt": "Maintenant le mouvement important. Si on t'invite à te moquer d'une région, tu peux décliner sans devenir sérieux."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a04-p04",
+      "promptPt": "On te demande de prendre parti dans leur querelle. Sors de là, avec légèreté. Parle maintenant.",
+      "audioKey": "eua-a04-t04",
+      "es": "I'll stay out of that one.",
+      "tts": "I'll stay out of that one.",
+      "pinyin": "aïll stèï aoute of dat ouann",
+      "pt": "Moi, je reste en dehors de ça."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a04-o04",
+      "es": "Smart move.",
+      "tts": "Smart move.",
+      "pt": "Bien joué.",
+      "pinyin": "smarte mouve"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a04-p05",
+      "promptPt": "Reviens à quelque chose que tu peux vraiment dire : ce que tu as aimé dans les deux endroits. Parle maintenant.",
+      "audioKey": "eua-a04-t05",
+      "es": "Honestly, I've liked everywhere I've been.",
+      "tts": "Honestly, I've liked everywhere I've been.",
+      "pinyin": "O-nesste-li, aïve laïkte ÈVE-ri-ouèr aïve binne",
+      "pt": "Franchement, j'ai aimé tous les endroits où je suis allé."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a04-p06",
+      "promptPt": "Demande ce qu'il te montrerait si tu y allais. Parle maintenant.",
+      "audioKey": "eua-a04-t06",
+      "es": "If I ever go, what should I see?",
+      "tts": "If I ever go, what should I see?",
+      "pinyin": "if aï È-veur gôou, ouatte choude aï si",
+      "pt": "Si j'y vais un jour, qu'est-ce que je devrais voir ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a04-s01",
+      "es": "So, where are you from, originally? I'll stay out of that one. If I ever go, what should I see?",
+      "tts": "So, where are you from, originally? I'll stay out of that one. If I ever go, what should I see?",
+      "pinyin": "sô, ouèr ar you, o-RI-ji-na-li. aïll stèï aoute of dat ouann. if aï È-veur gôou, ouatte choude aï si",
+      "pt": "Répète la question neutre, la sortie élégante et la redirection."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a04-n07",
+      "bloco": "recap",
+      "pt": "A04 bouclée. Évite les deux étiquettes. Demande d'où ils viennent, utilise le mot qu'ils te donnent, et ne prends pas parti."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Comment entendre une vieille ligne sans la franchir",
+    "secoes": [
+      {
+        "titulo": "Le même mot, deux charges",
+        "corpo": "« Flyover country » est une blague dite depuis la côte et, pour qui vit au centre, ça sonne parfois comme une insulte déguisée en blague. Un visiteur qui répète le mot sans le bon ton peut se retrouver du mauvais côté sans le remarquer."
+      },
+      {
+        "titulo": "La chaleur du Sud et la rapidité du Nord-Est",
+        "corpo": "L'hospitalité sudiste est un trait régional reconnu et célébré ; la brusquerie du Nord-Est, elle, est perçue comme froide par les locaux comme par les visiteurs, même si ce n'est pas toujours le cas. Aucune des deux n'est « la bonne façon » de traiter un étranger aux États-Unis."
+      },
+      {
+        "titulo": "Laisse-les se nommer eux-mêmes",
+        "corpo": "Texan, sudiste, new-yorkais, du Midwest — ce sont des mots que les gens utilisent avec fierté à leur propre sujet. Demande d'où quelqu'un vient et utilise le mot qu'il te donne. Cette seule habitude élimine presque tout le risque."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de ne pas avoir d'avis, à voix haute. « I'll stay out of that one » est une réponse complète et bien accueillie — un visiteur avec des opinions tranchées sur quelle région des États-Unis est la meilleure est un visiteur que personne n'invite deux fois.",
+  "permissaoAudioKey": "eua-a04-n06",
+  "espelho": "Pense à la rivalité régionale de ton propre pays dont les gens de chez toi plaisantent tout le temps et qu'un invité étranger ferait mieux de ne pas toucher — capitale contre province, nord contre sud, l'accent qu'on imite dans les fêtes. Tu connais déjà la règle de ce côté-là : le visiteur qui se joint à la blague a confondu une plaisanterie interne avec une invitation.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tes hôtes passent dix minutes à plaisanter sur une autre région des États-Unis, puis te demandent ton avis.",
+      "suaLeitura": "Ils ont l'air à l'aise avec le sujet, donc être d'accord serait amical — refuser de répondre paraîtrait rigide.",
+      "oQueEAli": "La moquerie régionale entre Américains repose en général sur une rivalité réelle et ancienne, et elle est affectueuse précisément parce que tout le monde à table a son mot à dire dans ce débat. Qu'un visiteur soit d'accord n'est pas se joindre à la blague ; c'est un étranger qui appuie une critique contre des gens absents.",
+      "oQueVoceFaz": "Décline avec légèreté et honnêteté — « I'll stay out of that one » — et redirige vers ce que tu as vraiment vu et apprécié.",
+      "oQueMelhora": "Tu restes agréable et dans la conversation, au lieu d'acheter une position dans un débat qui continuera bien après ton départ.",
+      "ondeNaoVale": "Ce n'est pas une règle contre le fait d'avoir des avis sur quoi que ce soit — tu peux être enthousiaste sur la nourriture, les villes ou la musique. C'est spécifiquement sur le fait de placer une région au-dessus d'une autre.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a04-n06"]
+    },
+    {
+      "sinal": "Tu entends quelqu'un de la côte utiliser « flyover country » avec affection pour décrire son propre État d'origine.",
+      "suaLeitura": "S'il l'utilise ainsi pour lui-même, alors c'est juste le nom normal de cette région.",
+      "oQueEAli": "La charge du mot change selon qui le dit et sur quel ton ; utilisé par quelqu'un sur son propre lieu, ça peut être une fierté ironique, et le même mot dit par un étranger peut sonner comme une moquerie.",
+      "oQueVoceFaz": "N'utilise une étiquette régionale qu'après que la personne l'a utilisée sur elle-même, et par défaut demande d'où elle vient.",
+      "oQueMelhora": "Tu n'as jamais à deviner quelle charge porte un mot dans la pièce où tu te trouves.",
+      "ondeNaoVale": "Tous les surnoms régionaux n'ont pas de pointe — « Texan » ou « Southerner » s'utilisent presque toujours avec une fierté ouverte. « Flyover country » fait partie des rares qu'il vaut mieux laisser dire en premier.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a04-n03"]
+    }
+  ]
+}

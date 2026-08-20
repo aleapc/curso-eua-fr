@@ -1,0 +1,84 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Avant qu'on te donne le numéro de chambre",
+  "subtitulo": "Demander ce qui améliore ton séjour et « My ___ isn't working » quand quelque chose ne marche pas",
+  "introAudioKey": "eua-b16-q-i",
+  "introPt": "Tu es monté dans la chambre et la carte n'ouvre pas la porte. Écoute comment on le signale à la réception.",
+  "cenario": "De retour à la réception, après avoir essayé d'entrer dans la chambre.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b16-q01",
+      "voz": "target_en_f",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï ki karde IZ-ente OUEUR-kigne",
+      "pt": "Ma carte d'accès ne fonctionne pas."
+    },
+    {
+      "audioKey": "eua-b16-q02",
+      "voz": "target_en_m",
+      "es": "I'll send someone up right away.",
+      "tts": "I'll send someone up right away.",
+      "pinyin": "aïll sènde SAMME-ouanne appe raïte e-GUÈÏ",
+      "pt": "J'envoie quelqu'un tout de suite."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Que demande-t-on en premier au check-in, selon B16 ?",
+      "opcoes": [
+        "Rien, on ne se plaint qu'après",
+        "Ce qui améliore ton séjour, avant de recevoir la clé",
+        "Le nom du gérant",
+        "Une réduction sur le prix"
+      ],
+      "correta": 1,
+      "explica": "B16 s'ouvre en demandant une chambre calme ou un check-out tardif avant de se plaindre ; demander d'entrée coûte pareil et donne un meilleur résultat."
+    },
+    {
+      "pergunta": "Quelle formule sert pour n'importe quelle panne technique de la chambre ?",
+      "opcoes": [
+        "How much is ___?",
+        "My ___ isn't working",
+        "Can I get ___?",
+        "Where's the ___?"
+      ],
+      "correta": 1,
+      "explica": "« My ___ isn't working » couvre la clé, la climatisation ou toute autre panne avec la même structure."
+    },
+    {
+      "pergunta": "Tu montes dans la chambre et la carte n'ouvre pas. Que fais-tu ?",
+      "opcoes": [
+        "Tu attends que quelqu'un le remarque",
+        "Tu retournes à la réception et dis « My key card isn't working »",
+        "Tu forces la porte",
+        "Tu changes d'hôtel"
+      ],
+      "correta": 1,
+      "explica": "C'est une information que l'hôtel s'attend à recevoir, pas une plainte excessive ; on la signale sur le moment."
+    },
+    {
+      "pergunta": "Qu'est-ce qu'un « resort fee » ?",
+      "opcoes": [
+        "Une réduction pour plusieurs nuits",
+        "Un frais quotidien qui parfois n'apparaît pas dans le tarif réservé",
+        "La taxe de vente",
+        "Le pourboire de ménage"
+      ],
+      "correta": 1,
+      "explica": "Certains hôtels ajoutent un frais quotidien supplémentaire hors du tarif réservé ; mieux vaut le demander au check-in."
+    },
+    {
+      "pergunta": "Tu vois des billets pliés sur l'oreiller en sortant d'une autre chambre. Qu'est-ce que c'est ?",
+      "opcoes": [
+        "De l'argent oublié par un autre client",
+        "Le pourboire pour le personnel de ménage",
+        "Une erreur de l'hôtel",
+        "Le dépôt de garantie"
+      ],
+      "correta": 1,
+      "explica": "C'est la coutume de laisser un ou deux dollars par nuit pour le ménage, un geste différent du pourboire au restaurant."
+    }
+  ]
+}

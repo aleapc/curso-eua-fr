@@ -1,0 +1,38 @@
+{
+  "marca": "Go on!",
+  "cabecalho": "États-Unis, en un coup d'œil",
+  "titulo": "Poche du voyageur",
+  "subtitulo": "L'essentiel reste disponible en mode avion.",
+  "rotulos": {
+    "cambio": "Convertisseur de devise",
+    "valorEm": "Montant en",
+    "dataCotacao": "Date du taux de change",
+    "avisoCotacao": "À titre indicatif seulement. Vérifie le taux de ta carte ou de ta banque avant de dépenser.",
+    "tomadas": "Prises et courant",
+    "emergencia": "Urgence",
+    "ligar": "Appeler",
+    "saberUtil": "Bon à savoir"
+  },
+  "mesmaMoeda": "Les États-Unis utilisent le dollar, pas l'euro : il faut convertir.",
+  "moedas": {
+    "EUR": { "flag": "🇫🇷", "locale": "fr-FR" },
+    "USD": { "flag": "🇺🇸", "locale": "en-US" }
+  },
+  "cambio": {
+    "date": "2026-08-04",
+    "rates": { "USD": 1.09 }
+  },
+  "emergencia": [
+    { "numero": "911", "oQue": "Le numéro national d'urgence : police, ambulance ou pompiers. Gratuit, 24h/24, dans tous les États-Unis." }
+  ],
+  "saberUtil": [
+    { "emoji": "💵", "texto": "Le pourboire de 18-20% dans les restaurants n'est PAS optionnel : c'est le vrai salaire du serveur (le salaire de base fédéral n'est que de 2,13 $/heure). Moins de 15% signale que quelque chose s'est mal passé." },
+    { "emoji": "🏷️", "texto": "Le prix sur l'étiquette n'inclut JAMAIS la taxe. La sales tax s'ajoute à la caisse (en moyenne ~7,5%, jusqu'à ~10% dans certaines villes), donc l'addition finale est toujours plus élevée que le prix affiché." },
+    { "emoji": "📱", "texto": "Au comptoir (à emporter, café, fast-food), il est normal que l'écran te demande un pourboire de 25-30%. Là, tu peux choisir 'No Tip' sans que ça pose problème." },
+    { "emoji": "👥", "texto": "Pour les groupes de 6 personnes ou plus, un pourboire automatique de 18% (auto-gratuity) est souvent déjà inclus dans l'addition. Vérifie avant d'ajouter un pourboire en plus." },
+    { "emoji": "🚑", "texto": "Une urgence médicale sans assurance peut te ruiner (urgences : 1 500-3 000 $+ ; ambulance aérienne : jusqu'à 40 000 $) — l'assurance voyage n'est pas optionnelle. Pour quelque chose de léger ou urgent, va dans un urgent care ou une walk-in clinic, jamais aux urgences pour un petit problème." },
+    { "emoji": "🚰", "texto": "L'eau du robinet (tap water) est gratuite et potable dans tout le pays, et dans la plupart des restaurants on te l'apporte sans frais rien qu'en la demandant." },
+    { "emoji": "🥤", "texto": "Les sodas ont souvent des 'free refills' : une fois que tu as payé le verre, tu peux le remplir autant de fois que tu veux." },
+    { "emoji": "🪪", "texto": "Pour acheter de l'alcool, on va te demander une pièce d'identité même si tu as visiblement l'âge légal (carding jusqu'à 21 ans), et seul le passeport physique fonctionne — la photo sur le téléphone ne suffit pas." }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — This is really good",
+  "subtitulo": "Un compliment précis, une plainte calme",
+  "introAudioKey": "eua-i07-q-i",
+  "introPt": "Un dîner avec un compliment sincère et un vrai problème. Écoute comment les deux se règlent avec calme et précision.",
+  "cenario": "Un restaurant aux États-Unis.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i07-q01",
+      "voz": "target_en_m",
+      "es": "Is everything okay with the food?",
+      "tts": "Is everything okay with the food?",
+      "pinyin": "iz ÈVE-ri-thigne ô-KÈÏ ouizz de foude",
+      "pt": "Tout va bien avec le repas ?"
+    },
+    {
+      "audioKey": "eua-i07-q02",
+      "voz": "target_en_f",
+      "es": "I really like the mole, it's amazing.",
+      "tts": "I really like the mole, it's amazing.",
+      "pinyin": "aï RI-a-li laïke de MO-lèï, itse e-MÈÏ-zigne",
+      "pt": "J'aime vraiment le mole, c'est incroyable."
+    },
+    {
+      "audioKey": "eua-i07-q03",
+      "voz": "target_en_f",
+      "es": "Excuse me, the soup isn't hot.",
+      "tts": "Excuse me, the soup isn't hot.",
+      "pinyin": "ex-KIOUZE mi, de soupe IZ-ente jate",
+      "pt": "Excusez-moi, la soupe n'est pas chaude."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Pourquoi nommer le plat plutôt que de dire seulement « delicious » ?",
+      "opcoes": [
+        "C'est obligatoire par étiquette",
+        "Ça montre une attention sincère et arrive parfois jusqu'au cuisinier",
+        "Un compliment générique est considéré impoli",
+        "C'est plus court"
+      ],
+      "correta": 1,
+      "explica": "Le précis fait que le compliment paraît réel, pas automatique."
+    },
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans la formule APRECIACAO ?",
+      "opcoes": ["La chose exacte", "« I really like »", "Le nom du serveur", "Le prix"],
+      "correta": 1,
+      "explica": "« I really like » ouvre la formule ; seul ce qui t'a plu change."
+    },
+    {
+      "pergunta": "Que fait « excuse me » en ouvrant une plainte ?",
+      "opcoes": ["Ça accuse immédiatement", "Ça ouvre la correction sans accuser personne", "Ça annule la commande", "Ça insulte le personnel"],
+      "correta": 1,
+      "explica": "C'est une ouverture neutre qui garde le ton calme."
+    },
+    {
+      "pergunta": "Quelle formule réapparaît dans la plainte sur la soupe froide ?",
+      "opcoes": ["WHAT-TIME", "WENT-WRONG", "HAVE", "WHERE"],
+      "correta": 1,
+      "explica": "C'est la même formule que B16, appliquée à un plat plutôt qu'à une chambre."
+    },
+    {
+      "pergunta": "Qu'ont en commun le compliment et la plainte de cet épisode ?",
+      "opcoes": [
+        "Les deux sont bruyants",
+        "Les deux sont honnêtes et précis, sans drame",
+        "Les deux nécessitent un responsable",
+        "Les deux sont facultatifs"
+      ],
+      "correta": 1,
+      "explica": "La précision, pas le volume, est ce qui fait fonctionner les deux."
+    }
+  ]
+}

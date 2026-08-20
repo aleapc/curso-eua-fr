@@ -1,0 +1,270 @@
+{
+  "id": "i10",
+  "slot": "I10",
+  "nivel": "intermediario",
+  "numero": 10,
+  "parte": "I10",
+  "titulo": "L'argent sans drame",
+  "subtitulo": "Le pourboire n'est pas optionnel, l'écran du comptoir qui demande 30 % l'est, et en grand groupe il est parfois déjà inclus",
+  "cena": "L'écran de la carte t'affiche trois boutons — 25 %, 30 %, 35 % — et derrière toi il y a trois personnes qui attendent, et tu ne sais pas lequel des trois chiffres est normal.",
+  "decisao": "combien laisser de pourboire et où — à table, ça fait partie du salaire du serveur, pas un extra ; au comptoir, l'écran qui demande 25-30 % peut être refusé sans culpabilité",
+  "emJogo": "dinheiro",
+  "moldura": "protege",
+  "frasePiso": "Tu vas lire l'addition avant d'ajouter le pourboire, et tu vas savoir, sans hésiter, quand l'écran t'en demande trop.",
+  "fatosDatados": [
+    {
+      "id": "eua-propina-salario",
+      "afirmacao": "Dans les restaurants à service complet aux États-Unis, le salaire de base fédéral d'un serveur peut n'être que de 2,13 $ de l'heure — le pourboire n'est pas un extra, c'est la vraie partie de son salaire. Laisser 18-20 % est attendu ; moins de 15 % signale que quelque chose s'est mal passé.",
+      "fonte": "U.S. Department of Labor",
+      "ano": 2025,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-i10-n02"]
+    },
+    {
+      "id": "eua-tip-screen-mostrador",
+      "afirmacao": "Aux comptoirs sans service à table (commander un café et repartir avec), l'écran qui demande 25-30 % de pourboire est un phénomène récent, et choisir « No Tip » là est socialement acceptable — 72 % des Américains eux-mêmes trouvent que c'est déjà trop.",
+      "fonte": "Pew Research Center, 2023",
+      "ano": 2023,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["eua-i10-n04"]
+    },
+    {
+      "id": "eua-auto-gratuity-grupo",
+      "afirmacao": "Pour les groupes de six personnes ou plus, beaucoup de restaurants ajoutent déjà 18 % de « service charge » automatique à l'addition — il faut la lire avant d'ajouter son propre pourboire par-dessus, pour ne pas payer deux fois.",
+      "fonte": "Prática padrão da indústria restaurantera dos EUA; o encargo é legalmente distinto de uma gorjeta (IRS)",
+      "ano": 2025,
+      "revisarAte": "2027-08-20",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-i10-n05"]
+    }
+  ],
+  "fichasCulturais": [
+    {
+      "sinal": "L'addition à table pour ton groupe de sept a déjà un supplément ajouté, et toi, sans bien regarder, tu es sur le point d'en ajouter encore 20 % par-dessus.",
+      "suaLeitura": "Cette ligne bizarre doit être une taxe, ou une erreur du restaurant.",
+      "oQueEAli": "Pour les grands groupes, beaucoup de restaurants ajoutent automatiquement un service charge — légalement distinct d'un pourboire — précisément pour ne pas dépendre du fait que chaque table laisse ce qu'il faut ; ça tourne en général autour de 18 %.",
+      "oQueVoceFaz": "Tu lis toute l'addition avant de calculer quoi que ce soit, en cherchant des lignes comme « gratuity included » ou « service charge ».",
+      "oQueMelhora": "Tu ne payes pas le pourboire deux fois, et tu comprends exactement ce que tu payes plutôt que de simplement te fier au total.",
+      "ondeNaoVale": "Ça ne s'applique pas aux tables de deux ou trois personnes, où il n'y a presque jamais de supplément automatique et où le pourboire complet dépend entièrement de toi.",
+      "evidencia": "FATO",
+      "audioKeys": ["eua-i10-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i10-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Le flick sur how much : la consonne finale de much se prononce bien."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i10-p01",
+      "promptPt": "Hier tu as demandé si tu pouvais goûter quelque chose au marché. Aujourd'hui tu utilises une autre formule que tu connais déjà, pour demander un prix dans un magasin. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "encaixe": "is this",
+      "audioKey": "eua-i10-t01",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "jaou match iz diss",
+      "pt": "Ça coûte combien ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i10-n02",
+      "bloco": "cena",
+      "pt": "L'addition arrive et dit « suggested tip: 18% / 20% / 22% » — ce n'est pas décoratif, c'est le vrai salaire du serveur."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i10-n03",
+      "bloco": "corpo",
+      "pt": "Le salaire de base d'un serveur peut n'être que de deux dollars de l'heure. Le pourboire à table n'est pas un extra : c'est son salaire."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i10-r01",
+      "es": "Here's your check whenever you're ready.",
+      "tts": "Here's your check whenever you're ready.",
+      "pinyin": "jirze your tchèke oué-NÈ-veur your RÈ-di",
+      "pt": "Voici votre addition, quand vous voulez."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i10-p02",
+      "promptPt": "Tu veux confirmer le total avant de calculer le pourboire. Demande combien ça fait au total. Parle maintenant.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is it all together",
+      "audioKey": "eua-i10-t02",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "jaou match iz itte ole tou-GUÈ-deur",
+      "pt": "Ça fait combien au total ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i10-n04",
+      "bloco": "capsula",
+      "pt": "Au comptoir, c'est différent : l'écran qui demande 25 ou 30 % pour un café à emporter est nouveau. Là, tu peux dire non."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i10-r02",
+      "es": "Would you like to add a tip? 20, 25, or 30 percent.",
+      "tts": "Would you like to add a tip? 20, 25, or 30 percent.",
+      "pinyin": "ououde you laïke tou adde e tipe ? touènne-ti, touènne-ti-faïve, or theur-ti peur-SÈNTE",
+      "pt": "Vous voulez ajouter un pourboire ? 20, 25 ou 30 pour cent."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i10-p03",
+      "promptPt": "C'est un comptoir sans service à table, tu as juste commandé un café à emporter. Tu peux choisir non. Parle maintenant.",
+      "audioKey": "eua-i10-t03",
+      "es": "No tip, thanks.",
+      "tts": "No tip, thanks.",
+      "pinyin": "nô tipe, thanxe",
+      "pt": "Pas de pourboire, merci."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i10-n05",
+      "pt": "Pour les groupes de six ou plus, beaucoup d'endroits ajoutent déjà 18 % de service — lis avant d'ajouter ton pourboire."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i10-p04",
+      "promptPt": "Vous êtes sept à table et l'addition a une ligne que tu ne reconnais pas. Demande si le pourboire est déjà inclus. Parle maintenant.",
+      "audioKey": "eua-i10-t04",
+      "es": "Is the tip already included?",
+      "tts": "Is the tip already included?",
+      "pinyin": "iz de tipe ole-RÈ-di inne-KLOU-dide",
+      "pt": "Le pourboire est déjà inclus ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i10-r03",
+      "es": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "tts": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "pinyin": "yèsse, for PAR-tize of sixe or môr oui adde èï-TINE peur-SÈNTE o-to-MA-ti-ka-li",
+      "pt": "Oui, pour les groupes de six ou plus, on ajoute dix-huit pour cent automatiquement."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i10-p05",
+      "promptPt": "Tu sais maintenant que le pourboire est inclus. Remercie pour la clarification. Parle maintenant.",
+      "audioKey": "eua-i10-t05",
+      "es": "Got it, thank you for checking.",
+      "tts": "Got it, thank you for checking.",
+      "pinyin": "gate itte, thanke you for TCHÈ-kigne",
+      "pt": "C'est noté, merci d'avoir vérifié."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i10-p06",
+      "promptPt": "Le lendemain, dans un magasin, tu veux connaître le prix avant de décider. Parle maintenant.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is the small one",
+      "audioKey": "eua-i10-t06",
+      "es": "How much is the small one?",
+      "tts": "How much is the small one?",
+      "pinyin": "jaou match iz de smole ouanne",
+      "pt": "Le petit coûte combien ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i10-p07",
+      "promptPt": "Tu as calculé 20 % de pourboire à table. Confirme-le avant de signer. Parle maintenant.",
+      "audioKey": "eua-i10-t07",
+      "es": "I'll leave twenty percent, that should be right.",
+      "tts": "I'll leave twenty percent, that should be right.",
+      "pinyin": "aïll live touènne-ti peur-SÈNTE, dat choude bi raïte",
+      "pt": "Je vais laisser vingt pour cent, ça devrait être correct."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i10-p08",
+      "promptPt": "Deux souvenirs du même stand : une tasse et une gravure. Demande au vendeur ses goûts entre les deux. Parle maintenant.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the mug or the print",
+      "audioKey": "eua-i10-t08",
+      "es": "Do you prefer the mug or the print?",
+      "tts": "Do you prefer the mug or the print?",
+      "pinyin": "dou you pri-FEUR de mague or de prinnte",
+      "pt": "Tu préfères la tasse ou la gravure ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i10-n06",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de calculer le pourboire sous pression. Lis l'addition calmement, et dis non au comptoir sans culpabilité."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i10-s01",
+      "es": "How much is it all together? Is the tip already included?",
+      "tts": "How much is it all together? Is the tip already included?",
+      "pinyin": "jaou match iz itte ole tou-GUÈ-deur ? iz de tipe ole-RÈ-di inne-KLOU-dide",
+      "pt": "Répète demander le total et confirmer si le pourboire est déjà inclus."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i10-n07",
+      "bloco": "recap",
+      "pt": "I10 bouclée. À table, 18-20 % c'est le vrai salaire ; au comptoir, no tip est acceptable ; en grand groupe, lis avant de payer double."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin de laisser 30 % au comptoir juste parce que l'écran te le propose comme option. Choisir « No Tip » dans un endroit sans service à table est totalement accepté — personne ne va mal te juger pour ça.",
+  "permissaoAudioKey": "eua-i10-n06",
+  "espelho": "Bien lire l'addition avant de calculer combien laisser est quelque chose que n'importe qui ferait aussi dans son propre pays ; ce qui est nouveau ici, c'est qu'à table le pourboire n'est pas un plus symbolique, c'est le vrai salaire de la personne qui t'a servi.",
+  "aprofundar": {
+    "titulo": "Trois règles, trois contextes différents",
+    "secoes": [
+      {
+        "titulo": "À table, ce n'est pas optionnel",
+        "corpo": "Le salaire de base fédéral d'un serveur à service complet peut n'être que de 2,13 $ de l'heure — le pourboire de 18-20 % est la vraie partie de son revenu, pas un extra pour un service exceptionnel."
+      },
+      {
+        "titulo": "Au comptoir, tu peux dire non",
+        "corpo": "L'écran qui demande 25-30 % pour un café que tu emportes toi-même est un phénomène relativement récent, et jusqu'à 72 % des Américains eux-mêmes trouvent que c'est déjà trop. « No Tip » là est une option légitime."
+      },
+      {
+        "titulo": "En grand groupe, il peut déjà être inclus",
+        "corpo": "L'« auto-gratuity » de 18 % pour les groupes de six ou plus est légalement un supplément de service, pas un pourboire — et l'addition l'indique. La lire avant de calculer évite de payer deux fois la même chose."
+      }
+    ]
+  }
+}

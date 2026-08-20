@@ -1,0 +1,253 @@
+{
+  "id": "i08",
+  "slot": "I08",
+  "nivel": "intermediario",
+  "numero": 8,
+  "parte": "I08",
+  "titulo": "On t'invite chez quelqu'un",
+  "subtitulo": "Demander quoi apporter est la norme, pas un manque de tact — et arriver quinze minutes en retard ne gâche rien ici",
+  "cena": "Tu viens d'accepter une invitation à dîner chez quelqu'un ce soir, et ce que tu décides dans les trente prochaines secondes définit comment commence toute la soirée.",
+  "decisao": "quoi apporter et à quelle heure arriver — demander directement ce qui est bienvenu, et ne pas arriver pile à l'heure exacte, est ce qu'on attend ici",
+  "emJogo": "ambos",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas arriver avec quelque chose en main, sans avoir deviné, parce que tu as simplement demandé ce qui était bienvenu.",
+  "fichasCulturais": [
+    {
+      "sinal": "On t'invite à dîner chez quelqu'un et tu ne sais pas si tu dois apporter quelque chose, alors tu arrives les mains vides de peur de vexer avec un cadeau déplacé.",
+      "suaLeitura": "Mieux vaut ne rien apporter que risquer d'apporter quelque chose qui ne convient pas.",
+      "oQueEAli": "Apporter une bouteille de vin, un dessert ou quelque chose à boire est la norme attendue quand on est invité à dîner aux États-Unis — et demander directement quoi apporter est vu comme prévenant, pas comme bizarre.",
+      "oQueVoceFaz": "Tu demandes « What can I bring? » en acceptant l'invitation, et tu apportes ce qu'on te dit, ou quelque chose de simple si on te dit que rien n'est nécessaire.",
+      "oQueMelhora": "Tu arrives avec la confiance de savoir exactement à quoi t'attendre, plutôt que de deviner et de rester dans le doute.",
+      "ondeNaoVale": "Ça ne s'applique pas à un dîner d'affaires formel ou à une étiquette plus stricte, où demander peut sembler déplacé — là, un cadeau neutre comme des fleurs ou des chocolats est le choix sûr.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i08-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Le poing sur what CAN i bring : la question qui résout presque toute l'incertitude de cette soirée."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i08-p01",
+      "promptPt": "Hier tu as complimenté un plat avec la formule du cuisinier. Aujourd'hui tu utilises la même formule pour quelque chose qu'on t'a servi chez un ami. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "APRECIACAO",
+      "encaixe": "this",
+      "audioKey": "eua-i08-t01",
+      "es": "I really like this, it's amazing.",
+      "tts": "I really like this, it's amazing.",
+      "pinyin": "aï RI-a-li laïke diss, itse e-MÈÏ-zigne",
+      "pt": "J'aime vraiment ça, c'est incroyable."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i08-n02",
+      "bloco": "cena",
+      "pt": "Tu viens d'accepter de dîner chez quelqu'un ce soir, et ce que tu fais dans les trente prochaines secondes définit toute la soirée."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i08-r01",
+      "es": "Would you like to come over for dinner on Friday?",
+      "tts": "Would you like to come over for dinner on Friday?",
+      "pinyin": "ououde you laïke tou kame ôveur for DI-neur onne FRAÏ-dèï",
+      "pt": "Tu aimerais venir dîner vendredi ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i08-n03",
+      "bloco": "corpo",
+      "pt": "Accepte et, dans le même souffle, demande quoi apporter — c'est la norme, pas un manque de tact."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i08-p02",
+      "promptPt": "Accepte l'invitation avec plaisir. Parle maintenant.",
+      "audioKey": "eua-i08-t02",
+      "es": "I'd love to, thank you.",
+      "tts": "I'd love to, thank you.",
+      "pinyin": "aïde lave tou, thanke you",
+      "pt": "Avec grand plaisir, merci."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i08-p03",
+      "promptPt": "Maintenant demande directement quoi apporter. Parle maintenant.",
+      "audioKey": "eua-i08-t03",
+      "es": "What can I bring?",
+      "tts": "What can I bring?",
+      "pinyin": "ouatte kn aï bringue",
+      "pt": "Qu'est-ce que je peux apporter ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i08-r02",
+      "es": "Just bring yourself, but a bottle of wine is always welcome.",
+      "tts": "Just bring yourself, but a bottle of wine is always welcome.",
+      "pinyin": "djaste bringue your-SÈLFE, batte e BO-teule of ouaïne iz OLE-ouèïze OUÈLE-came",
+      "pt": "Viens juste toi, mais une bouteille de vin est toujours bienvenue."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i08-n04",
+      "bloco": "capsula",
+      "pt": "Arriver quinze minutes après l'heure dite est normal entre amis — pas de la négligence, la marge attendue."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i08-r03",
+      "es": "Come on in, make yourself at home.",
+      "tts": "Come on in, make yourself at home.",
+      "pinyin": "kame onne inne, mèïke your-SÈLFE atte jôme",
+      "pt": "Entre, fais comme chez toi."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i08-p04",
+      "promptPt": "Remets le vin que tu as apporté. Parle maintenant.",
+      "audioKey": "eua-i08-t04",
+      "es": "I brought this for you.",
+      "tts": "I brought this for you.",
+      "pinyin": "aï brote diss for you",
+      "pt": "Je t'ai apporté ça."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i08-r04",
+      "es": "You didn't have to, thank you so much.",
+      "tts": "You didn't have to, thank you so much.",
+      "pinyin": "you DI-dente jav tou, thanke you sô match",
+      "pt": "Tu n'étais pas obligé, merci beaucoup."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i08-p05",
+      "promptPt": "Tu vois qu'on met la table et qu'il manque de bras. Propose ton aide. Parle maintenant.",
+      "audioKey": "eua-i08-t05",
+      "es": "Can I help with anything?",
+      "tts": "Can I help with anything?",
+      "pinyin": "kn aï jèlpe ouizz È-ni-thigne",
+      "pt": "Je peux aider avec quelque chose ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i08-r05",
+      "es": "You could grab the plates from the counter, if you don't mind.",
+      "tts": "You could grab the plates from the counter, if you don't mind.",
+      "pinyin": "you koude grabe de plèïtse from de KAOUNE-teur, if you dônte maïnde",
+      "pt": "Tu pourrais prendre les assiettes sur le plan de travail, si ça ne te dérange pas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i08-p06",
+      "promptPt": "Remercie pour l'invitation avant de t'asseoir à table. Parle maintenant.",
+      "audioKey": "eua-i08-t06",
+      "es": "Thanks so much for having me.",
+      "tts": "Thanks so much for having me.",
+      "pinyin": "thanxe sô match for JA-vigne mi",
+      "pt": "Merci beaucoup de m'avoir invité."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i08-p07",
+      "promptPt": "Avant de partir, demande si tu peux aider à débarrasser. Parle maintenant.",
+      "audioKey": "eua-i08-t07",
+      "es": "Can I help clean up?",
+      "tts": "Can I help clean up?",
+      "pinyin": "kn aï jèlpe klinne appe",
+      "pt": "Je peux aider à débarrasser ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i08-r06",
+      "es": "No need, I've got it. Thanks for coming.",
+      "tts": "No need, I've got it. Thanks for coming.",
+      "pinyin": "nô nide, aïve gate itte. thanxe for KA-migne",
+      "pt": "Pas besoin, je m'en occupe. Merci d'être venu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i08-p08",
+      "promptPt": "Accepte que ce n'est pas nécessaire d'aider, et dis au revoir avec chaleur. Parle maintenant.",
+      "audioKey": "eua-i08-t08",
+      "es": "This was a great night, thank you.",
+      "tts": "This was a great night, thank you.",
+      "pinyin": "diss ouaze e grèïte naïte, thanke you",
+      "pt": "C'était une super soirée, merci."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i08-n05",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de deviner quoi apporter ni à quelle heure arriver. Demander directement est attendu, pas un manque de tact."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i08-s01",
+      "es": "What can I bring? I brought this for you. Thanks so much for having me.",
+      "tts": "What can I bring? I brought this for you. Thanks so much for having me.",
+      "pinyin": "ouatte kn aï bringue ? aï brote diss for you. thanxe sô match for JA-vigne mi",
+      "pt": "Répète demander, remettre le cadeau et remercier, à la suite."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i08-n06",
+      "bloco": "recap",
+      "pt": "I08 bouclée. What can I bring règle le cadeau, une marge de quinze minutes est normale, et proposer d'aider conclut bien la soirée."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin d'arriver exactement à l'heure dite ni de deviner quoi apporter. Demander « what can I bring? » et arriver quelques minutes après l'heure sont exactement ce qu'on attend lors d'un dîner entre amis ici.",
+  "permissaoAudioKey": "eua-i08-n05",
+  "espelho": "Ne jamais arriver les mains vides à un dîner chez quelqu'un est une règle que la plupart des gens suivent déjà sans y penser dans leur propre pays ; la seule différence ici, c'est que demander directement quoi apporter est bien vu, plutôt que de devoir deviner.",
+  "aprofundar": {
+    "titulo": "Demander directement, plutôt que deviner",
+    "secoes": [
+      {
+        "titulo": "What can I bring est la norme, pas l'exception",
+        "corpo": "À la différence d'autres contextes où demander peut sembler maladroit, dans un dîner informel entre amis aux États-Unis, demander quoi apporter est justement ce qu'on attend — l'hôte a presque toujours une réponse prête."
+      },
+      {
+        "titulo": "Quinze minutes de marge est normal",
+        "corpo": "Pour un dîner informel à la maison, arriver entre zéro et quinze minutes après l'heure dite est une marge acceptée, très différente d'un rendez-vous professionnel, où la ponctualité exacte compte vraiment."
+      },
+      {
+        "titulo": "Proposer d'aider fait partie du rituel",
+        "corpo": "Can I help with anything, aussi bien en arrivant qu'à la fin de la soirée, est une formule attendue — l'hôte peut dire non, mais la proposition elle-même fait partie du fait d'être un bon invité."
+      }
+    ]
+  }
+}

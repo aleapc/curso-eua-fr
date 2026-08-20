@@ -1,0 +1,84 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — La valise est prête, il manque l'horloge",
+  "subtitulo": "« What time ___? » pour boucler le dernier jour",
+  "introAudioKey": "eua-b18-q-i",
+  "introPt": "Le vol part seulement dans l'après-midi et il faut régler trois horaires avant de quitter l'hôtel. Écoute la première question et décide ce qui correspond.",
+  "cenario": "À la réception de l'hôtel, le matin du dernier jour.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b18-q01",
+      "voz": "target_en_f",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouatte taïme iz tchèke-aoute",
+      "pt": "C'est à quelle heure le check-out ?"
+    },
+    {
+      "audioKey": "eua-b18-q02",
+      "voz": "target_en_m",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "itse atte i-LÈ-venne, batte you kn live your bagze ouizz asse",
+      "pt": "C'est à onze heures, mais vous pouvez nous laisser vos valises."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quelle formule sert à demander n'importe quel horaire du dernier jour ?",
+      "opcoes": [
+        "How much is ___?",
+        "What time ___?",
+        "Do you have ___?",
+        "I'm looking for ___"
+      ],
+      "correta": 1,
+      "explica": "« What time » plus ce que tu as besoin de savoir couvre le check-out, la navette, l'horaire de la réception, presque tout horaire."
+    },
+    {
+      "pergunta": "Le check-out est à onze heures mais ton vol part seulement l'après-midi. Que fais-tu de ta valise ?",
+      "opcoes": [
+        "Tu la portes toute la journée",
+        "Tu demandes « Can I leave my bag here? »",
+        "Tu payes une nuit complète de plus",
+        "Tu la laisses dans la rue"
+      ],
+      "correta": 1,
+      "explica": "Presque tous les hôtels gardent les bagages sans frais supplémentaires après le check-out ; il suffit de le demander."
+    },
+    {
+      "pergunta": "La personne de la réception te dit au revoir avec un « Have a safe flight! » court et rapide. Que signifie-t-il ?",
+      "opcoes": [
+        "Que c'était un au revoir froid",
+        "C'est l'au revoir standard de service aux États-Unis, bref par nature",
+        "Que tu as fait quelque chose de mal",
+        "Qu'elle veut que tu partes vite"
+      ],
+      "correta": 1,
+      "explica": "Le registre d'au revoir de service est bref par habitude, pas par manque de chaleur."
+    },
+    {
+      "pergunta": "Comment se termine le module ME VIRO, selon B18 ?",
+      "opcoes": [
+        "Sur une urgence",
+        "Sur un vol (larcin)",
+        "Sur un au revoir",
+        "Sur une plainte"
+      ],
+      "correta": 2,
+      "explica": "Le voyage se termine sur un au revoir, jamais sur un incident ; B18 clôt le module avec le « Have a safe flight »."
+    },
+    {
+      "pergunta": "Que réponds-tu à un « Have a safe flight! » ?",
+      "opcoes": [
+        "Rien, pas besoin de répondre",
+        "Thanks so much, you too!",
+        "Une longue explication de ton voyage",
+        "Sorry, je ne comprends pas"
+      ],
+      "correta": 1,
+      "explica": "Une réponse courte et chaleureuse conclut bien l'interaction ; pas besoin de l'allonger."
+    }
+  ]
+}

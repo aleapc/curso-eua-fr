@@ -1,0 +1,84 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Pharmacie, clinique ou urgences",
+  "subtitulo": "« Do you have something for ___? », et pourquoi le mauvais hôpital peut te ruiner",
+  "introAudioKey": "eua-b17-q-i",
+  "introPt": "Le mal de ventre n'est pas passé avec le médicament de la pharmacie. Écoute comment on demande à voir un médecin et décide ce qui correspond.",
+  "cenario": "À la pharmacie, des heures après un premier essai avec un médicament en vente libre.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b17-q01",
+      "voz": "target_en_f",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you jav SAMME-thigne for e STO-mak-èïke",
+      "pt": "Vous avez quelque chose pour le mal de ventre ?"
+    },
+    {
+      "audioKey": "eua-b17-q02",
+      "voz": "target_en_m",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "diss choude jèlpe. tèïke itte ouizz foude",
+      "pt": "Ça devrait aider. Prends-le avec de la nourriture."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quelle est la première étape pour un malaise léger ?",
+      "opcoes": [
+        "Les urgences",
+        "La pharmacie",
+        "Appeler le 911",
+        "Un vol de retour"
+      ],
+      "correta": 1,
+      "explica": "Pour quelque chose de léger, commencer par la pharmacie avec « Do you have something for ___? » est une première étape valable."
+    },
+    {
+      "pergunta": "Tu as une cheville tordue, ça ne met pas ta vie en danger mais ça n'attend pas. Où vas-tu ?",
+      "opcoes": [
+        "Aux urgences de l'hôpital (ER)",
+        "Dans une clinique d'urgence (urgent care)",
+        "Uniquement à la pharmacie",
+        "Nulle part, ça guérit tout seul"
+      ],
+      "correta": 1,
+      "explica": "Urgent care est plus rapide et bien moins cher que l'ER pour quelque chose qui ne met pas la vie en danger."
+    },
+    {
+      "pergunta": "Combien peut coûter une seule visite aux urgences sans assurance ?",
+      "opcoes": [
+        "50-100 $",
+        "1 500-3 000 $ ou plus",
+        "C'est toujours gratuit",
+        "10 000 $ fixe"
+      ],
+      "correta": 1,
+      "explica": "Sans assurance voyage, une visite aux urgences peut coûter entre 1 500 et 3 000 dollars ou plus, avant tout traitement."
+    },
+    {
+      "pergunta": "Quel est le numéro d'urgence dans tous les États-Unis ?",
+      "opcoes": [
+        "112",
+        "911",
+        "100",
+        "000"
+      ],
+      "correta": 1,
+      "explica": "Le 911 fonctionne dans tout le pays, vingt-quatre heures sur vingt-quatre, pour toute vraie urgence."
+    },
+    {
+      "pergunta": "Pourquoi l'assurance voyage n'est-elle pas optionnelle aux États-Unis ?",
+      "opcoes": [
+        "Parce que la douane l'exige",
+        "Parce qu'une urgence médicale sans assurance peut coûter des dizaines de milliers de dollars",
+        "Parce que sans elle, l'hôtel ne te laisse pas entrer",
+        "Parce que les pharmacies ne vendent pas sans assurance"
+      ],
+      "correta": 1,
+      "explica": "Entre le coût des urgences et une possible ambulance aérienne (jusqu'à environ 40 000 $), une urgence sans assurance peut ruiner le voyage."
+    }
+  ]
+}

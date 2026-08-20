@@ -1,0 +1,283 @@
+{
+  "id": "b16",
+  "slot": "B16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "16A",
+  "titulo": "Avant qu'on te donne le numéro de chambre",
+  "subtitulo": "Demander ce qui améliore ton séjour, et « My ___ isn't working » pour quand quelque chose tombe en panne",
+  "cena": "Tu es debout à la réception, la file derrière toi commence à grandir, et tu ne sais toujours pas si tu vas demander mieux avant qu'on te donne la clé.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas faire ton check-in en demandant ce qui améliore ta chambre, et si quelque chose ne marche pas après, tu vas le signaler sans traduire chaque mot dans ta tête d'abord.",
+  "moldes": ["WENT-WRONG"],
+  "clique": {
+    "contagem": [
+      "la clé qui n'ouvrait pas",
+      "la climatisation éteinte",
+      "la machine à glaçons introuvable",
+      "la piscine que tu ne trouvais pas"
+    ],
+    "desconto": "Personne ne t'a donné une phrase différente pour la clé cassée et une autre pour la clim en panne. Tu as construit les deux avec la même formule : « My ___ isn't working ».",
+    "piso": "La prochaine fois que quelque chose ne marchera pas dans ta chambre d'hôtel, tu n'attendras pas que ça se résolve tout seul : tu le signaleras sur le moment, avec une phrase que tu sais déjà dire."
+  },
+  "permissao": "Tu n'as pas à t'excuser de signaler quelque chose qui ne marche pas. « My ___ isn't working » est une information, pas une plainte excessive ; l'hôtel s'attend à ce que tu le dises.",
+  "permissaoAudioKey": "eua-b16-n10",
+  "espelho": "Dans n'importe quel hôtel de ton pays, tu signalerais aussi une clé qui n'ouvre pas ou une climatisation éteinte sans y penser deux fois ; la seule nouveauté ici, c'est la phrase exacte et le fait de savoir que demander mieux avant le check-in est aussi normal que se plaindre après.",
+  "fichasCulturais": [
+    {
+      "sinal": "En sortant de la chambre le matin, tu vois d'autres clients laisser un ou deux billets pliés sur l'oreiller ou sur la table de chevet.",
+      "suaLeitura": "Ils ont oublié quelque chose, ou c'est de l'argent perdu.",
+      "oQueEAli": "C'est un pourboire pour le personnel de ménage, en général entre un et cinq dollars par nuit. Ce n'est pas obligatoire, mais c'est un geste attendu dans la plupart des hôtels du pays.",
+      "oQueVoceFaz": "Si tu veux, laisse un ou deux dollars par nuit visibles sur l'oreiller, pas cachés dans un tiroir.",
+      "oQueMelhora": "Tu reconnais un travail que tu vois presque jamais directement, et ta chambre reçoit souvent un peu plus d'attention pour le reste du séjour.",
+      "ondeNaoVale": "Ça ne s'applique pas aux auberges avec ménage partagé ou aux séjours d'une seule nuit où il n'y a pas le temps que le geste ait un effet.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b16-n09"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "resort-fee-oculto",
+      "afirmacao": "Some hotels — especially resorts — add a daily 'resort fee' that is not shown in the room rate you booked. Ask about it before you check in, not after you see the final bill.",
+      "fonte": "Federal Trade Commission — orientações sobre taxas obrigatórias não divulgadas (drip pricing)",
+      "ano": 2024,
+      "revisarAte": "2026-12-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b16-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Partie seize. Le flick encore, sur la consonne finale : work-ING, key-CARD. Ne lui ajoute pas de voyelle en trop."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b16-n02",
+      "bloco": "cena",
+      "pt": "Tu es à la réception, la file grandit derrière toi, et tu ne sais pas si demander mieux avant qu'on te donne la clé."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b16-p01",
+      "promptPt": "Comme au magasin, demande combien ça fait au total — la chambre taxes incluses. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "audioKey": "eua-b16-t01",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "jaou match iz itte ole tou-GUÈ-deur",
+      "pt": "Ça fait combien au total ?"
+    },
+    {
+      "consulta": ["quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "check in early",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b16-p02",
+      "promptPt": "Tu es arrivé avant l'heure officielle et la chambre pourrait être prête. Demande si tu peux t'enregistrer plus tôt. Parle maintenant.",
+      "audioKey": "eua-b16-t02",
+      "es": "Can I check in early?",
+      "tts": "Can I check in early?",
+      "pinyin": "kn aï tchèke inne EUR-li",
+      "pt": "Je peux m'enregistrer plus tôt ?"
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a quieter room",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b16-p03",
+      "promptPt": "Avant de recevoir la clé, demande une chambre plus calme. Parle maintenant.",
+      "audioKey": "eua-b16-t03",
+      "es": "Do you have a quieter room?",
+      "tts": "Do you have a quieter room?",
+      "pinyin": "dou you jav e KOUAÏ-e-teur roume",
+      "pt": "Vous avez une chambre plus calme ?"
+    },
+    {
+      "consulta": ["quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b16-p04",
+      "promptPt": "Ton vol part tard et tu veux quitter la chambre plus tard que d'habitude. Demande un check-out tardif. Parle maintenant.",
+      "audioKey": "eua-b16-t04",
+      "es": "Can I get a late check-out?",
+      "tts": "Can I get a late check-out?",
+      "pinyin": "kn aï guète e lèïte tchèke-aoute",
+      "pt": "Je peux avoir un check-out tardif ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-r01",
+      "es": "Sure, that's no problem.",
+      "tts": "Sure, that's no problem.",
+      "pinyin": "choure, datse nô PRA-bleume",
+      "pt": "Bien sûr, pas de problème."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b16-n03",
+      "bloco": "molde",
+      "pt": "La formule pour ce qui ne marche pas : « My » plus l'objet, plus « isn't working ». Ou « I lost my » plus ce que tu as perdu."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï ki karde IZ-ente OUEUR-kigne",
+      "pt": "Ma carte d'accès ne fonctionne pas."
+    },
+    {
+      "consulta": ["reparo/nao-funciona"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my key card isn't working",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b16-p05",
+      "promptPt": "Tu es monté dans la chambre et la carte n'ouvre pas la porte. Retourne à la réception et signale-le. Parle maintenant.",
+      "audioKey": "eua-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï ki karde IZ-ente OUEUR-kigne",
+      "pt": "Ma carte d'accès ne fonctionne pas."
+    },
+    {
+      "consulta": ["reparo/nao-funciona"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WENT-WRONG",
+      "encaixe": "the AC isn't working",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b16-p06",
+      "promptPt": "Tu es déjà entré dans la chambre, mais la climatisation ne refroidit pas. Signale-le. Parle maintenant.",
+      "audioKey": "eua-b16-t06",
+      "es": "The AC isn't working.",
+      "tts": "The AC isn't working.",
+      "pinyin": "de èï-SI IZ-ente OUEUR-kigne",
+      "pt": "La climatisation ne fonctionne pas."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-r02",
+      "es": "I'll send someone up right away.",
+      "tts": "I'll send someone up right away.",
+      "pinyin": "aïll sènde SAMME-ouanne appe raïte e-GUÈÏ",
+      "pt": "J'envoie quelqu'un tout de suite."
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "the ice machine",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b16-p07",
+      "promptPt": "Tu vas marcher dans le couloir et tu ne te souviens plus où est la machine à glaçons. Demande. Parle maintenant.",
+      "audioKey": "eua-b16-t07",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "ouèrze di aïse ma-CHINE",
+      "pt": "Où est la machine à glaçons ?"
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "LOOKING",
+      "encaixe": "the pool",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b16-p08",
+      "promptPt": "Tu es descendu dans le hall et tu ne vois aucun panneau vers la piscine. Dis à quelqu'un ce que tu cherches. Parle maintenant.",
+      "audioKey": "eua-b16-t08",
+      "es": "I'm looking for the pool.",
+      "tts": "I'm looking for the pool.",
+      "pinyin": "aïme LOU-kigne for de poule",
+      "pt": "Je cherche la piscine."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b16-n04",
+      "pt": "Avant de payer, demande s'il y a un frais quotidien caché. Mieux vaut ici qu'à l'addition finale."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b16-n09",
+      "bloco": "capsula",
+      "pt": "Des billets pliés sur l'oreiller en sortant, ce n'est pas de l'argent oublié : c'est le pourboire du ménage, un ou deux dollars par nuit."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b16-n10",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas à t'excuser de signaler ce qui ne marche pas. C'est une information attendue par l'hôtel, pas une plainte excessive."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b16-n11",
+      "bloco": "clique",
+      "pt": "Tu as signalé la clé et la climatisation. Personne ne t'a donné deux phrases : tu les as construites avec la même formule."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b16-s01",
+      "es": "My key card isn't working. The AC isn't working.",
+      "tts": "My key card isn't working. The AC isn't working.",
+      "pinyin": "maï ki karde IZ-ente OUEUR-kigne. de èï-SI IZ-ente OUEUR-kigne",
+      "pt": "Répète la même formule avec deux problèmes différents."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b16-n12",
+      "bloco": "recap",
+      "pt": "B16 bouclée. Demandé avant, signalé après : clé cassée, clim en panne, une seule formule pour ce qui ne marche pas."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Demander d'abord, se plaindre après",
+    "secoes": [
+      {
+        "titulo": "L'ordre compte",
+        "corpo": "B16 s'ouvre en demandant ce qui améliore ton séjour — chambre calme, check-out tardif — avant de se plaindre de ce qui ne marche pas. Demander d'entrée coûte pareil que se taire, et donne un meilleur résultat presque toujours."
+      },
+      {
+        "titulo": "La formule du problème",
+        "corpo": "« My ___ isn't working » sert pour presque toute panne technique de la chambre. « I lost my ___ » sert pour ce qui a été perdu. Le passé en anglais ici est simple et mémorisé : rien à conjuguer."
+      },
+      {
+        "titulo": "Le resort fee qui n'est pas dans le prix",
+        "corpo": "Certains hôtels, surtout les resorts, ajoutent un frais quotidien qui n'apparaît pas dans le tarif que tu as réservé. Le demander au check-in évite la surprise sur l'addition finale."
+      },
+      {
+        "titulo": "Le pourboire de ménage",
+        "corpo": "Ce n'est pas obligatoire, mais c'est la coutume de laisser un ou deux dollars par nuit visibles sur l'oreiller pour le personnel de ménage, un geste différent du pourboire au restaurant vu en B11."
+      }
+    ]
+  }
+}

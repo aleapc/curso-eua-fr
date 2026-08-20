@@ -1,0 +1,84 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Where's the et la réponse qui tient dans ta tête",
+  "subtitulo": "Un lieu connu, et comment réduire la réponse quand elle devient trop longue",
+  "introAudioKey": "eua-b08-q-i",
+  "introPt": "Dans le couloir de l'hôtel, tu cherches les toilettes puis l'ascenseur. Écoute le court échange.",
+  "cenario": "Dans le couloir de l'hôtel, à la recherche des toilettes et de l'ascenseur.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b08-q01",
+      "voz": "target_en_f",
+      "es": "Where's the restroom?",
+      "tts": "Where's the restroom?",
+      "pinyin": "ouèrze de RÈSTE-roume",
+      "pt": "Où sont les toilettes ?"
+    },
+    {
+      "audioKey": "eua-b08-q02",
+      "voz": "target_en_m",
+      "es": "Right down the hall, on the left.",
+      "tts": "Right down the hall, on the left.",
+      "pinyin": "raïte daoune de jole, onne de lèfte",
+      "pt": "Tout au fond du couloir, à gauche."
+    },
+    {
+      "audioKey": "eua-b08-q03",
+      "voz": "target_en_f",
+      "es": "Where's the elevator?",
+      "tts": "Where's the elevator?",
+      "pinyin": "ouèrze de È-le-vèï-teur",
+      "pt": "Où est l'ascenseur ?"
+    },
+    {
+      "audioKey": "eua-b08-q04",
+      "voz": "target_en_m",
+      "es": "Just around the corner.",
+      "tts": "Just around the corner.",
+      "pinyin": "djaste e-RAOUNDE de KOR-neur",
+      "pt": "Juste après le coin."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans « Where's the ___? » d'une question à l'autre ?",
+      "opcoes": ["Le lieu", "« Where's the »", "La réponse", "La distance"],
+      "correta": 1,
+      "explica": "« Where's the » ouvre la formule ; seul le lieu que tu cherches change."
+    },
+    {
+      "pergunta": "Quand utilises-tu « I'm looking for ___ » plutôt que « Where's the ___? » ?",
+      "opcoes": [
+        "Quand tu connais déjà exactement le nom du lieu",
+        "Quand tu ne connais pas le mot exact et veux que l'autre complète",
+        "Seulement dans les aéroports",
+        "Jamais ; elles sont interchangeables"
+      ],
+      "correta": 1,
+      "explica": "« I'm looking for ___ » indique l'intention quand tu n'as pas le mot exact en anglais."
+    },
+    {
+      "pergunta": "On t'a donné un trajet de trois rues et tu as perdu le fil. Que fais-tu ?",
+      "opcoes": [
+        "Tu demandes qu'on répète tout le trajet encore une fois",
+        "Tu demandes « Is it far? » pour réduire la réponse",
+        "Tu pars sans demander davantage",
+        "Tu changes de sujet"
+      ],
+      "correta": 1,
+      "explica": "« Is it far? » réduit une longue réponse à une décision proche ou loin, plutôt que d'essayer de retenir tout le paragraphe."
+    },
+    {
+      "pergunta": "Que fais-tu si « is it far » ne te dit toujours pas clairement quel coin de rue ?",
+      "opcoes": [
+        "Tu continues à poser la même question",
+        "Tu demandes qu'on te le montre sur la carte",
+        "Tu devines le chemin",
+        "Tu retournes à l'hôtel"
+      ],
+      "correta": 1,
+      "explica": "La carte est la prochaine étape quand le mot parlé ne suffit plus, pas un échec."
+    }
+  ]
+}

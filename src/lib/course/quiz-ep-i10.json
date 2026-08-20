@@ -1,0 +1,87 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — L'argent sans drame",
+  "subtitulo": "Pourboire à table, écran de comptoir, et grand groupe",
+  "introAudioKey": "eua-i10-q-i",
+  "introPt": "L'addition arrive et il faut décider combien laisser. Écoute comment le voyageur confirme le total et si le pourboire est déjà inclus.",
+  "cenario": "Un restaurant aux États-Unis, au moment de demander l'addition.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i10-q01",
+      "voz": "target_en_m",
+      "es": "Here's your check whenever you're ready.",
+      "tts": "Here's your check whenever you're ready.",
+      "pinyin": "jirze your tchèke oué-NÈ-veur your RÈ-di",
+      "pt": "Voici votre addition, quand vous voulez."
+    },
+    {
+      "audioKey": "eua-i10-q02",
+      "voz": "target_en_f",
+      "es": "Is the tip already included?",
+      "tts": "Is the tip already included?",
+      "pinyin": "iz de tipe ole-RÈ-di inne-KLOU-dide",
+      "pt": "Le pourboire est déjà inclus ?"
+    },
+    {
+      "audioKey": "eua-i10-q03",
+      "voz": "target_en_m",
+      "es": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "tts": "Yes, for parties of six or more we add eighteen percent automatically.",
+      "pinyin": "yèsse, for PAR-tize of sixe or môr oui adde èï-TINE peur-SÈNTE o-to-MA-ti-ka-li",
+      "pt": "Oui, pour les groupes de six ou plus, on ajoute dix-huit pour cent automatiquement."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "À table dans un restaurant, qu'est-ce que le pourboire de 18-20 % ?",
+      "opcoes": [
+        "Un extra optionnel pour un service exceptionnel",
+        "La vraie partie du salaire du serveur",
+        "Une taxe gouvernementale",
+        "Quelque chose que seuls les touristes payent"
+      ],
+      "correta": 1,
+      "explica": "Le salaire de base d'un serveur peut n'être que de 2,13 $ de l'heure ; le pourboire est son vrai revenu."
+    },
+    {
+      "pergunta": "À un comptoir sans service à table, que peux-tu faire avec l'écran qui demande 25-30 % ?",
+      "opcoes": [
+        "Rien, c'est obligatoire de le payer",
+        "Choisir « No Tip » sans culpabilité",
+        "Tu ne peux choisir que le plus élevé",
+        "Demander qu'on éteigne l'écran"
+      ],
+      "correta": 1,
+      "explica": "C'est un phénomène récent ; jusqu'à 72 % des Américains le trouvent excessif."
+    },
+    {
+      "pergunta": "Que dois-tu vérifier sur l'addition d'un groupe de sept personnes ?",
+      "opcoes": [
+        "Si un supplément de service automatique (auto-gratuity) est déjà inclus",
+        "Le nom du serveur",
+        "Le menu du jour",
+        "Rien, le pourboire s'ajoute toujours à part"
+      ],
+      "correta": 0,
+      "explica": "Pour les groupes de six ou plus, beaucoup d'endroits ajoutent déjà 18 % automatiquement — il faut vérifier avant de payer double."
+    },
+    {
+      "pergunta": "Quelle formule sert à demander le total de l'addition ?",
+      "opcoes": ["What time is it?", "How much is it all together?", "Do you have a menu?", "Where's the check?"],
+      "correta": 1,
+      "explica": "C'est la formule HOW-MUCH de B15, réutilisée pour confirmer le total avant de calculer le pourboire."
+    },
+    {
+      "pergunta": "Quelle différence légale y a-t-il entre l'auto-gratuity et un pourboire normal ?",
+      "opcoes": [
+        "Aucune, c'est la même chose",
+        "L'auto-gratuity est un supplément de service, pas un pourboire, selon le fisc américain",
+        "L'auto-gratuity n'est jamais facturé",
+        "Ça ne s'applique que le week-end"
+      ],
+      "correta": 1,
+      "explica": "C'est un service charge légalement distinct d'un pourboire volontaire."
+    }
+  ]
+}

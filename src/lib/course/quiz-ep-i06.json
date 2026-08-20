@@ -1,0 +1,80 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Ce que tu as fait hier",
+  "subtitulo": "I went, I had, I loved it",
+  "introAudioKey": "eua-i06-q-i",
+  "introPt": "Quelqu'un te demande ce que tu as fait hier. Écoute les trois pièces fixes qui portent toute l'histoire.",
+  "cenario": "Un voyageur raconte sa journée d'hier et ce qu'il a perdu puis retrouvé en chemin.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i06-q01",
+      "voz": "target_en_m",
+      "es": "So what did you do yesterday?",
+      "tts": "So what did you do yesterday?",
+      "pinyin": "sô ouatte dide you dou YÈSSE-teur-dèï",
+      "pt": "Et alors, tu as fait quoi hier ?"
+    },
+    {
+      "audioKey": "eua-i06-q02",
+      "voz": "target_en_f",
+      "es": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "tts": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "pinyin": "aï ouènte tou e DAÏ-neur daoune-TAOUNE. aï jade e BEUR-gueur annde fraïze. aï lavde itte",
+      "pt": "Je suis allé dans un diner au centre-ville. J'ai mangé un burger avec des frites. J'ai adoré."
+    },
+    {
+      "audioKey": "eua-i06-q03",
+      "voz": "target_en_m",
+      "es": "Anything go wrong on the trip so far?",
+      "tts": "Anything go wrong on the trip so far?",
+      "pinyin": "È-ni-thigne gôou rongue onne de tripe sô far",
+      "pt": "Quelque chose s'est mal passé sur le voyage jusqu'ici ?"
+    },
+    {
+      "audioKey": "eua-i06-q04",
+      "voz": "target_en_f",
+      "es": "I lost my phone at the airport, actually.",
+      "tts": "I lost my phone at the airport, actually.",
+      "pinyin": "aï loste maï fôoune atte di EUR-porte, AK-tchou-a-li",
+      "pt": "En fait, j'ai perdu mon téléphone à l'aéroport."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Que signifie « I went » ?",
+      "opcoes": ["Je mange", "Je suis allé", "J'adore", "Je vais aller"],
+      "correta": 1,
+      "explica": "I went est le passé de « go » — je suis allé."
+    },
+    {
+      "pergunta": "Combien de pièces fixes du passé cet épisode enseigne-t-il ?",
+      "opcoes": ["Dix", "Trois : I went, I had, I loved it", "Tous les verbes irréguliers", "Aucune — seulement le présent"],
+      "correta": 1,
+      "explica": "Trois pièces fixes suffisent pour raconter une journée entière."
+    },
+    {
+      "pergunta": "Quelle formule réapparaît quand tu racontes que tu as perdu ton téléphone ?",
+      "opcoes": ["WHAT-TIME", "WENT-WRONG (I lost my ___)", "HAVE", "WHERE"],
+      "correta": 1,
+      "explica": "C'est la même formule de B16, maintenant racontée comme une anecdote déjà résolue."
+    },
+    {
+      "pergunta": "Comment parles-tu de ton projet d'aujourd'hui sans apprendre un nouveau temps ?",
+      "opcoes": ["En utilisant encore le passé", "I'm going to plus un verbe simple", "Seulement avec des gestes", "En passant au français"],
+      "correta": 1,
+      "explica": "I'm going to couvre presque n'importe quel projet proche sans grammaire supplémentaire."
+    },
+    {
+      "pergunta": "Quelle est l'idée centrale de cet épisode ?",
+      "opcoes": [
+        "Il faut maîtriser tous les temps de l'anglais avant de voyager",
+        "Une poignée de pièces fixes suffit pour raconter une vraie histoire",
+        "Le passé ne s'utilise jamais en voyage",
+        "Seuls les guides utilisent le passé"
+      ],
+      "correta": 1,
+      "explica": "Un petit ensemble précis couvre le besoin réel de raconter ta journée."
+    }
+  ]
+}

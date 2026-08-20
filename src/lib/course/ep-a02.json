@@ -1,0 +1,242 @@
+{
+  "id": "a02",
+  "slot": "A02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "De quoi ils rient",
+  "subtitulo": "Un jardin, un barbecue et une phrase dite très sérieusement qui était en fait une blague",
+  "cena": "Quelqu'un vient de dire, le visage totalement sérieux, que sa viande est « amazing » alors qu'il est en train de la carboniser sur le gril, et toute la table rit sauf toi.",
+  "moldura": "ganha",
+  "frasePiso": "Tu n'as pas besoin de saisir la blague au vol. Rire au bon moment et demander ce qui s'est dit, c'est déjà être bonne compagnie.",
+  "fatosDatados": [
+    {
+      "id": "eua-humor-sarcasmo",
+      "afirmacao": "Sarcasm and dry irony — saying the opposite of what is meant, delivered with a flat or serious tone — are a defining register of everyday American humor, and are widely reported as the joke form most often missed by non-native English speakers, who may take the literal words at face value.",
+      "fonte": "Consenso de fontes culturais e linguísticas sobre humor estadounidense e sarcasmo (BBC Culture; guias de comunicação intercultural)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a02-n03"]
+    },
+    {
+      "id": "eua-temas-evitar",
+      "afirmacao": "American small-talk etiquette generally treats politics, religion and personal salary as topics to avoid with people you have just met, unless the other person opens the subject first.",
+      "fonte": "Consenso de fontes de etiqueta social (Emily Post Institute — «Small Talk»)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a02-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Aujourd'hui, il s'agit de rire au bon moment. Un des mouvements est seulement réceptif : tu en profites, tu ne le produis pas."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a02-n02",
+      "bloco": "callback",
+      "pt": "Avant ça, une révision d'hier. Quelqu'un te demande ce que tu vas commander. Réponds avec la forme familière."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a02-p01",
+      "promptPt": "Vous êtes à un stand de tacos et tu veux essayer celui al pastor. Dis-le dans sa forme courte, comme hier. Parle maintenant.",
+      "audioKey": "eua-a02-t01",
+      "es": "I'm gonna try the al pastor.",
+      "tts": "I'm gonna try the al pastor.",
+      "pinyin": "aïme GO-na traï di al pas-TOR",
+      "pt": "Je vais essayer le al pastor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a02-n03",
+      "bloco": "cena",
+      "pt": "Barbecue dans un jardin. Quelqu'un carbonise la viande et dit, très sérieusement, que c'est parfait. La table rit."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a02-o01",
+      "receptivo": true,
+      "es": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "tts": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "pt": "👂 Pas la peine de décoder : il dit le contraire de ce qu'il pense, visage sérieux. Cet écart entre le visage et la phrase, c'est la blague.",
+      "pinyin": "yèa, dis is ek-ZAK-tli jaou aï plannede itte. PER-fèk-tli tcharde"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a02-n04",
+      "bloco": "corpo",
+      "pt": "C'est ça, le sarcasme : dire le contraire avec un air sérieux. La blague la plus courante en anglais décontracté."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a02-n05",
+      "pt": "Tu n'as pas besoin de la saisir au vol. Le signal honnête, c'est de rire un peu en retard, ou de demander."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a02-p02",
+      "promptPt": "Tout le monde a ri et tu n'as pas compris pourquoi. Dis-le avec légèreté. Parle maintenant.",
+      "audioKey": "eua-a02-t02",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pinyin": "ouèïte, ouazze dat e djôk",
+      "pt": "Attends, c'était une blague ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a02-o02",
+      "es": "Yeah, sorry, it's definitely a little burnt.",
+      "tts": "Yeah, sorry, it's definitely a little burnt.",
+      "pt": "Oui, désolé, c'est clairement un peu brûlé.",
+      "pinyin": "yèa, SO-ri, itse DÈ-fi-nite-li e LI-teul beurnte"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a02-n06",
+      "pt": "Demander t'a fait entrer dans la blague, ça ne l'a pas gâchée. Maintenant, l'autre moitié : celle que tu peux produire toi-même."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a02-p03",
+      "promptPt": "Tu as taché ta chemise de sauce devant tout le monde. Plaisante sur toi-même avant que quelqu'un d'autre ne le remarque. Parle maintenant.",
+      "audioKey": "eua-a02-t03",
+      "es": "Classic me.",
+      "tts": "Classic me.",
+      "pinyin": "KLA-sique mi",
+      "pt": "Bien moi, ça."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a02-o03",
+      "es": "Ha, at least you're consistent.",
+      "tts": "Ha, at least you're consistent.",
+      "pt": "Ah, au moins tu es constant.",
+      "pinyin": "ha, at liste your konn-SIS-tante"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a02-n07",
+      "bloco": "capsula",
+      "pt": "Plaisanter sur toi-même marche toujours. Sur la politique, la religion ou le salaire, avec des gens que tu viens de rencontrer, non."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a02-p04",
+      "promptPt": "Deux personnes commencent à discuter politique à table. Sors du sujet avec élégance, sans donner ton avis. Parle maintenant.",
+      "audioKey": "eua-a02-t04",
+      "es": "I'll let you two figure that one out.",
+      "tts": "I'll let you two figure that one out.",
+      "pinyin": "aïll lète you tou FI-gueur dat ouann aoute",
+      "pt": "Je vous laisse régler ça tous les deux."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a02-p05",
+      "promptPt": "Quelqu'un a raconté une vraie bonne blague et tu l'as comprise. Dis-le. Parle maintenant.",
+      "audioKey": "eua-a02-t05",
+      "es": "Okay, that one got me.",
+      "tts": "Okay, that one got me.",
+      "pinyin": "ô-kèï, dat ouann gat mi",
+      "pt": "OK, celle-là m'a eu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a02-p06",
+      "promptPt": "Tu veux pouvoir réutiliser le mot. Demande ce qu'il signifie. Parle maintenant.",
+      "audioKey": "eua-a02-t06",
+      "es": "What does that mean, exactly?",
+      "tts": "What does that mean, exactly?",
+      "pinyin": "ouatte daz dat minne, ek-ZAKTE-li",
+      "pt": "Qu'est-ce que ça veut dire, exactement ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a02-s01",
+      "es": "Wait, was that a joke? Classic me. I'll let you two figure that one out.",
+      "tts": "Wait, was that a joke? Classic me. I'll let you two figure that one out.",
+      "pinyin": "ouèïte, ouazze dat e djôk. KLA-sique mi. aïll lète you tou FI-gueur dat ouann aoute",
+      "pt": "Répète les trois mouvements sûrs : demander, rire de toi-même, sortir du sujet avec élégance."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a02-n08",
+      "bloco": "recap",
+      "pt": "A02 bouclée. Le sarcasme se reconnaît, il ne se traduit pas. Rire de toi-même marche toujours ; de la politique, mieux vaut éviter."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Le sarcasme n'est pas un mensonge, c'est un ton",
+    "secoes": [
+      {
+        "titulo": "Dire le contraire, avec un air sérieux",
+        "corpo": "Le sarcasme américain décontracté repose sur le fait de dire le contraire de ce qu'on pense, avec un ton plat voire sérieux. C'est exactement le type de blague qu'un locuteur non natif rate, parce que les mots disent une chose et le ton en dit une autre."
+      },
+      {
+        "titulo": "La blague sur soi-même fonctionne toujours",
+        "corpo": "Rire de ton propre accent, de ton erreur ou de ta maladresse est le registre comique le plus sûr qui existe : il n'a besoin d'aucun contexte partagé et n'offense jamais personne d'autre que toi."
+      },
+      {
+        "titulo": "Trois sujets qu'on évite avec des inconnus",
+        "corpo": "Politique, religion et salaire de quelqu'un. Ce n'est pas qu'ils soient interdits pour toujours — c'est qu'on ne les aborde pas avec des gens qu'on vient de rencontrer, sauf si eux-mêmes les abordent en premier."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de ne pas saisir la blague. Demander « c'était une blague ? » ne tue pas l'effet — presque toujours, ça le prolonge, parce que maintenant quelqu'un doit l'expliquer maladroitement, et ça fait rire aussi.",
+  "permissaoAudioKey": "eua-a02-n05",
+  "espelho": "Toute langue a un registre que seuls les gens du cru maîtrisent bien — la blague que tes propres amis font sur ta ville, et qu'un visiteur ne devrait jamais tenter. L'humour américain n'est pas particulièrement fermé ; cette fois, c'est toi qui es du côté qui écoute, une place que tu as toi-même donnée à d'autres toute ta vie.",
+  "fichasCulturais": [
+    {
+      "sinal": "Quelqu'un dit, visage totalement sérieux, que quelque chose est sorti « parfait » alors qu'il est évident que c'est raté.",
+      "suaLeitura": "Il parle sérieusement ; je ne comprends pas pourquoi personne ne le corrige.",
+      "oQueEAli": "C'est du sarcasme : le visage sérieux et le ton plat font partie de la blague, ce n'est pas un manque d'attention. Le dire sérieusement, c'est ce qui la rend drôle.",
+      "oQueVoceFaz": "Souris ou ris un peu en retard, ou demande directement si c'était une blague — les deux réponses sont acceptées.",
+      "oQueMelhora": "Tu restes dans la blague au lieu de répondre quelque chose de littéral qui coupe net la conversation.",
+      "ondeNaoVale": "Pas quand la personne est visiblement contrariée ou que le ton est cassant — là, ce n'est pas du sarcasme, c'est une vraie plainte, et le signal est que personne d'autre ne rit.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a02-n04"]
+    },
+    {
+      "sinal": "Un inconnu à la fête mentionne un sujet politique en passant, et tu sens que tu devrais donner ton avis pour paraître impliqué.",
+      "suaLeitura": "Rester silencieux, ça donne l'impression que la conversation ne m'intéresse pas.",
+      "oQueEAli": "Avec des gens qu'on vient de rencontrer, politique, religion et salaire restent en général en dehors du small talk par convention sociale, pas parce que ce sont des sujets interdits pour toujours.",
+      "oQueVoceFaz": "Sors du sujet avec une phrase courte et neutre, et reviens à quelque chose de général.",
+      "oQueMelhora": "Tu restes agréable pour tout le monde à table, quoi qu'ils pensent entre eux.",
+      "ondeNaoVale": "Pas si la personne elle-même te demande directement ton avis avec un intérêt sincère — là, rester complètement muet peut se lire comme fuyant.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a02-n07"]
+    }
+  ]
+}

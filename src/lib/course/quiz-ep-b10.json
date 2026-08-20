@@ -1,0 +1,100 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Lire avant de demander",
+  "subtitulo": "EXIT, out of order, pull/push et la formule « I'm looking for ___ »",
+  "introAudioKey": "eua-b10-q-i",
+  "introPt": "Tu es sorti de la zone bagages et tu dois lire trois panneaux et chercher deux lieux sans nom exact. Écoute et décide ce que tu fais en premier.",
+  "cenario": "Dans le couloir des correspondances, en route vers la porte d'embarquement.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b10-q01",
+      "voz": "target_en_f",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïme LOU-kigne for maï guèïte",
+      "pt": "Je cherche ma porte d'embarquement."
+    },
+    {
+      "audioKey": "eua-b10-q02",
+      "voz": "target_en_m",
+      "es": "It's down that way, past the food court.",
+      "tts": "It's down that way, past the food court.",
+      "pinyin": "itse daoune dat ouèï, paste de foude korte",
+      "pt": "C'est par là, après l'espace restauration."
+    },
+    {
+      "audioKey": "eua-b10-q03",
+      "voz": "target_en_f",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aïme LOU-kigne for e FAR-ma-si",
+      "pt": "Je cherche une pharmacie."
+    },
+    {
+      "audioKey": "eua-b10-q04",
+      "voz": "target_en_m",
+      "es": "Right this way, follow me.",
+      "tts": "Right this way, follow me.",
+      "pinyin": "raïte diss ouèï, FA-lô mi",
+      "pt": "Par ici, suivez-moi."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Tu vois un panneau qui dit EXIT. Que signifie-t-il ?",
+      "opcoes": [
+        "Un exploit, une réussite",
+        "Sortie",
+        "Entrée",
+        "Fermé"
+      ],
+      "correta": 1,
+      "explica": "EXIT ne se devine pas d'après sa forme : ça veut dire « sortie ». Mal le lire t'envoie vers la mauvaise porte."
+    },
+    {
+      "pergunta": "Un panneau dit OUT OF ORDER sur une machine. Que fais-tu ?",
+      "opcoes": [
+        "Tu l'utilises quand même, c'est juste un avis",
+        "Tu en cherches une autre : elle est en panne",
+        "Tu attends qu'elle ouvre",
+        "Tu passes une commande"
+      ],
+      "correta": 1,
+      "explica": "Out of order signifie hors service. Ce n'est pas une commande en attente ; c'est une machine qui ne fonctionne pas."
+    },
+    {
+      "pergunta": "Tu ne vois aucun panneau de pharmacie. Quelle formule utilises-tu ?",
+      "opcoes": [
+        "Where's the pharmacy?",
+        "I'm looking for a pharmacy.",
+        "Do you have a pharmacy?",
+        "Can I get a pharmacy?"
+      ],
+      "correta": 1,
+      "explica": "« I'm looking for » sert quand tu ne connais ni le nom exact ni l'emplacement ; l'autre personne complète la réponse."
+    },
+    {
+      "pergunta": "Face à une porte manuelle, quel panneau signifie tirer vers toi ?",
+      "opcoes": [
+        "Push",
+        "Pull",
+        "Exit",
+        "Out of service"
+      ],
+      "correta": 1,
+      "explica": "Pull veut dire tirer vers toi ; push veut dire pousser vers l'extérieur. Le lire avant de toucher la poignée évite la mauvaise poussée."
+    },
+    {
+      "pergunta": "Il n'y a ni panneau de file ni cordon au comptoir, mais des gens sont debout. Que fais-tu ?",
+      "opcoes": [
+        "Tu passes directement, il n'y a pas de file officielle",
+        "Tu demandes « Is this the line? » et tu te places à la fin",
+        "Tu attends qu'on t'appelle",
+        "Tu cherches un autre comptoir"
+      ],
+      "correta": 1,
+      "explica": "La file existe même sans panneau : c'est la file des gens debout. Demander avant de passer évite le mauvais moment."
+    }
+  ]
+}

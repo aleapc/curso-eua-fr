@@ -1,0 +1,89 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — De quoi ils rient",
+  "subtitulo": "Reconnaître le sarcasme et savoir quoi éviter avec des inconnus",
+  "introAudioKey": "eua-a02-q-i",
+  "introPt": "Quelqu'un carbonise la viande sur le gril et dit, très sérieusement, que c'est parfait. Écoute l'échange et réponds.",
+  "cenario": "Un barbecue dans un jardin.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a02-q01",
+      "voz": "target_en_m",
+      "es": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "tts": "Yeah, this is exactly how I planned it. Perfectly charred.",
+      "pt": "Oui, c'est exactement comme ça que je l'avais prévu. Parfaitement carbonisé."
+    },
+    {
+      "audioKey": "eua-a02-q02",
+      "voz": "target_en_f",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pt": "Attends, c'était une blague ?"
+    },
+    {
+      "audioKey": "eua-a02-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, sorry, it's definitely a little burnt.",
+      "tts": "Yeah, sorry, it's definitely a little burnt.",
+      "pt": "Oui, désolé, c'est clairement un peu brûlé."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qu'est-ce que le sarcasme dans l'humour américain décontracté ?",
+      "opcoes": [
+        "Dire le contraire de ce qu'on pense, avec un air sérieux",
+        "Une blague toujours annoncée à l'avance",
+        "Une insulte directe",
+        "Ça ne s'utilise qu'à la télévision"
+      ],
+      "correta": 0,
+      "explica": "Le sarcasme dit le contraire de ce qu'on pense, avec un ton plat ou sérieux."
+    },
+    {
+      "pergunta": "Tu n'as pas compris une blague. Que peux-tu faire ?",
+      "opcoes": [
+        "Rester silencieux pour ne pas la gâcher",
+        "Demander avec légèreté si c'était une blague",
+        "Changer de sujet immédiatement",
+        "Rire fort sans comprendre"
+      ],
+      "correta": 1,
+      "explica": "Demander « was that a joke ? » prolonge presque toujours la blague au lieu de la gâcher."
+    },
+    {
+      "pergunta": "Quel type de blague fonctionne presque toujours avec n'importe qui ?",
+      "opcoes": [
+        "Plaisanter sur la politique",
+        "Plaisanter sur la famille de quelqu'un d'autre",
+        "Plaisanter sur toi-même",
+        "Plaisanter sur la religion"
+      ],
+      "correta": 2,
+      "explica": "L'humour autodérisoire est le registre le plus sûr : il n'a besoin d'aucun contexte partagé et n'offense personne d'autre."
+    },
+    {
+      "pergunta": "Quels sujets vaut-il mieux éviter en small talk avec des gens qu'on vient de rencontrer ?",
+      "opcoes": [
+        "La météo et la nourriture",
+        "Politique, religion et salaire",
+        "Le sport",
+        "Les voyages"
+      ],
+      "correta": 1,
+      "explica": "L'étiquette du small talk aux États-Unis laisse en général de côté politique, religion et salaire avec des inconnus."
+    },
+    {
+      "pergunta": "Deux personnes commencent à discuter politique à table. Quelle est une bonne sortie ?",
+      "opcoes": [
+        "Donner ton avis fermement",
+        "« I'll let you two figure that one out »",
+        "Te lever de table",
+        "Changer de sujet brutalement"
+      ],
+      "correta": 1,
+      "explica": "Sortir du sujet avec légèreté, sans donner ton avis, te garde agréable des deux côtés."
+    }
+  ]
+}

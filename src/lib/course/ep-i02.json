@@ -1,0 +1,258 @@
+{
+  "id": "i02",
+  "slot": "I02",
+  "nivel": "intermediario",
+  "numero": 2,
+  "parte": "I02",
+  "titulo": "La file qui existe vraiment",
+  "subtitulo": "Ici, faire la queue en silence et attendre son tour, c'est ce qu'il faut faire — parler avant que ce soit ton tour, c'est ce qui se remarque mal",
+  "cena": "Six personnes font la queue devant le comptoir du café, toutes silencieuses, en train de regarder le tableau du menu, et toi tu as l'instinct de crier ta commande comme au kiosque du coin chez toi.",
+  "decisao": "comment demander ton tour au comptoir — faire la queue et attendre en silence est l'action correcte ici, pas parler fort pour qu'on te remarque",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas faire la queue, commander sans te presser et quitter le comptoir sans avoir dit un mot de trop.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu arrives dans un café animé et tu vois une file droite et silencieuse de gens qui regardent le tableau en attendant.",
+      "suaLeitura": "Si je ne parle pas fort ou si je ne m'approche pas du comptoir, on ne va jamais me servir.",
+      "oQueEAli": "Aux États-Unis, le comptoir informel a bel et bien une vraie file, même sans cordon ni numéro — l'ordre est celui d'arrivée, et il est respecté en silence jusqu'à ton tour.",
+      "oQueVoceFaz": "Tu te places à la fin de la file, tu attends ton tour sans parler, et tu n'ouvres la bouche que quand la personne du comptoir te regarde toi.",
+      "oQueMelhora": "Tu es servi dans le bon ordre sans friction avec personne, et tu utilises le temps d'attente pour décider calmement ta commande.",
+      "ondeNaoVale": "Ça ne s'applique pas à un bar animé debout sans places assises ni file marquée, où il faut vraiment attirer l'attention du barman du regard.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i02-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Le poing encore, maintenant sur la commande : can I GET, pas CAN i get."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i02-p01",
+      "promptPt": "Hier tu as demandé l'heure de fermeture de la cuisine. Aujourd'hui tu utilises la même formule pour le café. Demande à quelle heure ils ouvrent. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open",
+      "audioKey": "eua-i02-t01",
+      "es": "What time do you open?",
+      "tts": "What time do you open?",
+      "pinyin": "ouatte taïme dou you ôpeune",
+      "pt": "Vous ouvrez à quelle heure ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i02-n02",
+      "bloco": "cena",
+      "pt": "Six personnes, file droite et silencieuse, tout le monde regarde le tableau. Personne ne crie, personne ne double."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i02-n03",
+      "bloco": "corpo",
+      "pt": "Ici, la file se respecte en silence. Excuse me sert seulement à passer ou à attirer l'attention, pas à doubler."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r01",
+      "es": "Sorry, the line starts back there.",
+      "tts": "Sorry, the line starts back there.",
+      "pinyin": "SO-ri, de laïne startse bake dère",
+      "pt": "Désolé, la file commence là-bas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i02-p02",
+      "promptPt": "Tu t'es approché sans voir où ça commençait. Excuse-toi et demande avec la formule d'EXCUSE. Parle maintenant.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "eua-i02-t02",
+      "es": "Excuse me, is this the end of the line?",
+      "tts": "Excuse me, is this the end of the line?",
+      "pinyin": "ex-KIOUZE mi, iz diss de ènde of de laïne",
+      "pt": "Excusez-moi, c'est ici la fin de la file ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r02",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "yèpe, raïte bi-JAÏNDE mi",
+      "pt": "Oui, juste derrière moi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i02-n04",
+      "bloco": "capsula",
+      "pt": "Une fois au comptoir, la formule est la même que celle apprise en B11 : Can I get, et la chose."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-r03",
+      "es": "Hi, what can I get started for you?",
+      "tts": "Hi, what can I get started for you?",
+      "pinyin": "jaï, ouatte kn aï guète STAR-tide for you",
+      "pt": "Bonjour, je vous prépare quoi ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i02-p03",
+      "promptPt": "C'est ton tour. Commande ton café sans tourner autour du pot. Parle maintenant.",
+      "audioKey": "eua-i02-t03",
+      "es": "Can I get a medium latte, please?",
+      "tts": "Can I get a medium latte, please?",
+      "pinyin": "kn aï guète e MI-dioume LA-tèï, pliize",
+      "pt": "Je peux avoir un latte moyen, s'il vous plaît ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i02-r04",
+      "es": "Anything else?",
+      "tts": "Anything else?",
+      "pinyin": "È-ni-thigne èlze",
+      "pt": "Autre chose ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i02-p04",
+      "promptPt": "Tu ne veux pas de crème. Demande-le sans, avec la formule que tu connais déjà de B12. Parle maintenant.",
+      "molde": "WITHOUT",
+      "encaixe": "cream, please",
+      "audioKey": "eua-i02-t04",
+      "es": "No cream, please.",
+      "tts": "No cream, please.",
+      "pinyin": "nô krime, pliize",
+      "pt": "Sans crème, s'il vous plaît."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i02-n05",
+      "pt": "Tu donnes ton prénom pour le gobelet — ce n'est pas de la curiosité, c'est le système pour t'appeler quand c'est prêt."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-r05",
+      "es": "What's the name for the order?",
+      "tts": "What's the name for the order?",
+      "pinyin": "ouatse de nèïme for di OR-deur",
+      "pt": "Quel nom je mets sur la commande ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i02-p05",
+      "promptPt": "Donne ton prénom, rien de plus. Parle maintenant.",
+      "audioKey": "eua-i02-t05",
+      "es": "It's Ana.",
+      "tts": "It's Ana.",
+      "pinyin": "itse A-na",
+      "pt": "C'est Ana."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i02-p06",
+      "promptPt": "Le lendemain, tu commandes quelque chose de plus grand sans l'ingrédient que tu ne veux pas. Parle maintenant.",
+      "molde": "WITHOUT",
+      "encaixe": "no whipped cream",
+      "audioKey": "eua-i02-t06",
+      "es": "No whipped cream, please.",
+      "tts": "No whipped cream, please.",
+      "pinyin": "nô ouipte krime, pliize",
+      "pt": "Sans chantilly, s'il vous plaît."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i02-p07",
+      "promptPt": "Tu arrives et tu ne vois pas où commence la file. Demande avec EXCUSE encore une fois, ailleurs. Parle maintenant.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "eua-i02-t07",
+      "es": "Excuse me, are you in line?",
+      "tts": "Excuse me, are you in line?",
+      "pinyin": "ex-KIOUZE mi, ar you inne laïne",
+      "pt": "Excusez-moi, vous êtes dans la file ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i02-p08",
+      "promptPt": "Le café était bon et tu veux remercier avant de partir. Parle maintenant.",
+      "audioKey": "eua-i02-t08",
+      "es": "Thanks so much, have a good one.",
+      "tts": "Thanks so much, have a good one.",
+      "pinyin": "thanxe sô match, jav e goude ouann",
+      "pt": "Merci beaucoup, bonne journée."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i02-n06",
+      "bloco": "permissao",
+      "pt": "Tu n'as besoin ni de long salut ni d'excuse supplémentaire pour commander. Direct et à volume normal, c'est ce qu'on attend, pas ce qui est impoli."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i02-s01",
+      "es": "Excuse me, is this the end of the line? Can I get a medium latte, please? No cream, please.",
+      "tts": "Excuse me, is this the end of the line? Can I get a medium latte, please? No cream, please.",
+      "pinyin": "ex-KIOUZE mi, iz diss de ènde of de laïne ? kn aï guète e MI-dioume LA-tèï, pliize ? nô krime, pliize",
+      "pt": "Répète faire la queue, commander et ajuster la commande, tout à la suite."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i02-n07",
+      "bloco": "recap",
+      "pt": "I02 bouclée. Excuse me confirme la file, can I get commande, no ___ please retire ce que tu ne veux pas — rien de nouveau, juste le bon ordre."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin de parler fort ni de t'approcher du comptoir avant l'heure. Faire la queue et attendre en silence est exactement ce qu'on attend de toi ici — c'est l'action, pas la passivité.",
+  "permissaoAudioKey": "eua-i02-n06",
+  "espelho": "Quiconque a déjà attendu son tour dans une file droite dans n'importe quel pays sait déjà faire ça sans y penser ; la seule chose qui change ici, c'est que la file peut n'avoir ni cordon ni signal visible, et exister quand même.",
+  "aprofundar": {
+    "titulo": "La file invisible en est bien une",
+    "secoes": [
+      {
+        "titulo": "Sans cordon, mais avec un ordre",
+        "corpo": "Beaucoup de comptoirs informels aux États-Unis ne marquent pas la file avec un cordon ni un numéro, mais l'ordre d'arrivée est respecté quand même. Demander « is this the end of the line? » résout le doute sans passer devant personne."
+      },
+      {
+        "titulo": "Can I get reste la formule",
+        "corpo": "La formule pour commander est la même qu'en B11 — Can I get plus la chose. Il n'y a pas de version spéciale pour le café ; seul ce que tu commandes change."
+      },
+      {
+        "titulo": "Le prénom sur le gobelet, c'est de la logistique, pas de la conversation",
+        "corpo": "Quand on te demande le prénom pour la commande, c'est pour t'appeler quand c'est prêt, pas pour engager la conversation. Un prénom court et direct suffit."
+      }
+    ]
+  }
+}

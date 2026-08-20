@@ -1,0 +1,260 @@
+{
+  "id": "a07",
+  "slot": "A07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Signaux : bienvenue, malaise et l'heure de partir",
+  "subtitulo": "L'écran qui te demande vingt-cinq pour cent et que tu peux refuser, l'espace qu'ils gardent sans être froids, et le « il faudra se revoir un de ces jours » qui arrive rarement",
+  "cena": "L'écran de la caisse te demande vingt-cinq pour cent de pourboire pour un café servi dans un gobelet jetable, et le caissier attend que tu appuies sur quelque chose.",
+  "moldura": "ganha",
+  "frasePiso": "Un « oui, il faudrait se voir » sans date est souvent une façon aimable de conclure, pas une promesse. L'entendre ainsi ne te coûte rien et t'évite une après-midi d'attente.",
+  "fatosDatados": [
+    {
+      "id": "eua-espaco-pessoal",
+      "afirmacao": "Personal space norms in the United States tend toward more physical distance with strangers and casual acquaintances than in many other cultures — roughly an arm's length or more for everyday social interaction — and touching someone you have just met, beyond a handshake, is less common than in more contact-oriented cultures.",
+      "fonte": "Consenso antropológico sobre proxêmica (Edward T. Hall, «The Hidden Dimension»; guias de comunicação intercultural)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a07-n06"]
+    },
+    {
+      "id": "eua-convite-vago",
+      "afirmacao": "«We should hang out sometime» or «let's grab coffee sometime», said without a specific day or time, commonly functions as a warm way of ending a conversation rather than a firm commitment — it is not dishonesty, but a recognized social register.",
+      "fonte": "Consenso de fontes sobre etiqueta social estadounidense",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a07-n08"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Aujourd'hui, c'est surtout de l'écoute. Les signaux sont déjà envoyés — lis-les comme de l'information, pas des messages confus."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a07-n02",
+      "bloco": "callback",
+      "pt": "Révision d'hier. Quelqu'un te raconte son plan pour un jour férié et ça te plaît. Dis-le comme hier."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a07-p01",
+      "promptPt": "Parle maintenant.",
+      "audioKey": "eua-a07-t01",
+      "es": "That sounds like a good day, honestly.",
+      "tts": "That sounds like a good day, honestly.",
+      "pinyin": "dat saoundze laïke e goude dèï, O-nesste-li",
+      "pt": "Franchement, ça a l'air d'une bonne journée."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a07-n03",
+      "bloco": "cena",
+      "pt": "À la caisse, l'écran te demande vingt-cinq pour cent de pourboire pour un café servi dans un gobelet jetable."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a07-o01",
+      "es": "Whenever you're ready.",
+      "tts": "Whenever you're ready.",
+      "pt": "Quand tu es prêt.",
+      "pinyin": "ouène-È-veur your RÈ-di"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a07-n04",
+      "bloco": "corpo",
+      "pt": "Cet écran au comptoir, sans service à table, est nouveau même pour beaucoup d'Américains. Dire non est bien vu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a07-p02",
+      "promptPt": "Choisis ton propre montant, calmement, sans trop t'expliquer. Parle maintenant.",
+      "audioKey": "eua-a07-t02",
+      "es": "I'll just leave a couple bucks, that's plenty.",
+      "tts": "I'll just leave a couple bucks, that's plenty.",
+      "pinyin": "aïll djaste live e KA-peule bakse, dats PLENE-ti",
+      "pt": "Je vais laisser deux ou trois dollars, ça suffit largement."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a07-o02",
+      "es": "No worries at all.",
+      "tts": "No worries at all.",
+      "pt": "Aucun problème.",
+      "pinyin": "nô OUO-riz atte ole"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a07-n05",
+      "pt": "Personne ne l'a mal pris. L'écran suggère ; toi, tu décides. C'est tout le signal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a07-n06",
+      "bloco": "capsula",
+      "pt": "Maintenant le corps. Ici, on garde plus de distance qu'au Mexique, et toucher quelqu'un qu'on vient de rencontrer est moins courant."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a07-o03",
+      "receptivo": true,
+      "es": "Oh, sorry — didn't mean to get in your space!",
+      "tts": "Oh, sorry — didn't mean to get in your space!",
+      "pt": "👂 « Désolée, je ne voulais pas envahir ton espace. » Elle s'excuse pour s'être approchée d'un pas de trop. Ce n'est pas de la froideur, c'est l'habitude d'ici.",
+      "pinyin": "ô, SO-ri — DI-dente minne tou guète inne your spèïse"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a07-p03",
+      "promptPt": "Rassure-la, avec légèreté. Parle maintenant.",
+      "audioKey": "eua-a07-t03",
+      "es": "No worries, you're fine.",
+      "tts": "No worries, you're fine.",
+      "pinyin": "nô OUO-riz, your faïne",
+      "pt": "T'inquiète, c'est bon comme ça."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a07-n07",
+      "pt": "Dernier signal du jour : l'au revoir à moitié. Ça sonne comme un plan, et c'est souvent juste une façon chaleureuse de conclure."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a07-o04",
+      "receptivo": true,
+      "es": "We should totally grab coffee sometime!",
+      "tts": "We should totally grab coffee sometime!",
+      "pt": "👂 Ça pourrait arriver. Ça pourrait ne pas arriver. Le mot « sometime » porte les deux, et cette marge fait vraiment son travail.",
+      "pinyin": "oui choude TÔ-ta-li grabe KO-fi SAME-taïme"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a07-n08",
+      "bloco": "capsula",
+      "pt": "« Sometime », sans date, c'est le signal. Ne brusque pas — réponds avec chaleur, et si ça t'intéresse, demande un détail concret."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a07-p04",
+      "promptPt": "Réponds avec la même chaleur, sans rien exiger encore. Parle maintenant.",
+      "audioKey": "eua-a07-t04",
+      "es": "Yeah, that'd be great!",
+      "tts": "Yeah, that'd be great!",
+      "pinyin": "yèa, datse grèïte",
+      "pt": "Oui, ça me ferait très plaisir !"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a07-p05",
+      "promptPt": "Ça t'intéresse vraiment. Transforme le « un jour » en quelque chose de vérifiable, sans forcer. Parle maintenant.",
+      "audioKey": "eua-a07-t05",
+      "es": "Are you free later this week, actually?",
+      "tts": "Are you free later this week, actually?",
+      "pinyin": "ar you fri LÈÏ-teur diz ouik, AK-tchou-a-li",
+      "pt": "Tu es libre cette semaine, en fait ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a07-o05",
+      "es": "Let me check my schedule and I'll text you.",
+      "tts": "Let me check my schedule and I'll text you.",
+      "pt": "Laisse-moi vérifier mon agenda et je t'écris.",
+      "pinyin": "lète mi tchèke maï SKÈ-djoule annde aïll tekste you"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a07-s01",
+      "es": "I'll just leave a couple bucks. No worries, you're fine. Are you free later this week, actually?",
+      "tts": "I'll just leave a couple bucks. No worries, you're fine. Are you free later this week, actually?",
+      "pinyin": "aïll djaste live e KA-peule bakse. nô OUO-riz, your faïne. ar you fri LÈÏ-teur diz ouik, AK-tchou-a-li",
+      "pt": "Répète : décider toi-même du pourboire, rassurer sans drame, et transformer un « un jour » en quelque chose de réel."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a07-n09",
+      "bloco": "recap",
+      "pt": "A07 bouclée. L'écran suggère, toi tu décides. La distance n'est pas de la froideur. Et « sometime » sans date, c'est une conclusion, pas une promesse."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Lire le signal sans le prendre personnellement",
+    "secoes": [
+      {
+        "titulo": "L'écran de pourboire n'est pas un ordre",
+        "corpo": "Le pourcentage qui apparaît en premier sur l'écran du comptoir est une suggestion du système de paiement, pas une règle sociale — et dans un lieu sans service à table, choisir un montant plus petit ou ne rien laisser est une option légitime que beaucoup de gens exercent."
+      },
+      {
+        "titulo": "Plus de distance n'est pas moins de chaleur",
+        "corpo": "Garder un espace plus grand avec des inconnus est la norme, pas un signe que quelque chose ne va pas. Une accolade ou une main sur l'épaule avec quelqu'un qu'on vient de rencontrer peut sembler envahissant ici, même si chez toi c'est un geste de confiance."
+      },
+      {
+        "titulo": "« Sometime » fait un travail précis",
+        "corpo": "Dire « il faudrait se voir un jour » sans proposer de date est une façon reconnue et acceptée de conclure une conversation avec chaleur, sans obliger personne à rien. Ce n'est ni un mensonge ni un désintérêt — c'est simplement le son d'un au revoir amical en anglais décontracté."
+      },
+      {
+        "titulo": "Si ça t'intéresse vraiment, demande le détail",
+        "corpo": "Demander un jour précis, ce n'est pas insister : c'est la seule façon de distinguer une conclusion chaleureuse d'une vraie invitation, et la plupart des gens le reçoivent bien parce que ça montre un intérêt sincère, pas de la méfiance."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de décider toi-même combien laisser au comptoir, sans explication ni excuse. Et c'est aussi normal d'utiliser toi-même « il faudrait se voir un jour » quand tu veux conclure quelque chose avec chaleur sans t'engager sur une date — c'est le registre poli, pas une esquive.",
+  "permissaoAudioKey": "eua-a07-n04",
+  "espelho": "Tu fais déjà exactement ça dans ta propre langue — « il faudra qu'on se voie », « je t'appelle quand je peux ». Là non plus, personne ne s'y trompe. La seule différence ici, c'est quelles phrases portent la fonction, et que c'est maintenant à toi de les recevoir dans une langue que tu ne maîtrises pas encore complètement.",
+  "fichasCulturais": [
+    {
+      "sinal": "L'écran du comptoir te demande vingt, vingt-cinq ou trente pour cent de pourboire pour une commande à emporter, sans service à table.",
+      "suaLeitura": "Si je ne choisis pas un de ces chiffres, je vais avoir l'air radin ou impoli.",
+      "oQueEAli": "Le pourcentage initial proposé par l'écran est un réglage du système de paiement, et beaucoup d'Américains le trouvent aussi excessif dans les comptoirs sans service à table — choisir un montant inférieur ou « pas de pourboire » y est une option normale, pas un manque de respect.",
+      "oQueVoceFaz": "Choisis le montant que tu veux laisser, calmement, sans donner d'explication ni t'excuser.",
+      "oQueMelhora": "Tu paies ce que tu veux vraiment payer, sans la pression d'un écran conçu pour demander plus.",
+      "ondeNaoVale": "Pas dans un restaurant avec service à table complet, où le pourboire est vraiment la façon dont le serveur est payé et où quinze pour cent ou moins signale que quelque chose s'est mal passé.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a07-n04"]
+    },
+    {
+      "sinal": "Quelqu'un s'excuse de s'être trop approché, ou garde une distance qui te semble froide pour une conversation amicale.",
+      "suaLeitura": "Cette personne ne veut pas être proche de moi.",
+      "oQueEAli": "La distance physique attendue entre inconnus et connaissances occasionnelles est plus grande ici que dans beaucoup d'endroits en France, et elle ne mesure pas à quel point tu lui plais — c'est simplement l'espace dans lequel les gens conversent confortablement.",
+      "oQueVoceFaz": "Respecte l'espace au lieu de le combler toi-même, et garde la chaleur dans la voix et le visage plutôt que dans le contact physique.",
+      "oQueMelhora": "L'autre personne se sent à l'aise et la conversation coule, au lieu qu'elle sente que tu as envahi son espace sans le vouloir.",
+      "ondeNaoVale": "Ça ne s'applique pas entre amis proches ou en famille, où le contact physique — une accolade pour se saluer, une main sur l'épaule — est tout à fait normal, comme en France.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a07-n06"]
+    }
+  ]
+}

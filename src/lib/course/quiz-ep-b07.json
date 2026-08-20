@@ -1,0 +1,79 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Le canal avant la voiture",
+  "subtitulo": "Can I pour payer, demander le reçu et s'arrêter au bon endroit",
+  "introAudioKey": "eua-b07-q-i",
+  "introPt": "Tu as déjà choisi le transport autorisé et tu es en route vers l'hôtel. Écoute le court échange et remarque ce qui change et ce qui reste pareil dans la formule.",
+  "cenario": "Dans la voiture autorisée, en route de l'aéroport à l'hôtel.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b07-q01",
+      "voz": "target_en_f",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "kn aï pèï baï karde",
+      "pt": "Je peux payer par carte ?"
+    },
+    {
+      "audioKey": "eua-b07-q02",
+      "voz": "target_en_m",
+      "es": "Yes, card or app, either works.",
+      "tts": "Yes, card or app, either works.",
+      "pinyin": "yèsse, karde or ape, I-deur oueurkse",
+      "pt": "Oui, carte ou appli, les deux marchent."
+    },
+    {
+      "audioKey": "eua-b07-q03",
+      "voz": "target_en_f",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "kn aï guète e ri-SITE",
+      "pt": "Je peux avoir un reçu ?"
+    },
+    {
+      "audioKey": "eua-b07-q04",
+      "voz": "target_en_m",
+      "es": "Sure, I'll send it to your email.",
+      "tts": "Sure, I'll send it to your email.",
+      "pinyin": "choure, aïll sènde itte tou your I-mèïle",
+      "pt": "Bien sûr, je vous l'envoie par email."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qu'est-ce qui reste pareil dans la formule « Can I ___? » d'une demande à l'autre ?",
+      "opcoes": ["Le lieu", "L'action", "« Can I »", "La réponse"],
+      "correta": 2,
+      "explica": "« Can I » ouvre la formule ; seule l'action que tu demandes change."
+    },
+    {
+      "pergunta": "Pourquoi vaut-il mieux ignorer la première offre de transport qui t'interpelle sur le trottoir des arrivées ?",
+      "opcoes": [
+        "Parce que c'est toujours une arnaque",
+        "Parce que ce n'est presque jamais le canal autorisé, qui est en général loin de la porte",
+        "Parce que c'est impoli de répondre",
+        "Parce que c'est plus cher"
+      ],
+      "correta": 1,
+      "explica": "Le transport autorisé ou le point de l'appli n'est presque jamais juste à la porte des arrivées."
+    },
+    {
+      "pergunta": "À quoi sert de demander le reçu avant de descendre de la voiture ?",
+      "opcoes": [
+        "Pour négocier le prix",
+        "Comme preuve du trajet effectué, pas comme confrontation",
+        "C'est obligatoire par la loi dans tous les cas",
+        "Pour noter le chauffeur"
+      ],
+      "correta": 1,
+      "explica": "Le reçu conclut le trajet et sert à garder trace de la dépense, sans être une confrontation."
+    },
+    {
+      "pergunta": "Quelle formule naît dans cette partie et reviendra plus tard dans le cours ?",
+      "opcoes": ["Do you have ___?", "Where's the ___?", "Can I ___?", "How much is ___?"],
+      "correta": 2,
+      "explica": "« Can I ___? » naît ici, sur le trajet de l'aéroport à l'hôtel, et revient avec de nouvelles actions plus tard."
+    }
+  ]
+}

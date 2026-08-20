@@ -1,0 +1,295 @@
+{
+  "id": "b06",
+  "slot": "B06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "2B",
+  "titulo": "Les soixante premières minutes, une par une",
+  "subtitulo": "Valise, réseau, argent, toilettes et point de rendez-vous avant de quitter la salle",
+  "cena": "Le tapis à bagages a déjà arrêté de tourner, ta valise n'est pas sortie, et la personne au badge de la compagnie aérienne est à vingt mètres et ne vient pas vers toi.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas boucler les soixante premières minutes sans une seule phrase de trop. La plupart des gens traversent cette salle le téléphone à la main et la tête en nœud.",
+  "moldes": ["HAVE"],
+  "clique": {
+    "contagem": [
+      "le comptoir d'information",
+      "le stand de cartes SIM",
+      "la petite boutique de l'aéroport",
+      "le point de rendez-vous"
+    ],
+    "desconto": "Personne ne t'a appris une phrase pour le wifi, une autre pour les toilettes, une autre pour le distributeur et une autre pour la carte SIM. Tu as construit les quatre avec une seule formule, en changeant juste la chose dont tu avais besoin.",
+    "piso": "La prochaine fois que tu atterris dans un nouveau pays, tu ne traverseras pas la salle avec cinq points en tête : tu les régleras un par un, en commençant par celui qui ne peut pas attendre."
+  },
+  "permissao": "Tu n'as pas besoin d'une phrase différente pour chaque comptoir de cette salle. « Do you have » plus la chose est déjà une question complète dans tout le bâtiment, et personne ne note comment tu l'as dite.",
+  "permissaoAudioKey": "eua-b06-n06",
+  "espelho": "Quiconque arrive dans un aéroport inconnu dans son propre pays fait déjà ce tri sans y penser — valise, réseau, argent, les petits trucs — la seule nouveauté ici, c'est de le faire en quatre mots qui commencent pareil.",
+  "fichasCulturais": [
+    {
+      "sinal": "La personne de la compagnie aérienne ou du comptoir te lance « Hi, how are you? » en train déjà de prendre tes papiers, sans vraiment attendre la réponse.",
+      "suaLeitura": "Elle me demande comment je vais ; je devrais lui raconter que le vol a été long ou que je suis fatigué.",
+      "oQueEAli": "C'est l'ouverture obligatoire de presque toute interaction de service aux États-Unis. La réponse attendue est courte et renvoie la question ; ce n'est pas de l'intérêt pour ta journée.",
+      "oQueVoceFaz": "Tu réponds « Good, thanks. How are you? » et tu continues.",
+      "oQueMelhora": "L'interaction démarre comme celle d'un habitué et tu gagnes la seconde de sympathie qui ouvre tout le reste.",
+      "ondeNaoVale": "Ça ne s'applique pas quand on te demande vraiment : un médecin, un ami, quelqu'un qui te connaît. Là, « how are you? » est une vraie question et une réponse d'un seul mot sonne froid.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b06-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Partie six. Le poing marque la syllabe forte de l'anglais, une par mot : WI-fi, RE-stroom, CHAR-ger."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b06-n02",
+      "bloco": "cena",
+      "pt": "Le tapis vient de s'arrêter, ta valise n'est pas sortie, et la personne au badge est loin. D'abord ce qui ne peut pas attendre."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b06-p01",
+      "promptPt": "Les douanes encore, la même question qu'hier : combien de temps tu restes et pourquoi tu viens. Réponds que tu es en vacances. Parle maintenant.",
+      "bloco": "callback",
+      "audioKey": "eua-b06-t01",
+      "es": "I'm here on vacation.",
+      "tts": "I'm here on vacation.",
+      "pinyin": "aïme jir onne vè-KÈÏ-chonne",
+      "pt": "Je suis en vacances."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b06-n03",
+      "bloco": "corpo",
+      "pt": "La première heure a un ordre : valise, réseau, argent, toilettes, point de rendez-vous. Le transport vient à la fin."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b06-n04",
+      "bloco": "molde",
+      "pt": "Voici la formule : tu demandes si l'endroit a quelque chose. « Do you have » et la chose. Tu changes seulement ce que tu cherches."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b06-t02",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you jav OUAÏ-faï",
+      "pt": "Vous avez le wifi ?"
+    },
+    {
+      "consulta": ["chegar/conexao"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "wifi",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p02",
+      "promptPt": "Ta eSIM est activée mais les données ne passent pas. Au comptoir d'information, demande s'il y a du réseau là-bas. Parle maintenant.",
+      "audioKey": "eua-b06-t02",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you jav OUAÏ-faï",
+      "pt": "Vous avez le wifi ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b06-r01",
+      "es": "Yes, the network's on the sign.",
+      "tts": "Yes, the network's on the sign.",
+      "pinyin": "yèsse, de NÈTE-oueurke onne de saïne",
+      "pt": "Oui, le réseau est sur le panneau."
+    },
+    {
+      "consulta": ["chegar/banheiro"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a restroom",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p03",
+      "promptPt": "Tu es assis dans l'avion depuis deux heures et la première chose que ton corps réclame, ce sont les toilettes. Demande si l'endroit en a. Parle maintenant.",
+      "audioKey": "eua-b06-t03",
+      "es": "Do you have a restroom?",
+      "tts": "Do you have a restroom?",
+      "pinyin": "dou you jav e RÈSTE-roume",
+      "pt": "Vous avez des toilettes ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b06-r02",
+      "es": "Sure, around the corner past the shops.",
+      "tts": "Sure, around the corner past the shops.",
+      "pinyin": "choure, e-RAOUNDE de KOR-neur paste de chopse",
+      "pt": "Bien sûr, au coin, après les boutiques."
+    },
+    {
+      "consulta": ["pagar/caixa", "chegar/dinheiro"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "an ATM",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p04",
+      "promptPt": "Tu n'as que ta carte et tu veux un peu de liquide avant de sortir. Demande s'il y en a un dans le coin. Parle maintenant.",
+      "audioKey": "eua-b06-t04",
+      "es": "Do you have an ATM?",
+      "tts": "Do you have an ATM?",
+      "pinyin": "dou you jav ane èï-ti-ÈME",
+      "pt": "Vous avez un distributeur ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b06-r03",
+      "es": "There's one right by the exit.",
+      "tts": "There's one right by the exit.",
+      "pinyin": "dèrze ouanne raïte baï de ÈK-site",
+      "pt": "Il y en a un juste à côté de la sortie."
+    },
+    {
+      "consulta": ["chegar/conexao"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a charger",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p05",
+      "promptPt": "Ton téléphone est presque mort et tu vois une prise libre. Demande si le comptoir a de quoi le charger. Parle maintenant.",
+      "audioKey": "eua-b06-t05",
+      "es": "Do you have a charger?",
+      "tts": "Do you have a charger?",
+      "pinyin": "dou you jav e TCHAR-jeur",
+      "pt": "Vous avez un chargeur ?"
+    },
+    {
+      "consulta": ["chegar/conexao"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a SIM card",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p06",
+      "promptPt": "L'eSIM n'a pas marché. Au stand de cartes SIM de l'aéroport, demande s'ils en ont une physique. Parle maintenant.",
+      "audioKey": "eua-b06-t06",
+      "es": "Do you have a SIM card?",
+      "tts": "Do you have a SIM card?",
+      "pinyin": "dou you jav e SIME karde",
+      "pt": "Vous avez une carte SIM ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b06-r04",
+      "es": "Prepaid or monthly?",
+      "tts": "Prepaid or monthly?",
+      "pinyin": "pri-PÈÏDE or MANNE-thli",
+      "pt": "Prépayée ou forfait mensuel ?"
+    },
+    {
+      "consulta": ["compras/tienda"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "water",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p07",
+      "promptPt": "Il fait chaud et tu veux juste boire quelque chose. Dans la petite boutique de l'aéroport, demande s'ils en ont. Parle maintenant.",
+      "audioKey": "eua-b06-t07",
+      "es": "Do you have water?",
+      "tts": "Do you have water?",
+      "pinyin": "dou you jav OUA-teur",
+      "pt": "Vous avez de l'eau ?"
+    },
+    {
+      "consulta": ["chegar/bagagem"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "a luggage cart",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b06-p08",
+      "promptPt": "Tu as deux valises et tu ne peux pas tout porter. Tu ne connais pas le mot exact pour le chariot ; essaie quand même avec la formule. Parle maintenant.",
+      "audioKey": "eua-b06-t08",
+      "es": "Do you have a luggage cart?",
+      "tts": "Do you have a luggage cart?",
+      "pinyin": "dou you jav e LA-guidje karte",
+      "pt": "Vous avez un chariot ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b06-n05",
+      "bloco": "capsula",
+      "pt": "La personne du comptoir lance « how are you? » sans te regarder. Ce n'est pas une question : c'est un salut. Réponds court."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b06-n06",
+      "bloco": "permissao",
+      "pt": "Pas besoin d'une phrase par comptoir. « Do you have » plus la chose est déjà une question complète, peu importe comment ça sort."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b06-n07",
+      "bloco": "clique",
+      "pt": "Wifi, toilettes, distributeur, carte SIM. Personne ne t'a donné quatre phrases : une seule formule."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b06-s01",
+      "es": "Do you have wifi? Do you have a restroom? Do you have an ATM?",
+      "tts": "Do you have wifi? Do you have a restroom? Do you have an ATM?",
+      "pinyin": "dou you jav OUAÏ-faï ? dou you jav e RÈSTE-roume ? dou you jav ane èï-ti-ÈME ?",
+      "pt": "Répète la même formule avec trois choses différentes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b06-n08",
+      "bloco": "recap",
+      "pt": "B06 bouclée. Valise, réseau, argent, toilettes, point de rendez-vous : cinq points réglés avec une formule."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Une formule, une demi-douzaine de comptoirs",
+    "secoes": [
+      {
+        "titulo": "Le motif ouvert",
+        "corpo": "Tu laisses fixe « Do you have » et tu changes seulement la chose dont tu as besoin. Le mot ne se conjugue pas et ne change pas de forme en entrant ; c'est pourquoi le travail n'est pas de construire la phrase, mais de la dire : le « v » de have et la chose claire.",
+        "exemplos": [
+          { "es": "Do you have wifi?", "pt": "Vous avez le wifi ?" },
+          { "es": "Do you have a restroom?", "pt": "Vous avez des toilettes ?" },
+          { "es": "Do you have a charger?", "pt": "Vous avez un chargeur ?" }
+        ]
+      },
+      {
+        "titulo": "On dit « restroom » ou « bathroom », jamais « toilet »",
+        "corpo": "Dans un lieu public, les toilettes se disent « restroom » (ou « bathroom »). « Toilet » aux États-Unis désigne la cuvette, pas la pièce, et sonne cru. Avec la formule : « Do you have a restroom? »."
+      },
+      {
+        "titulo": "« How are you? » est un salut",
+        "corpo": "La personne du comptoir le dit comme « bonjour », pas comme une question. Tu réponds court — « Good, thanks » — et tu renvoies — « How are you? ». Raconter ton voyage à ce moment-là est de trop ; l'intérêt réel vient après, s'il vient."
+      },
+      {
+        "titulo": "Le transport, c'est la suite",
+        "corpo": "B06 se termine à un point de rendez-vous stable et identifié. Choisir et confirmer le transfert, c'est B07, pour que les deux décisions ne se mélangent pas à la porte."
+      }
+    ]
+  }
+}

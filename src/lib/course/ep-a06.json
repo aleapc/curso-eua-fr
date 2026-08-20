@@ -1,0 +1,245 @@
+{
+  "id": "a06",
+  "slot": "A06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "Leur calendrier",
+  "subtitulo": "Onze jours où le gouvernement ferme, un jeudi où presque tout ferme, et un vendredi où les gens font la queue dès cinq heures du matin",
+  "cena": "Tu avais prévu le musée pour lundi, et la personne à l'entrée a déjà la tête de quelqu'un qui va devoir t'expliquer pourquoi c'est fermé.",
+  "moldura": "ganha",
+  "frasePiso": "Deux questions avant de planifier quoi que ce soit — c'est un jour férié ? et vous, vous ouvrez ? — t'achètent tout le calendrier sans mémoriser une seule date.",
+  "fatosDatados": [
+    {
+      "id": "eua-feriados-federais",
+      "afirmacao": "The United States observes eleven federal holidays, on which government offices, banks and postal service close: New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Memorial Day, Juneteenth, Independence Day (July 4), Labor Day, Columbus Day, Veterans Day, Thanksgiving and Christmas. Most private stores stay open on all of these except Thanksgiving and Christmas.",
+      "fonte": "U.S. Office of Personnel Management — calendário oficial de feriados federais",
+      "ano": 2026,
+      "revisarAte": "2027-01-15",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": ["eua-a06-n04"]
+    },
+    {
+      "id": "eua-thanksgiving-black-friday",
+      "afirmacao": "Thanksgiving falls on the fourth Thursday of November, is one of the heaviest domestic travel periods of the year, and closes nearly all businesses; the following day, Black Friday, is the traditional start of the holiday shopping season, with many stores opening before dawn for major sales.",
+      "fonte": "Consenso de fontes sobre feriados e comércio nos EUA (AAA — previsões de viagem de Ação de Graças; cobertura de imprensa sobre Black Friday)",
+      "ano": 2026,
+      "revisarAte": "2027-01-15",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a06-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Tu ne vas pas mémoriser le calendrier des États-Unis. Tu vas apprendre deux questions qui font parler le calendrier tout seul."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a06-n02",
+      "bloco": "callback",
+      "pt": "Révision d'hier. On t'a proposé le menu en espagnol et tu as préféré continuer en anglais. Redis-le, avec chaleur."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a06-p01",
+      "promptPt": "Parle maintenant.",
+      "audioKey": "eua-a06-t01",
+      "es": "English is great, thanks.",
+      "tts": "English is great, thanks.",
+      "pinyin": "INNE-glich iz grèïte, thanxe",
+      "pt": "L'anglais, c'est parfait, merci."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a06-n03",
+      "bloco": "cena",
+      "pt": "Tu avais prévu le musée pour lundi. La personne à l'entrée a la tête de quelqu'un qui va devoir t'expliquer quelque chose."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a06-o01",
+      "es": "Sorry, we're closed today — it's Presidents' Day.",
+      "tts": "Sorry, we're closed today — it's Presidents' Day.",
+      "pt": "Désolé, on est fermé aujourd'hui — c'est le Presidents' Day.",
+      "pinyin": "SO-ri, ouir klôouzde tou-DÈÏ — itse PRÈ-zi-dentse dèï"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a06-n04",
+      "bloco": "corpo",
+      "pt": "Onze jours fériés fédéraux par an. Ça ferme le gouvernement, les banques, la poste. La plupart des magasins restent ouverts."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a06-p02",
+      "promptPt": "Avant de changer tout le plan, demande quelque chose de plus proche et concret. Parle maintenant.",
+      "audioKey": "eua-a06-t02",
+      "es": "Is the mall open today?",
+      "tts": "Is the mall open today?",
+      "pinyin": "iz de môle Ô-peune tou-DÈÏ",
+      "pt": "Le centre commercial est ouvert aujourd'hui ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a06-o02",
+      "es": "Yeah, everything's open except government stuff.",
+      "tts": "Yeah, everything's open except government stuff.",
+      "pt": "Oui, tout est ouvert, sauf les trucs du gouvernement.",
+      "pinyin": "yèa, ÈVE-ri-thingze Ô-peune ek-SÈPTE GA-veurne-mente stafe"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a06-n05",
+      "pt": "Cette seconde moitié n'arrive que si tu demandes. Le calendrier officiel et le calendrier réel ne sont pas la même liste."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a06-n06",
+      "bloco": "capsula",
+      "pt": "La grande exception, c'est Thanksgiving : le quatrième jeudi de novembre. Ce jour-là, presque tout ferme vraiment."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a06-o03",
+      "es": "We're closed Thursday for Thanksgiving, but doors open at five a.m. Friday for the sale.",
+      "tts": "We're closed Thursday for Thanksgiving, but doors open at five a.m. Friday for the sale.",
+      "pt": "On est fermé jeudi pour Thanksgiving, mais les portes ouvrent à cinq heures du matin vendredi pour les soldes.",
+      "pinyin": "ouir klôouzde theurze-DÈÏ for thanxe-GUI-vigne, batte dôrze Ô-peune atte faïve èï ème FRAÏ-dèï for de sèïle"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a06-p03",
+      "promptPt": "Cinq heures du matin t'a vraiment surpris. Dis-le. Parle maintenant.",
+      "audioKey": "eua-a06-t03",
+      "es": "Five in the morning? People actually line up for that?",
+      "tts": "Five in the morning? People actually line up for that?",
+      "pinyin": "faïve inne de MOR-nigne ? PI-peule AK-tchou-a-li laïne appe for dat",
+      "pt": "Cinq heures du matin ? Les gens font vraiment la queue pour ça ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a06-o04",
+      "es": "Oh, absolutely. It's basically a sport around here.",
+      "tts": "Oh, absolutely. It's basically a sport around here.",
+      "pt": "Oh, absolument. Ici, c'est presque un sport.",
+      "pinyin": "ô, ABE-so-lioute-li. itse BÈÏ-zi-kli e sporte e-RAOUNDE jir"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a06-p04",
+      "promptPt": "Ce jeudi t'intéresse plus, en tant que personne, que le vendredi des soldes. Demande ce qu'il fait ce jour-là. Parle maintenant.",
+      "audioKey": "eua-a06-t04",
+      "es": "So, what do you do for Thanksgiving?",
+      "tts": "So, what do you do for Thanksgiving?",
+      "pinyin": "sô, ouatte dou you dou for thanxe-GUI-vigne",
+      "pt": "Et alors, toi, tu fais quoi pour Thanksgiving ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a06-o05",
+      "es": "Whole family comes over, way too much food, everybody falls asleep by eight.",
+      "tts": "Whole family comes over, way too much food, everybody falls asleep by eight.",
+      "pt": "Toute la famille vient, beaucoup trop de nourriture, et tout le monde s'endort avant huit heures.",
+      "pinyin": "jôole FA-mi-li kamze Ô-veur, ouèï tou match foude, ÈVE-ri-ba-di folze e-SLIPE baï èïte"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a06-p05",
+      "promptPt": "Ça a l'air agréable, comme journée. Dis-le. Parle maintenant.",
+      "audioKey": "eua-a06-t05",
+      "es": "That sounds like a good day, honestly.",
+      "tts": "That sounds like a good day, honestly.",
+      "pinyin": "dat saoundze laïke e goude dèï, O-nesste-li",
+      "pt": "Franchement, ça a l'air d'une bonne journée."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a06-s01",
+      "es": "Is the mall open today? Five in the morning? So, what do you do for Thanksgiving?",
+      "tts": "Is the mall open today? Five in the morning? So, what do you do for Thanksgiving?",
+      "pinyin": "iz de môle Ô-peune tou-DÈÏ. faïve inne de MOR-nigne. sô, ouatte dou you dou for thanxe-GUI-vigne",
+      "pt": "Répète les deux questions de planification et celle qui te vaut une invitation."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a06-n08",
+      "bloco": "recap",
+      "pt": "A06 bouclée. Demande si c'est férié, s'ils ouvrent, et ce qu'ils font ce jour-là. Ça déjoue n'importe quelle fermeture."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Deux listes qui ne coïncident pas",
+    "secoes": [
+      {
+        "titulo": "Les jours fériés officiels sont peu nombreux",
+        "corpo": "Seulement onze dates par an ferment le gouvernement fédéral, les banques et la poste. C'est la liste courte, et c'est la seule qui garantit vraiment des portes fermées dans tout le pays."
+      },
+      {
+        "titulo": "Le commerce ne suit presque jamais cette liste",
+        "corpo": "Avec deux exceptions — Thanksgiving et Noël — la plupart des magasins et restaurants ouvrent normalement, même un jour où le gouvernement est en congé. Un panneau « fermé pour jour férié » sur un petit commerce est presque toujours une décision du propriétaire, pas de la loi."
+      },
+      {
+        "titulo": "Thanksgiving, la grande fermeture",
+        "corpo": "Le quatrième jeudi de novembre est l'une des périodes de trafic les plus intenses de l'année et ferme presque tout, vraiment. Le vendredi suivant, Black Friday, en est l'exact contrepoint : magasins ouverts avant l'aube pour les plus grosses soldes de l'année."
+      },
+      {
+        "titulo": "Demande au lieu, pas au pays",
+        "corpo": "« C'est férié ? » te donne la règle nationale. « Vous, vous ouvrez ? » te donne la réponse dont tu avais vraiment besoin, parce que chaque commerce décide pour lui-même et ferme souvent à des dates qui n'apparaissent sur aucune liste officielle."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de planifier autour d'un jour férié plutôt que de t'y jeter à fond. Sauter le vendredi des soldes à cinq heures du matin, ce n'est pas rater quelque chose — beaucoup de gens font exactement ce calcul chaque année, et ceux qui y vont savent que ce sera bondé.",
+  "permissaoAudioKey": "eua-a06-n07",
+  "espelho": "Quiconque a déjà vu un visiteur étranger arriver en attendant un service normal un jour férié national de son propre pays connaît ça de l'autre côté — l'information était publique, elle n'était juste pas dans le guide qu'il avait apporté. La solution est la même dans les deux sens : demande à quelqu'un du coin avant de faire le plan.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu vérifies qu'une date n'est pas dans la liste officielle des jours fériés, tu planifies en fonction de ça, et tu trouves quand même l'endroit fermé.",
+      "suaLeitura": "L'information que j'avais trouvée était fausse, ou cet endroit n'est pas fiable.",
+      "oQueEAli": "Les États-Unis ont deux calendriers qui ne se croisent pas : la liste courte des jours fériés fédéraux, et une liste bien plus longue de dates réellement observées — surtout Thanksgiving et Noël — qui ferment des commerces sans figurer dans aucune loi.",
+      "oQueVoceFaz": "Demande à une personne, pas à une liste, et demande deux fois : si c'est férié, et si eux, précisément, vont ouvrir.",
+      "oQueMelhora": "Tu obtiens la réponse réelle pour l'endroit exact où tu vas, la seule réponse qui allait vraiment te servir.",
+      "ondeNaoVale": "Ça ne s'applique pas de la même façon aux grands hôtels, aux aéroports et aux chaînes conçues pour les voyageurs, qui ouvrent en général les jours fériés — le décalage frappe surtout les petits commerces, les musées et les bureaux du gouvernement.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a06-n05"]
+    },
+    {
+      "sinal": "Quelqu'un te décrit avec enthousiasme comment il fait la queue dès cinq heures du matin pour les soldes de Black Friday, et ça te paraît excessif.",
+      "suaLeitura": "C'est du pur consumérisme incontrôlé, et je devrais dire quelque chose à ce sujet.",
+      "oQueEAli": "Pour beaucoup de gens, Black Friday est presque autant une tradition sociale qu'un achat — sortir en famille après Thanksgiving, l'excitation de la queue — pas seulement une transaction, même si ça peut sembler n'être que ça à un visiteur.",
+      "oQueVoceFaz": "Pose des questions avec une curiosité sincère plutôt que de juger : ce qu'ils cherchent à acheter, s'ils y vont toujours, comment est la queue.",
+      "oQueMelhora": "Tu découvres le côté humain de la tradition au lieu de rester à la surface que tu vois dans les nouvelles.",
+      "ondeNaoVale": "Ce n'est pas une règle contre le fait d'avoir des avis sur le consumérisme en général — c'est spécifiquement sur le fait de ne pas transformer le récit enthousiaste d'un hôte en sermon qu'il n'a pas demandé.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a06-n06"]
+    }
+  ]
+}

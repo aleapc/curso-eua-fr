@@ -1,0 +1,82 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — L'autre langue",
+  "subtitulo": "De l'espagnol partout et un mot régional dit avec honnêteté",
+  "introAudioKey": "eua-a05-q-i",
+  "introPt": "Une serveuse te propose le menu en espagnol avant que tu dises quoi que ce soit. Écoute l'échange et réponds.",
+  "cenario": "Un diner au Texas.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a05-q01",
+      "voz": "target_en_f",
+      "es": "Would you like the menu in English or Spanish, hon?",
+      "tts": "Would you like the menu in English or Spanish, hon?",
+      "pt": "Tu veux le menu en anglais ou en espagnol, mon cœur ?"
+    },
+    {
+      "audioKey": "eua-a05-q02",
+      "voz": "target_en_f",
+      "es": "English is great, thanks — I'm actually trying to practice.",
+      "tts": "English is great, thanks — I'm actually trying to practice.",
+      "pt": "L'anglais, c'est parfait, merci — en fait j'essaie de pratiquer."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "L'espagnol est-il une langue officielle des États-Unis ?",
+      "opcoes": [
+        "Oui, avec l'anglais",
+        "Non, et en fait aucune langue n'est officielle au niveau fédéral",
+        "Seulement au Texas",
+        "Oui, mais depuis peu seulement"
+      ],
+      "correta": 1,
+      "explica": "Les États-Unis n'ont pas de langue officielle fédérale ; l'anglais domine par habitude, pas par la loi."
+    },
+    {
+      "pergunta": "Une serveuse te parle en espagnol dès qu'elle te voit. Qu'est-ce que c'est, selon cette partie ?",
+      "opcoes": [
+        "Un jugement sur ton niveau d'anglais",
+        "Un geste de courtoisie et de service",
+        "Une erreur de la serveuse",
+        "Quelque chose qui n'arrive que dans les aéroports"
+      ],
+      "correta": 1,
+      "explica": "Proposer un service en espagnol est en général de la gentillesse, pas une évaluation de ton anglais."
+    },
+    {
+      "pergunta": "Que signifie « wicked good » à Boston ?",
+      "opcoes": [
+        "Que quelque chose est méchant",
+        "Que quelque chose est très bien — « wicked » fonctionne comme intensificateur",
+        "Une façon de dire au revoir",
+        "Un type de nourriture"
+      ],
+      "correta": 1,
+      "explica": "À Boston, « wicked » s'utilise comme « super » ou « très », pas dans son sens littéral."
+    },
+    {
+      "pergunta": "Tu as utilisé « y'all » pour la première fois et on te félicite. Quelle est la réponse honnête ?",
+      "opcoes": [
+        "Laisser croire que tu parles comme un Texan",
+        "« Just the one word, but I wanted to get it right »",
+        "Ne rien dire",
+        "Changer de sujet"
+      ],
+      "correta": 1,
+      "explica": "Dire que c'était juste un mot, bien dit, préserve l'effort et l'honnêteté ensemble."
+    },
+    {
+      "pergunta": "Quelle région utilise « y'all » comme le « vous » du quotidien ?",
+      "opcoes": [
+        "Le Nord-Est",
+        "Le Sud",
+        "La côte Ouest",
+        "Seulement New York"
+      ],
+      "correta": 1,
+      "explica": "« Y'all » est la forme plurielle de « you » dans le Sud des États-Unis."
+    }
+  ]
+}

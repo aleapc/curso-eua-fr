@@ -1,0 +1,258 @@
+{
+  "id": "b09",
+  "slot": "B09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "3B",
+  "titulo": "Billet, règle, véhicule, dans cet ordre",
+  "subtitulo": "Confirme la destination, achète le billet, découvre la règle de ta carte et confirme le véhicule avant de monter",
+  "cena": "Le billet est déjà dans ta main, encore tiède de la machine, et il ne t'a toujours rien dit sur la seule règle qui décide s'il fonctionne vraiment.",
+  "moldura": "ganha",
+  "frasePiso": "Un billet ne sert à rien tant que tu ne sais pas où il va et ce que tu dois faire avant de monter.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Pas de système de transport unique : chaque ville a le sien. Ta séquence ne change pas : destination, billet, règle, quai, véhicule."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "ticket machine",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b09-p00",
+      "promptPt": "Tu descends du métro et tu dois d'abord acheter ton billet. Demande où est la machine. Parle maintenant.",
+      "audioKey": "eua-b09-x0",
+      "es": "Where's the ticket machine?",
+      "tts": "Where's the ticket machine?",
+      "pinyin": "ouèrze de TI-quète ma-CHINE",
+      "pt": "Où est le distributeur de billets ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-t01",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "daze diss trèïne gôou daoune-TAOUNE",
+      "pt": "Ce train va au centre-ville ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b09-p01",
+      "promptPt": "Avant d'acheter quoi que ce soit, confirme si ce service va au centre-ville. Parle maintenant.",
+      "audioKey": "eua-b09-t01",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "daze diss trèïne gôou daoune-TAOUNE",
+      "pt": "Ce train va au centre-ville ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r01",
+      "es": "Yes, but you'll need to transfer once.",
+      "tts": "Yes, but you'll need to transfer once.",
+      "pinyin": "yèsse, batte youll nide tou TRANSSE-feur ouance",
+      "pt": "Oui, mais vous devrez faire une correspondance."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b09-n02",
+      "bloco": "corpo",
+      "pt": "Achète en pensant à la destination, pas à un mot fixe de tarif : chaque ville appelle son billet différemment."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b09-p02",
+      "promptPt": "Au guichet avec du personnel, demande un billet pour le centre-ville. Parle maintenant.",
+      "audioKey": "eua-b09-t02",
+      "es": "One ticket downtown, please.",
+      "tts": "One ticket downtown, please.",
+      "pinyin": "ouanne TI-quète daoune-TAOUNE, pliize",
+      "pt": "Un billet pour le centre-ville, s'il vous plaît."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r02",
+      "es": "Here you go.",
+      "tts": "Here you go.",
+      "pinyin": "jir you gô",
+      "pt": "Voilà."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b09-n03",
+      "bloco": "molde",
+      "pt": "Billet en main, règle encore inconnue. Do I need to demande l'obligation, quelle que soit l'action."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-t03",
+      "es": "Do I need to tap this card?",
+      "tts": "Do I need to tap this card?",
+      "pinyin": "dou aï nide tou tape diss karde",
+      "pt": "Je dois badger cette carte ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b09-p03",
+      "promptPt": "Tu as déjà le billet, mais il y a un lecteur avant le quai. Demande si tu dois le badger. Parle maintenant.",
+      "audioKey": "eua-b09-t03",
+      "es": "Do I need to tap this card?",
+      "tts": "Do I need to tap this card?",
+      "pinyin": "dou aï nide tou tape diss karde",
+      "pt": "Je dois badger cette carte ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r03",
+      "es": "Yes, right there at the gate.",
+      "tts": "Yes, right there at the gate.",
+      "pinyin": "yèsse, raïte dère atte de guèïte",
+      "pt": "Oui, juste là au portillon."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "platform",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b09-p04",
+      "promptPt": "Le billet est déjà validé, mais tu as encore besoin du bon quai. Demande où il se trouve. Parle maintenant.",
+      "audioKey": "eua-b09-t04",
+      "es": "Where's the platform?",
+      "tts": "Where's the platform?",
+      "pinyin": "ouèrze de PLATE-forme",
+      "pt": "Où est le quai ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r04",
+      "es": "Down these stairs, to your right.",
+      "tts": "Down these stairs, to your right.",
+      "pinyin": "daoune diz stère, tou your raïte",
+      "pt": "En bas de ces escaliers, sur votre droite."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b09-n04",
+      "bloco": "capsula",
+      "pt": "Même formule, autre action : tu sais déjà qu'il y a une correspondance, maintenant demande si elle s'applique à ton trajet."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b09-p05",
+      "promptPt": "Sur le quai, demande si tu dois faire la correspondance pour arriver au centre-ville. Parle maintenant.",
+      "audioKey": "eua-b09-t05",
+      "es": "Do I need to transfer?",
+      "tts": "Do I need to transfer?",
+      "pinyin": "dou aï nide tou TRANSSE-feur",
+      "pt": "Je dois faire une correspondance ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r05",
+      "es": "Yes, one stop from here.",
+      "tts": "Yes, one stop from here.",
+      "pinyin": "yèsse, ouanne stope from jir",
+      "pt": "Oui, un arrêt à partir d'ici."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b09-n05",
+      "pt": "Dernière vérification, à la porte : confirme que ce train ou ce bus va où tu vas, même si le numéro est déjà sur le panneau."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b09-p06",
+      "promptPt": "Le train arrive sur le quai. Avant de monter, confirme qu'il va vers le centre-ville. Parle maintenant.",
+      "audioKey": "eua-b09-t06",
+      "es": "Does this train go downtown?",
+      "tts": "Does this train go downtown?",
+      "pinyin": "daze diss trèïne gôou daoune-TAOUNE",
+      "pt": "Ce train va au centre-ville ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b09-r06",
+      "es": "Yes, hop on.",
+      "tts": "Yes, hop on.",
+      "pinyin": "yèsse, jope onne",
+      "pt": "Oui, montez."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b09-px1",
+      "promptPt": "Ce train est bondé. Demande s'il y en a un autre plus tard. Parle maintenant.",
+      "audioKey": "eua-b09-x1",
+      "es": "Is there another one later?",
+      "tts": "Is there another one later?",
+      "pinyin": "iz dère e-NA-deur ouanne LÈÏ-teur",
+      "pt": "Il y en a un autre plus tard ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b09-s01",
+      "es": "Do I need to tap this card? Do I need to transfer?",
+      "tts": "Do I need to tap this card? Do I need to transfer?",
+      "pinyin": "dou aï nide tou tape diss karde ? dou aï nide tou TRANSSE-feur",
+      "pt": "Répète la même question d'obligation avec deux actions différentes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b09-n06",
+      "bloco": "recap",
+      "pt": "B09 bouclée. Destination, billet, règle de la carte, quai, correspondance, véhicule confirmé : la séquence, c'est ton travail."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Découvre la règle ; ne l'importe pas",
+    "secoes": [
+      {
+        "titulo": "Il n'y a pas de système national",
+        "corpo": "Chaque ville des États-Unis a son propre système de transport, avec sa propre carte, son billet ou son appli. Ce qui est utile, c'est de demander la destination, pas de supposer un produit tarifaire précis."
+      },
+      {
+        "titulo": "Do I need to, plus l'action",
+        "corpo": "Utilise la même ouverture pour découvrir n'importe quelle obligation du système.",
+        "exemplos": [
+          { "es": "Do I need to tap this card?", "pt": "Je dois badger cette carte ?" },
+          { "es": "Do I need to transfer?", "pt": "Je dois faire une correspondance ?" }
+        ]
+      },
+      {
+        "titulo": "Les chiffres restent en surface",
+        "corpo": "Lis le numéro de ligne ou le quai sur l'écran et pointe-le si besoin. Produire des chiffres n'est pas le prix à payer pour monter dans le bon véhicule."
+      }
+    ]
+  }
+}

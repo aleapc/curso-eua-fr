@@ -1,0 +1,116 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Boucler les points de la première heure",
+  "subtitulo": "Le bon ordre et la formule « Do you have ___? » avant de quitter la salle",
+  "introAudioKey": "eua-b06-q-i",
+  "introPt": "Il reste au voyageur quatre points à régler dans la salle : la valise qui n'est pas sortie, pas de données, un doute sur le paiement et la personne qui vient le chercher en retard. Mets-les dans l'ordre qui évite qu'un problème n'en entraîne un autre.",
+  "cenario": "Dans la salle d'arrivée, le tapis vient de s'arrêter et la personne qui vient le chercher est en retard.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b06-q01",
+      "voz": "target_en_f",
+      "es": "My bag didn't come out.",
+      "tts": "My bag didn't come out.",
+      "pinyin": "maï bague DID-ente kame aoute",
+      "pt": "Ma valise n'est pas sortie."
+    },
+    {
+      "audioKey": "eua-b06-q02",
+      "voz": "target_en_m",
+      "es": "Do you have your baggage tag?",
+      "tts": "Do you have your baggage tag?",
+      "pinyin": "dou you jav your BA-guidje tague",
+      "pt": "Vous avez votre étiquette de bagage ?"
+    },
+    {
+      "audioKey": "eua-b06-q03",
+      "voz": "target_en_f",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you jav OUAÏ-faï",
+      "pt": "Vous avez le wifi ?"
+    },
+    {
+      "audioKey": "eua-b06-q04",
+      "voz": "target_en_m",
+      "es": "Yes, the network's on the sign.",
+      "tts": "Yes, the network's on the sign.",
+      "pinyin": "yèsse, de NÈTE-oueurke onne de saïne",
+      "pt": "Oui, le réseau est sur le panneau."
+    },
+    {
+      "audioKey": "eua-b06-q05",
+      "voz": "target_en_f",
+      "es": "Do you have an ATM?",
+      "tts": "Do you have an ATM?",
+      "pinyin": "dou you jav ane èï-ti-ÈME",
+      "pt": "Vous avez un distributeur ?"
+    },
+    {
+      "audioKey": "eua-b06-q06",
+      "voz": "target_en_m",
+      "es": "There's one by the exit.",
+      "tts": "There's one by the exit.",
+      "pinyin": "dèrze ouanne baï de ÈK-site",
+      "pt": "Il y en a un près de la sortie."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quel point faut-il signaler avant de quitter la zone bagages ?",
+      "opcoes": [
+        "Que la personne qui vient te chercher est en retard",
+        "La valise qui n'est pas sortie",
+        "Un paiement par carte",
+        "L'adresse de l'hôtel"
+      ],
+      "correta": 1,
+      "explica": "Le comptoir de la compagnie aérienne est la première étape à régler : une valise perdue ne se résout pas depuis la rue."
+    },
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans les questions de la première heure ?",
+      "opcoes": [
+        "Le lieu",
+        "« Do you have »",
+        "Le prix",
+        "La réponse"
+      ],
+      "correta": 1,
+      "explica": "« Do you have » ouvre la formule ; seule la chose dont tu as besoin change."
+    },
+    {
+      "pergunta": "L'eSIM ne donne pas de données. Que fais-tu en premier ?",
+      "opcoes": [
+        "Tu demandes « Do you have wifi? » au comptoir",
+        "Tu sors chercher du réseau dehors",
+        "Tu changes tout ton argent",
+        "Tu appelles les douanes"
+      ],
+      "correta": 0,
+      "explica": "Avant de tourner en rond en rafraîchissant ton téléphone, tu demandes le réseau là où tu te trouves déjà."
+    },
+    {
+      "pergunta": "La personne de la compagnie aérienne te lance « how are you? ». Qu'est-ce que c'est ?",
+      "opcoes": [
+        "Une question sur comment tu te sens",
+        "Un salut : tu réponds court et tu continues",
+        "Une plainte",
+        "Une autorisation"
+      ],
+      "correta": 1,
+      "explica": "C'est l'ouverture de service ; tu réponds « Good, thanks. How are you? » et tu continues."
+    },
+    {
+      "pergunta": "Pourquoi choisir un point de rendez-vous visible et identifié ?",
+      "opcoes": [
+        "Pour négocier le tarif",
+        "Pour attendre sans t'approcher d'une offre non officielle",
+        "Pour remplir un formulaire",
+        "Pour récupérer la valise"
+      ],
+      "correta": 1,
+      "explica": "Le point stable clôt le point du transfert avant que ne commence le transport de B07."
+    }
+  ]
+}

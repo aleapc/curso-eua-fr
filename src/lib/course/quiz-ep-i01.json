@@ -1,0 +1,82 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Leur horloge",
+  "subtitulo": "La cuisine ferme plus tôt que tu ne le crois",
+  "introAudioKey": "eua-i01-q-i",
+  "introPt": "Tu arrives dans un restaurant à neuf heures du soir et la serveuse monte déjà les chaises. Remets ce qui s'est passé et pourquoi dans l'ordre.",
+  "cenario": "Un restaurant aux États-Unis, neuf heures et quart du soir.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i01-q01",
+      "voz": "target_en_m",
+      "es": "Sorry, we stopped seating at nine.",
+      "tts": "Sorry, we stopped seating at nine.",
+      "pinyin": "SO-ri, oui stopte SI-tigne atte naïne",
+      "pt": "Désolé, on a arrêté d'installer les clients à neuf heures."
+    },
+    {
+      "audioKey": "eua-i01-q02",
+      "voz": "target_en_f",
+      "es": "What time does the kitchen close?",
+      "tts": "What time does the kitchen close?",
+      "pinyin": "ouatte taïme daze de KI-tchenne klôouze",
+      "pt": "La cuisine ferme à quelle heure ?"
+    },
+    {
+      "audioKey": "eua-i01-q03",
+      "voz": "target_en_m",
+      "es": "Nine on weekdays, ten on weekends.",
+      "tts": "Nine on weekdays, ten on weekends.",
+      "pinyin": "naïne onne OUIKE-dèïze, tenne onne OUIKE-èndze",
+      "pt": "Neuf heures en semaine, dix heures le week-end."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "À quelle heure le dîner est-il en général à son point culminant aux États-Unis ?",
+      "opcoes": ["Entre quatre et cinq heures", "Entre six et huit heures", "Après dix heures", "Il n'y a pas d'heure fixe"],
+      "correta": 1,
+      "explica": "L'heure de pointe du dîner est tôt comparée à la coutume française."
+    },
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans la formule « What time ___? » ?",
+      "opcoes": ["Le lieu", "« What time »", "L'heure exacte", "Le serveur"],
+      "correta": 1,
+      "explica": "« What time » ouvre la formule ; seuls le verbe et ce que tu demandes changent."
+    },
+    {
+      "pergunta": "Tu arrives dans un nouveau restaurant un samedi. Que demandes-tu avant de t'asseoir attendre une table ?",
+      "opcoes": [
+        "What time does the kitchen close?",
+        "How much is the check?",
+        "Do you have wifi?",
+        "Where's the restroom?"
+      ],
+      "correta": 0,
+      "explica": "La même formule que B18, avec « kitchen » dedans, évite de te retrouver sans cuisine ouverte."
+    },
+    {
+      "pergunta": "Qu'est-ce que le « happy hour » ?",
+      "opcoes": [
+        "Une heure sans facturer l'addition",
+        "Une plage à prix réduits sur les boissons, avec un horaire fixe",
+        "L'horaire du petit-déjeuner",
+        "Une réduction qui dure toute la journée"
+      ],
+      "correta": 1,
+      "explica": "C'est une fenêtre précise, presque toujours en milieu d'après-midi, et il vaut mieux confirmer l'heure exacte."
+    },
+    {
+      "pergunta": "Où la règle « la cuisine ferme tôt » peut-elle ne pas s'appliquer ?",
+      "opcoes": [
+        "Dans les diners ouverts 24h et les zones animées la nuit des grandes villes",
+        "Dans n'importe quel restaurant familial",
+        "Elle ne fait jamais exception",
+        "Seulement au petit-déjeuner"
+      ],
+      "correta": 0,
+      "explica": "Il y a de vraies exceptions ; c'est pourquoi demander reste préférable à supposer."
+    }
+  ]
+}

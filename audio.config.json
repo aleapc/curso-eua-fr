@@ -1,0 +1,18 @@
+{
+  "_comentario": "curso-eua-fr (survival English AMERICANO → EUA, guia fr-FR): voz-GUIA FRANCESA (GuiaFem/GuiaMasc, as mesmas do curso-espanha-fr/curso-reinounido-fr); fala-ALVO em INGLÊS AMERICANO (Matilda/Eric), 100% REUSADA do curso-eua-es. INV-5: guia nunca fala inglês, nativa nunca fala francês. DERIVAÇÃO barata: sem Fase 1, só tradução da narração-guia.",
+  "_fonetica_do_par": "Francês → inglês americano. Mesmo par fonético do curso-reinounido-fr: h aspirado engolido, th→s/z, acento tônico móvel (o francês acentua sempre no fim), vogais curtas×longas colapsadas, jota nova [ʒ]. Falsos amigos: actually≠actuellement, library≠librairie, sensible≠sensible(raisonnable), to attend≠attendre, eventually≠éventuellement. A diferença pro par britânico é só vocabulário-alvo (the check não the bill, elevator não lift, apartment não flat, French fries não chips) — usar o inglês AMERICANO em todo o SKU.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_fr_f": { "voiceId": "3fxbs2pB9bs8S6Z1N38A", "languageCode": "fr" },
+    "guide_fr_m": { "voiceId": "0xHziZolI8Tp6rLtUqh2", "languageCode": "fr" },
+    "target_en_f": { "voiceId": "XrExE9yKIg1WjnnlVkGX", "languageCode": "en" },
+    "target_en_m": { "voiceId": "cjVigY5qzO86Huf0OWal", "languageCode": "en" }
+  },
+  "_g14": {
+    "guia": ["guide_fr_f", "guide_fr_m"],
+    "guiaLingua": "fr",
+    "alvo": ["target_en_f", "target_en_m"],
+    "alvoLingua": "en"
+  }
+}

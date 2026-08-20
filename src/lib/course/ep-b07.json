@@ -1,0 +1,266 @@
+{
+  "id": "b07",
+  "slot": "B07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "2C",
+  "titulo": "Choisis le canal avant la voiture",
+  "subtitulo": "Transport autorisé, point de rendez-vous, prix et reçu, de l'aéroport jusqu'au lit",
+  "cena": "Une demi-douzaine de chauffeurs travaillent le trottoir des arrivées avant même que tu aies fait un pas, et le seul qui compte est celui que tu n'as pas encore trouvé : l'autorisé.",
+  "moldura": "ganha",
+  "frasePiso": "La première voiture qui s'approche de toi n'est pas automatiquement ton transport.",
+  "moldes": ["CAN-I"],
+  "clique": {
+    "contagem": [
+      "le comptoir de transport autorisé",
+      "le chauffeur confirmé par l'appli",
+      "le siège de la voiture"
+    ],
+    "desconto": "Personne ne t'a donné une phrase différente pour payer par carte, pour demander le reçu et pour demander qu'on s'arrête ici. Tu as construit les trois avec une seule formule, en changeant juste ce que tu avais besoin de faire.",
+    "piso": "La prochaine fois que tu monteras dans un transport que tu ne connais pas, tu n'improviseras pas en cours de route. Tu demanderas la permission avec quatre mots, et le reste se met en place tout seul."
+  },
+  "permissao": "C'est normal de prendre la minute de plus pour trouver le canal autorisé, même s'il y a une file de chauffeurs qui t'appellent derrière toi. Ignorer une offre non officielle pour demander à quelqu'un d'identifié n'est ni impoli ni paranoïaque : c'est la seule décision de la première heure qui mérite d'être prise calmement.",
+  "permissaoAudioKey": "eua-b07-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "À peine sorti de la zone d'arrivée, quelqu'un te propose de t'emmener avant même que tu aies demandé où se trouve le transport autorisé.",
+      "suaLeitura": "Ici, tout le monde saute sur le touriste, ou je dois vite choisir quelqu'un avant d'avoir l'air perdu.",
+      "oQueEAli": "Dans beaucoup d'aéroports américains, la zone de prise en charge des VTC via appli est séparée de la file des taxis officiels, et les deux sont souvent loin de la porte d'arrivée ; quelqu'un qui t'aborde avant ça n'est presque jamais le canal autorisé.",
+      "oQueVoceFaz": "Tu ignores l'offre et tu cherches du personnel identifié ou un comptoir avec un panneau avant de répondre à qui que ce soit d'autre.",
+      "oQueMelhora": "Tu commences le trajet avec un tarif fixe ou un chauffeur confirmé par l'appli, plutôt qu'une négociation dans laquelle tu n'as pas choisi d'entrer.",
+      "ondeNaoVale": "Ce n'est pas une raison de te méfier de chaque chauffeur pour le reste du voyage : la prudence s'applique seulement à cette première offre non vérifiée, au moment précis où tu es le plus désorienté.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b07-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Poing sur CAN : CAN I. Cette formule te sert trois fois aujourd'hui, du comptoir jusqu'à la porte de l'hôtel."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b07-p00",
+      "promptPt": "Avant de sortir chercher un transport, ton téléphone est toujours sans réseau. Au comptoir d'information, demande s'ils ont le wifi. Parle maintenant.",
+      "audioKey": "eua-b07-t00",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you jav OUAÏ-faï",
+      "pt": "Vous avez le wifi ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b07-n02",
+      "bloco": "cena",
+      "pt": "Une demi-douzaine de chauffeurs travaillent le trottoir. Le seul qui compte : celui que tu n'as pas encore trouvé, l'autorisé."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b07-n03",
+      "bloco": "molde",
+      "pt": "La formule du jour : Can I et ce dont tu as besoin de faire. Elle reste pareille ; seule l'action change."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b07-t01",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "kn aï pèï baï karde",
+      "pt": "Je peux payer par carte ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "pay by card",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b07-p01",
+      "promptPt": "Au comptoir de transport autorisé, avant de monter dans la voiture, demande si tu peux payer par carte. Parle maintenant.",
+      "audioKey": "eua-b07-t01",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "kn aï pèï baï karde",
+      "pt": "Je peux payer par carte ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b07-r01",
+      "es": "Yes, card or app, either works.",
+      "tts": "Yes, card or app, either works.",
+      "pinyin": "yèsse, karde or ape, I-deur oueurkse",
+      "pt": "Oui, carte ou appli, les deux marchent."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b07-n04",
+      "bloco": "corpo",
+      "tom": "protege",
+      "pt": "Attention à la première offre qui t'appelle avant que tu demandes : le transport autorisé n'est presque jamais à la porte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b07-n05",
+      "tom": "ganha",
+      "pt": "Avec le chauffeur confirmé par l'appli, demande le point de rendez-vous exact et n'accepte pas qu'il change."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "get a receipt",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b07-p02",
+      "promptPt": "Tu es déjà monté dans la voiture autorisée et tu veux garder trace de la dépense. Demande le reçu. Parle maintenant.",
+      "audioKey": "eua-b07-t02",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "kn aï guète e ri-SITE",
+      "pt": "Je peux avoir un reçu ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b07-r02",
+      "es": "Sure, I'll send it to your email.",
+      "tts": "Sure, I'll send it to your email.",
+      "pinyin": "choure, aïll sènde itte tou your I-mèïle",
+      "pt": "Bien sûr, je vous l'envoie par email."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b07-p03",
+      "promptPt": "Tu es en route vers l'hôtel et tu dois t'arrêter un instant dans un magasin. Demande si tu peux laisser ta valise dans la voiture. Parle maintenant.",
+      "audioKey": "eua-b07-t03",
+      "es": "Can I leave my bag here?",
+      "tts": "Can I leave my bag here?",
+      "pinyin": "kn aï live maï bague jir",
+      "pt": "Je peux laisser mon sac ici ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b07-n06",
+      "bloco": "capsula",
+      "pt": "En arrivant à l'hôtel, règle d'abord le trajet : dis où s'arrêter, et là, demande le reçu si tu ne l'as pas déjà reçu."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "stop right here",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b07-p04",
+      "promptPt": "La voiture arrive à l'entrée de l'hôtel. Demande qu'elle s'arrête juste là. Parle maintenant.",
+      "audioKey": "eua-b07-t04",
+      "es": "Can I stop right here?",
+      "tts": "Can I stop right here?",
+      "pinyin": "kn aï stope raïte jir",
+      "pt": "On peut s'arrêter juste ici ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b07-r03",
+      "es": "Sure thing. Have a good stay.",
+      "tts": "Sure thing. Have a good stay.",
+      "pinyin": "choure thigne. jav e goude stèï",
+      "pt": "Bien sûr. Bon séjour."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "check in early",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b07-px1",
+      "promptPt": "À la réception de l'hôtel, tu es arrivé avant l'heure normale d'enregistrement. Demande si tu peux t'enregistrer plus tôt. Parle maintenant.",
+      "audioKey": "eua-b07-x1",
+      "es": "Can I check in early?",
+      "tts": "Can I check in early?",
+      "pinyin": "kn aï tchèke inne EUR-li",
+      "pt": "Je peux m'enregistrer plus tôt ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "sit here",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b07-px2",
+      "promptPt": "Dans la salle d'attente du hall, il y a un fauteuil libre près d'une prise. Demande si tu peux t'asseoir là en attendant. Parle maintenant.",
+      "audioKey": "eua-b07-x2",
+      "es": "Can I sit here?",
+      "tts": "Can I sit here?",
+      "pinyin": "kn aï sitte jir",
+      "pt": "Je peux m'asseoir ici ?"
+    },
+    {
+      "consulta": ["taxi/destino"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "make a quick stop",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b07-px3",
+      "promptPt": "Tu es en route vers l'hôtel et tu te souviens que tu dois acheter quelque chose en pharmacie. Demande au chauffeur s'il peut faire un arrêt rapide. Parle maintenant.",
+      "audioKey": "eua-b07-x3",
+      "es": "Can I make a quick stop?",
+      "tts": "Can I make a quick stop?",
+      "pinyin": "kn aï mèïke e kouike stope",
+      "pt": "On peut faire un arrêt rapide ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b07-s01",
+      "es": "Can I pay by card? Can I get a receipt? Can I stop right here?",
+      "tts": "Can I pay by card? Can I get a receipt? Can I stop right here?",
+      "pinyin": "kn aï pèï baï karde ? kn aï guète e ri-SITE ? kn aï stope raïte jir",
+      "pt": "Répète la même formule avec trois actions différentes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b07-n07",
+      "bloco": "recap",
+      "pt": "B07 bouclée. Le canal avant la voiture, Can I pour tes besoins, reçu conservé. B08 continue avec où se trouve chaque chose."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Canal, destination, conclusion",
+    "secoes": [
+      {
+        "titulo": "Ne fige pas un système local",
+        "corpo": "Les règles de prise en charge changent d'un aéroport à l'autre. Ce qui marche toujours, c'est de demander à du personnel identifié où se trouve le canal autorisé ou le point de rendez-vous de l'appli."
+      },
+      {
+        "titulo": "Can I, et seule l'action change",
+        "corpo": "La structure de la formule ne bouge pas ; seul ce que tu veux faire change.",
+        "exemplos": [
+          { "es": "Can I pay by card?", "pt": "Je peux payer par carte ?" },
+          { "es": "Can I get a receipt?", "pt": "Je peux avoir un reçu ?" }
+        ]
+      },
+      {
+        "titulo": "Un reçu conclut le trajet",
+        "corpo": "Demande le reçu avant d'entrer dans l'hôtel. C'est une preuve du trajet effectué, pas une confrontation."
+      }
+    ]
+  }
+}

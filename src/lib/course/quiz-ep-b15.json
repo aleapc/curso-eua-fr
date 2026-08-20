@@ -1,0 +1,84 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — Le prix n'est jamais sur l'étiquette que tu crois",
+  "subtitulo": "« How much is ___? », la taille et pourquoi le total à la caisse monte toujours un peu",
+  "introAudioKey": "eua-b15-q-i",
+  "introPt": "L'étiquette de prix s'est décollée et tu ne vois pas ta taille sur la table des soldes. Écoute comment ça se règle et décide ce qui correspond.",
+  "cenario": "Dans un magasin de vêtements, devant la table des soldes.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b15-q01",
+      "voz": "target_en_f",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "jaou match iz diss",
+      "pt": "Ça coûte combien ?"
+    },
+    {
+      "audioKey": "eua-b15-q02",
+      "voz": "target_en_m",
+      "es": "That one's twenty-two dollars.",
+      "tts": "That one's twenty-two dollars.",
+      "pinyin": "dat ouanze touènne-ti tou DO-larze",
+      "pt": "Celui-là coûte vingt-deux dollars."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quelle formule sert aussi bien pour un article isolé que pour tout le panier ?",
+      "opcoes": [
+        "Do you have ___?",
+        "How much is ___?",
+        "Can I get ___?",
+        "I'm looking for ___"
+      ],
+      "correta": 1,
+      "explica": "« How much is » plus n'importe quoi fonctionne pareil pour un t-shirt seul ou pour le total à la caisse."
+    },
+    {
+      "pergunta": "Tu ne vois pas ta taille sur la table. Quelle formule utilises-tu pour demander s'il y en a une autre ?",
+      "opcoes": [
+        "Do you have this in a large?",
+        "How much is this?",
+        "Can I get a receipt?",
+        "Where's the exit?"
+      ],
+      "correta": 0,
+      "explica": "« Do you have this in a large? » est HAVE réutilisé : tu demandes la disponibilité d'une taille précise."
+    },
+    {
+      "pergunta": "Pourquoi essayer le vêtement résout-il mieux le doute de taille que de faire le calcul ?",
+      "opcoes": [
+        "Parce que les magasins n'autorisent pas à calculer",
+        "Parce que le système small/medium/large ne correspond pas chiffre pour chiffre à celui de ton pays",
+        "Parce que c'est plus rapide de payer d'abord",
+        "Parce qu'il n'y a pas de cabines d'essayage aux États-Unis"
+      ],
+      "correta": 1,
+      "explica": "Le système de tailles américain ne se convertit pas toujours de façon exacte ; essayer le vêtement évite de mal deviner."
+    },
+    {
+      "pergunta": "Tu as payé 22 $ mais la caisse te facture un peu plus. Pourquoi ?",
+      "opcoes": [
+        "Erreur de la caissière",
+        "La taxe de vente s'ajoute à la caisse, comme en B14",
+        "On t'a facturé la cabine d'essayage",
+        "Tu as changé de taille sans t'en rendre compte"
+      ],
+      "correta": 1,
+      "explica": "La même taxe de vente qui fait monter l'addition du restaurant fait aussi monter le prix dans les magasins de vêtements."
+    },
+    {
+      "pergunta": "Qu'est-ce qui est presque toujours la seule chose indispensable pour un retour ?",
+      "opcoes": [
+        "L'étiquette encore attachée",
+        "Le reçu",
+        "Le sac d'origine",
+        "Payer à nouveau avec la même carte"
+      ],
+      "correta": 1,
+      "explica": "Beaucoup de magasins acceptent les retours avec ou sans étiquette, mais le reçu est ce qu'on demande presque toujours."
+    }
+  ]
+}

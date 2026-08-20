@@ -1,0 +1,105 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Trois réponses face à l'agent",
+  "subtitulo": "Motif, durée et hébergement, courts et vrais",
+  "introAudioKey": "eua-b05-q-i",
+  "introPt": "Tu es au comptoir des douanes. Écoute les trois questions de l'agent et les trois réponses courtes du voyageur.",
+  "cenario": "Au comptoir des douanes, l'agent attend des réponses courtes.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b05-q01",
+      "voz": "target_en_m",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "ouatse de PEURE-pose of your VI-zite",
+      "pt": "Quel est le motif de votre visite ?"
+    },
+    {
+      "audioKey": "eua-b05-q02",
+      "voz": "target_en_f",
+      "es": "I'm here on vacation.",
+      "tts": "I'm here on vacation.",
+      "pinyin": "aïme jir onne vè-KÈÏ-chonne",
+      "pt": "Je suis en vacances."
+    },
+    {
+      "audioKey": "eua-b05-q03",
+      "voz": "target_en_m",
+      "es": "How many days will you be staying?",
+      "tts": "How many days will you be staying?",
+      "pinyin": "jaou MÈ-ni dèïze ouill you bi STÈÏ-igne",
+      "pt": "Combien de jours allez-vous rester ?"
+    },
+    {
+      "audioKey": "eua-b05-q04",
+      "voz": "target_en_f",
+      "es": "Ten days.",
+      "tts": "Ten days.",
+      "pinyin": "tenne dèïze",
+      "pt": "Dix jours."
+    },
+    {
+      "audioKey": "eua-b05-q05",
+      "voz": "target_en_m",
+      "es": "Do you have the reservation?",
+      "tts": "Do you have the reservation?",
+      "pinyin": "dou you jav de rè-zeur-VÈÏ-chonne",
+      "pt": "Vous avez la réservation ?"
+    },
+    {
+      "audioKey": "eua-b05-q06",
+      "voz": "target_en_f",
+      "es": "Yes. Here it is.",
+      "tts": "Yes. Here it is.",
+      "pinyin": "yèsse. jir itte iz",
+      "pt": "Oui. La voici."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qui décide, au moment de l'entrée, jusqu'à quand le voyageur peut rester ?",
+      "opcoes": [
+        "La compagnie aérienne",
+        "Le voyageur lui-même, selon sa réservation",
+        "L'agent de CBP au comptoir",
+        "Le consulat, avant le vol"
+      ],
+      "correta": 2,
+      "explica": "Avoir une ESTA valide ne fixe pas automatiquement la date : l'agent décide au moment de l'entrée."
+    },
+    {
+      "pergunta": "Que recommande-t-on de faire si ton itinéraire réel diffère de l'exemple du cours ?",
+      "opcoes": [
+        "Utiliser le chiffre du cours quand même",
+        "Ne pas répondre à la question sur la durée",
+        "Changer le chiffre pour le vrai, sans changer la structure",
+        "Demander plus de temps que nécessaire, au cas où"
+      ],
+      "correta": 2,
+      "explica": "Vrai bat fluide : la structure de la phrase reste la même, le chiffre change selon ton itinéraire réel."
+    },
+    {
+      "pergunta": "Pourquoi répondre en trois mots n'est-il pas suspect à ce comptoir ?",
+      "opcoes": [
+        "Parce que l'agent ne fait pas attention",
+        "Parce que le comptoir traite des réponses courtes et bien assorties toute la journée",
+        "Parce que l'anglais parfait n'a pas d'importance ici",
+        "Parce que les réponses longues sont interdites"
+      ],
+      "correta": 1,
+      "explica": "Une réponse qui s'étire au-delà de ce qui a été demandé se lit comme quelque chose à revérifier, pas comme de la chaleur."
+    },
+    {
+      "pergunta": "Quand l'agent demande la réservation, que fait le voyageur ?",
+      "opcoes": [
+        "Il explique étape par étape comment il a réservé l'hôtel",
+        "Il remet la confirmation enregistrée sans ajouter d'explication",
+        "Il dit qu'il ne l'a pas",
+        "Il demande pourquoi elle est nécessaire"
+      ],
+      "correta": 1,
+      "explica": "Laisser le document parler fait passer l'échange de la mémoire à la preuve, sans récit supplémentaire."
+    }
+  ]
+}

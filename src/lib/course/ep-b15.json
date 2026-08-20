@@ -1,0 +1,301 @@
+{
+  "id": "b15",
+  "slot": "B15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "15A",
+  "titulo": "Le prix n'est jamais sur l'étiquette que tu crois",
+  "subtitulo": "« How much is ___? », essayer, changer de taille, et pourquoi le chiffre final surprend toujours un peu",
+  "cena": "Le t-shirt que tu as pris n'a pas de taille visible, l'étiquette de prix s'est décollée de la table des soldes, et la vendeuse range des vêtements à deux mètres de toi.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas acheter des vêtements dans un magasin aux États-Unis sans deviner ni le prix ni la taille, en demandant les deux avec une seule formule.",
+  "moldes": ["HOW-MUCH"],
+  "clique": {
+    "contagem": [
+      "la table des soldes",
+      "la cabine d'essayage",
+      "la caisse",
+      "le magasin d'alcools"
+    ],
+    "desconto": "Personne ne t'a donné une phrase pour le prix du t-shirt et une autre pour le prix du panier complet. Tu as construit les deux avec « How much is » et ce que tu demandais.",
+    "piso": "La prochaine fois que tu prendras quelque chose sans prix visible, tu ne le laisseras pas sur la table par gêne : tu demanderas le chiffre avec une phrase que tu sais déjà dire."
+  },
+  "permissao": "Tu n'as pas besoin de connaître ta taille dans le système américain avant d'entrer dans le magasin. Tu peux en essayer plusieurs sans rien acheter ; personne n'attend que tu trouves du premier coup.",
+  "permissaoAudioKey": "eua-b15-n09",
+  "espelho": "Dans ton pays aussi, tu demandes le prix avant de décider et tu essaies plusieurs tailles sans t'engager à acheter ; la seule différence ici, c'est le système de tailles et le fait que le chiffre final à la caisse va monter un peu plus que ce que disait l'étiquette.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu rends quelque chose sans l'étiquette, presque un mois après l'avoir acheté, et le magasin l'accepte sans poser de questions difficiles.",
+      "suaLeitura": "Ce doit être un magasin exceptionnellement souple, ce n'est pas la norme.",
+      "oQueEAli": "Les politiques de retour généreuses — trente, soixante, jusqu'à quatre-vingt-dix jours, avec ou sans étiquette — sont une pratique standard du commerce de détail américain, pas une exception de ce magasin en particulier.",
+      "oQueVoceFaz": "Garde toujours le reçu, même si la politique semble souple ; c'est la seule chose qu'on te demande dans quatre-vingt-dix pour cent des cas.",
+      "oQueMelhora": "Tu achètes avec plus de liberté, sachant qu'un changement d'avis ne te laisse pas coincé avec quelque chose que tu ne voulais pas.",
+      "ondeNaoVale": "Ça ne s'applique pas de la même façon aux petits magasins indépendants ou de seconde main, où la politique de retour peut être beaucoup plus stricte ou inexistante.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b15-n08"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "alcohol-varia-por-estado",
+      "afirmacao": "Where and when you can buy alcohol changes by state and even by county — some sell beer in any supermarket, others only in licensed liquor stores, and a few dry counties don't sell it at all.",
+      "fonte": "Legislação estadual e municipal dos EUA, síntese de práticas correntes",
+      "ano": 2025,
+      "revisarAte": "2027-06-01",
+      "evidencia": "CONSENSO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b15-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Partie quinze. Le poing sur les chiffres : FOR-ty, SIX-ty, EIGH-ty. La syllabe forte vient en premier."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n02",
+      "bloco": "cena",
+      "pt": "Le t-shirt n'a pas de taille visible et l'étiquette s'est décollée de la table des soldes. La vendeuse est à deux mètres."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b15-p01",
+      "promptPt": "Comme dans la partie précédente, demande si tu peux revoir l'addition. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "CAN-I",
+      "audioKey": "eua-b15-t01",
+      "es": "Can I see that again?",
+      "tts": "Can I see that again?",
+      "pinyin": "kn aï si dat e-GUÈNE",
+      "pt": "Je peux la revoir ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b15-n03",
+      "bloco": "molde",
+      "pt": "La formule du jour : « How much is » plus la chose. Sert pour un t-shirt tout seul ou pour tout le panier à la caisse."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b15-t02",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "jaou match iz diss",
+      "pt": "Ça coûte combien ?"
+    },
+    {
+      "consulta": ["compras/preco"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HOW-MUCH",
+      "encaixe": "this",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b15-p02",
+      "promptPt": "L'étiquette de prix s'est décollée. Demande à la vendeuse combien coûte le t-shirt. Parle maintenant.",
+      "audioKey": "eua-b15-t02",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "jaou match iz diss",
+      "pt": "Ça coûte combien ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b15-r01",
+      "es": "That one's twenty-two dollars.",
+      "tts": "That one's twenty-two dollars.",
+      "pinyin": "dat ouanze touènne-ti tou DO-larze",
+      "pt": "Celui-là coûte vingt-deux dollars."
+    },
+    {
+      "consulta": ["compras/talla"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "this in a large",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b15-p03",
+      "promptPt": "Il te plaît mais tu ne vois pas ta taille sur la table. Demande s'ils l'ont en grand. Parle maintenant.",
+      "audioKey": "eua-b15-t03",
+      "es": "Do you have this in a large?",
+      "tts": "Do you have this in a large?",
+      "pinyin": "dou you jav diss inne e larje",
+      "pt": "Vous l'avez en taille L ?"
+    },
+    {
+      "consulta": ["compras/probador"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "try this on",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b15-p04",
+      "promptPt": "Tu as déjà la bonne taille. Demande à l'essayer avant de décider. Parle maintenant.",
+      "audioKey": "eua-b15-t04",
+      "es": "Can I try this on?",
+      "tts": "Can I try this on?",
+      "pinyin": "kn aï traï diss onne",
+      "pt": "Je peux l'essayer ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n04",
+      "pt": "Small, medium, large ne correspond pas à ta taille habituelle. L'essayer résout mieux le doute que calculer."
+    },
+    {
+      "consulta": ["compras/probador"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "a smaller size",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b15-p05",
+      "promptPt": "Tu l'as essayé et c'était trop grand. Dis à la vendeuse ce que tu cherches maintenant. Parle maintenant.",
+      "audioKey": "eua-b15-t05",
+      "es": "I'm looking for a smaller size.",
+      "tts": "I'm looking for a smaller size.",
+      "pinyin": "aïme LOU-kigne for e SMO-leur saïze",
+      "pt": "Je cherche une taille plus petite."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b15-r02",
+      "es": "Let me check in the back.",
+      "tts": "Let me check in the back.",
+      "pinyin": "lète mi tchèke inne de bake",
+      "pt": "Laisse-moi vérifier en réserve."
+    },
+    {
+      "consulta": ["compras/preco"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HOW-MUCH",
+      "encaixe": "it all together",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b15-p06",
+      "promptPt": "Tu as choisi le t-shirt et une paire de chaussettes. Demande combien ça fait au total. Parle maintenant.",
+      "audioKey": "eua-b15-t06",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "jaou match iz itte ole tou-GUÈ-deur",
+      "pt": "Ça fait combien au total ?"
+    },
+    {
+      "consulta": ["compras/pagar"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "GET",
+      "encaixe": "a receipt",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b15-p07",
+      "promptPt": "Tu as déjà payé. Demande le reçu, au cas où tu devrais changer quelque chose plus tard. Parle maintenant.",
+      "audioKey": "eua-b15-t07",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "kn aï guète e ri-SITE",
+      "pt": "Je peux avoir un reçu ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n05",
+      "pt": "Le chiffre à la caisse va monter un peu plus que ce que tu as additionné : c'est la taxe de vente de B14, encore une fois."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b15-n06",
+      "pt": "La vente d'alcool change selon l'État : parfois de la bière jusqu'au supermarché, parfois seulement en magasins agréés."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n07",
+      "bloco": "capsula",
+      "pt": "Garde le reçu : si tu changes d'avis, beaucoup de magasins acceptent les retours un mois plus tard, avec ou sans étiquette."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b15-n08",
+      "pt": "Ce n'est pas un magasin bizarre : c'est la politique standard du commerce ici. Le reçu est presque toujours la seule chose demandée."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n09",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de connaître ta taille dans le système d'ici avant d'entrer. Tu peux en essayer plusieurs sans rien acheter."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b15-n10",
+      "bloco": "clique",
+      "pt": "Tu as demandé le prix du t-shirt et celui du total. Personne ne t'a donné deux phrases : une seule formule."
+    },
+    {
+      "consulta": ["compras/pagar"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "GET",
+      "encaixe": "a gift receipt",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b15-p08",
+      "promptPt": "C'est un cadeau pour quelqu'un d'autre et tu ne veux pas que le prix soit visible. Demande un reçu cadeau. Parle maintenant.",
+      "audioKey": "eua-b15-x1",
+      "es": "Can I get a gift receipt?",
+      "tts": "Can I get a gift receipt?",
+      "pinyin": "kn aï guète e guifte ri-SITE",
+      "pt": "Je peux avoir un reçu cadeau ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b15-s01",
+      "es": "How much is this? How much is it all together?",
+      "tts": "How much is this? How much is it all together?",
+      "pinyin": "jaou match iz diss ? jaou match iz itte ole tou-GUÈ-deur",
+      "pt": "Répète la même formule avec deux questions."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b15-n11",
+      "bloco": "recap",
+      "pt": "B15 bouclée. Prix, taille, cabine d'essayage et reçu : quatre étapes, une formule, et la taxe qui monte toujours à la fin."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Acheter sans deviner le chiffre",
+    "secoes": [
+      {
+        "titulo": "La formule ouverte",
+        "corpo": "« How much is » plus n'importe quoi sert pour un article isolé ou pour tout le panier. Elle ne change pas de forme ; seul ce que tu demandes change."
+      },
+      {
+        "titulo": "Small, medium, large ne sont pas ta taille habituelle",
+        "corpo": "Le système de tailles américain ne correspond pas toujours chiffre pour chiffre à celui que tu utilises dans ton pays. Essayer le vêtement résout le doute plus vite que d'essayer de convertir le chiffre."
+      },
+      {
+        "titulo": "La taxe fait monter le total, encore une fois",
+        "corpo": "La même taxe de vente vue en B14 s'applique dans les magasins de vêtements. Le chiffre que tu as calculé dans ta tête va un peu monter à la caisse ; ce n'est pas une erreur de la caissière."
+      },
+      {
+        "titulo": "Des retours généreux, mais avec le reçu",
+        "corpo": "Beaucoup de magasins acceptent les retours des semaines après l'achat, avec ou sans étiquette. Le reçu est presque toujours la seule chose indispensable ; le garder te donne une marge pour changer d'avis."
+      }
+    ]
+  }
+}

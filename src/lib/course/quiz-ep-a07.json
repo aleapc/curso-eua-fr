@@ -1,0 +1,89 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Signaux : bienvenue, malaise et l'heure de partir",
+  "subtitulo": "L'écran de pourboire, l'espace personnel et le « un jour » qui n'arrive pas toujours",
+  "introAudioKey": "eua-a07-q-i",
+  "introPt": "L'écran de la caisse te demande vingt-cinq pour cent de pourboire pour un café à emporter. Écoute l'échange et réponds.",
+  "cenario": "Le comptoir d'un café.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a07-q01",
+      "voz": "target_en_m",
+      "es": "Whenever you're ready.",
+      "tts": "Whenever you're ready.",
+      "pt": "Quand tu es prêt."
+    },
+    {
+      "audioKey": "eua-a07-q02",
+      "voz": "target_en_f",
+      "es": "I'll just leave a couple bucks, that's plenty.",
+      "tts": "I'll just leave a couple bucks, that's plenty.",
+      "pt": "Je vais laisser deux ou trois dollars, ça suffit largement."
+    },
+    {
+      "audioKey": "eua-a07-q03",
+      "voz": "target_en_m",
+      "es": "No worries at all.",
+      "tts": "No worries at all.",
+      "pt": "Aucun problème."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "L'écran du comptoir suggère vingt-cinq pour cent de pourboire sur une commande à emporter. Est-ce obligatoire ?",
+      "opcoes": [
+        "Oui, toujours",
+        "Non, c'est une suggestion du système, pas une règle sociale",
+        "Seulement dans les restaurants de luxe",
+        "Ça dépend de la loi de l'État"
+      ],
+      "correta": 1,
+      "explica": "Dans un comptoir sans service à table, choisir un montant plus petit ou « pas de pourboire » est une option légitime."
+    },
+    {
+      "pergunta": "Que garde-t-on davantage aux États-Unis qu'en France, selon cette partie ?",
+      "opcoes": [
+        "Le volume de la voix",
+        "La distance physique avec les inconnus",
+        "Le contact visuel",
+        "Le temps d'attente"
+      ],
+      "correta": 1,
+      "explica": "La distance attendue avec les inconnus est en général plus grande qu'en France."
+    },
+    {
+      "pergunta": "Quelqu'un te dit « we should totally grab coffee sometime ! ». Quelle fonction remplit normalement cette phrase ?",
+      "opcoes": [
+        "C'est une promesse ferme avec une date implicite",
+        "C'est souvent une conclusion chaleureuse de la conversation, sans engagement fixe",
+        "C'est une façon de dire que tu ne lui as pas plu",
+        "Ça ne s'utilise qu'en famille"
+      ],
+      "correta": 1,
+      "explica": "« Sometime », sans date, fonctionne comme une conclusion amicale, pas nécessairement comme un vrai plan."
+    },
+    {
+      "pergunta": "Si tu veux vraiment que le plan se concrétise, que peux-tu faire ?",
+      "opcoes": [
+        "Rien, il faut attendre que l'autre propose",
+        "Demander un détail concret, comme s'ils sont libres cette semaine",
+        "Insister plusieurs fois le même jour",
+        "Supposer que c'est déjà confirmé"
+      ],
+      "correta": 1,
+      "explica": "Demander un jour précis distingue une conclusion chaleureuse d'une vraie invitation, sans être une imposition."
+    },
+    {
+      "pergunta": "Quelqu'un s'excuse de s'être trop approché de toi. Qu'est-ce que ça signifie ?",
+      "opcoes": [
+        "Qu'il ne veut pas être proche de toi",
+        "Qu'il suit la norme locale d'espace personnel",
+        "Qu'il est fâché",
+        "Qu'il s'est trompé de personne"
+      ],
+      "correta": 1,
+      "explica": "Ça ne mesure pas à quel point tu lui plais — c'est simplement l'espace dans lequel les gens conversent confortablement là-bas."
+    }
+  ]
+}

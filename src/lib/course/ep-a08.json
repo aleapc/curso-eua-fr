@@ -1,0 +1,256 @@
+{
+  "id": "a08",
+  "slot": "A08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "Les adieux",
+  "subtitulo": "Comment partir pour qu'on te réinvite — et la liste de poche à garder quand tout le reste s'est envolé",
+  "cena": "Tu as déjà le sac sur l'épaule et la porte en vue, et tu vois que la moitié de la table se contente de lever la main et continue à parler, sans se lever pour dire au revoir un par un.",
+  "moldura": "ganha",
+  "frasePiso": "Pars calmement, nomme une chose précise, et conclus par un vrai « merci ». C'est la différence entre une visite et une amitié.",
+  "fatosDatados": [
+    {
+      "id": "eua-despedida-informal",
+      "afirmacao": "In casual American gatherings, a general wave or a shouted 'bye, thanks for coming!' toward the room is a widely accepted way to leave, especially among friends of friends; it doesn't require an individual goodbye to every person the way more formal or more collectivist etiquette traditions expect.",
+      "fonte": "Consenso de fontes de etiqueta social estadounidense",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": ["eua-a08-n04"]
+    },
+    {
+      "id": "eua-mensagem-agradecimento",
+      "afirmacao": "Sending a short thank-you text or message the same day or the next day after being hosted for a meal is a common and appreciated gesture in American social etiquette, even when a verbal thank-you was already given on the way out.",
+      "fonte": "Consenso de fontes de etiqueta social (Emily Post Institute — «Being a Good Guest»)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a08-n08"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Dernière partie. L'au revoir n'est pas une formalité : il décide s'il y aura une prochaine fois, et ici c'est rapide."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a08-n02",
+      "bloco": "callback",
+      "pt": "Révision d'hier. Quelqu'un te dit qu'il faudra se revoir un jour, sans date. Réponds avec chaleur, comme hier."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a08-p01",
+      "promptPt": "Parle maintenant.",
+      "audioKey": "eua-a08-t01",
+      "es": "Yeah, that'd be great!",
+      "tts": "Yeah, that'd be great!",
+      "pinyin": "yèa, datse grèïte",
+      "pt": "Oui, ça me ferait très plaisir !"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n03",
+      "bloco": "cena",
+      "pt": "Sac sur l'épaule, porte en vue. La moitié de la table se contente de lever la main et continue sa discussion, sans se lever."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o01",
+      "es": "Thanks so much for coming!",
+      "tts": "Thanks so much for coming!",
+      "pt": "Merci beaucoup d'être venu !",
+      "pinyin": "thanxe sô match for KA-migne"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a08-n04",
+      "bloco": "corpo",
+      "pt": "À la différence de la France, un au revoir général à toute la table suffit ici. Pas besoin de saluer chaque personne."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a08-p02",
+      "promptPt": "Dis au revoir à l'hôte, avec chaleur et sans en faire trop. Parle maintenant.",
+      "audioKey": "eua-a08-t02",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pinyin": "aï choude guète GÔ-igne, batte thanke you sô match",
+      "pt": "Je vais y aller, mais merci beaucoup."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o02",
+      "es": "Of course! So glad you came.",
+      "tts": "Of course! So glad you came.",
+      "pt": "Bien sûr ! Je suis vraiment content que tu sois venu.",
+      "pinyin": "of korse ! sô glade you kèïme"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n05",
+      "bloco": "capsula",
+      "pt": "Maintenant le mouvement qui vaut une nouvelle invitation : nomme quelque chose de précis. Pas « c'était sympa » — quoi exactement."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a08-p03",
+      "promptPt": "Nomme ce que tu vas vraiment retenir de cette soirée. Parle maintenant.",
+      "audioKey": "eua-a08-t03",
+      "es": "Your lasagna was seriously the best I've had.",
+      "tts": "Your lasagna was seriously the best I've had.",
+      "pinyin": "your la-zagne-ya ouaze SI-rio-sli de beste aïve jade",
+      "pt": "Tes lasagnes, c'était vraiment les meilleures que j'aie jamais mangées."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o03",
+      "es": "Aw, I'll tell my mom, she'll be so happy.",
+      "tts": "Aw, I'll tell my mom, she'll be so happy.",
+      "pt": "Oh, je vais le dire à ma mère, elle va être ravie.",
+      "pinyin": "a, aïll tèl maï mame, chill bi sô JA-pi"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a08-n06",
+      "pt": "Cette phrase vient de voyager jusqu'à quelqu'un absent de la pièce. Le compliment précis se partage ; le générique reste sur place."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a08-p04",
+      "promptPt": "Propose de rester en contact, sans que ça sonne comme une simple formule de politesse. Parle maintenant.",
+      "audioKey": "eua-a08-t04",
+      "es": "We should definitely keep in touch — can I get your number?",
+      "tts": "We should definitely keep in touch — can I get your number?",
+      "pinyin": "oui choude DÈ-fi-nitte-li kipe inne tatche — kn aï guète your NAME-beur",
+      "pt": "Il faut vraiment rester en contact — je peux avoir ton numéro ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a08-o04",
+      "es": "For sure, here you go.",
+      "tts": "For sure, here you go.",
+      "pt": "Bien sûr, tiens.",
+      "pinyin": "for choure, jir you gô"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n07",
+      "pt": "Un dernier détail : envoyer un message de remerciement le jour même, même si tu l'as déjà dit en partant, est toujours bien reçu."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a08-n08",
+      "bloco": "capsula",
+      "pt": "Pas besoin que ce soit long. Une ligne disant que tu as passé un bon moment fait déjà le travail."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a08-p05",
+      "promptPt": "Conclus la soirée avec le merci final, face à face. Parle maintenant.",
+      "audioKey": "eua-a08-t05",
+      "es": "Thanks again, this was really great.",
+      "tts": "Thanks again, this was really great.",
+      "pinyin": "thanxe e-GUÈNE, diss ouaze RI-a-li grèïte",
+      "pt": "Merci encore, c'était vraiment super."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n09",
+      "bloco": "capsula",
+      "pt": "La liste de poche, si tout le reste s'est envolé : do you have, can I, where's the, can I get, no ___ please, how much is."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a08-s01",
+      "es": "I should get going, but thank you so much. Your lasagna was seriously the best. We should definitely keep in touch.",
+      "tts": "I should get going, but thank you so much. Your lasagna was seriously the best. We should definitely keep in touch.",
+      "pinyin": "aï choude guète GÔ-igne, batte thanke you sô match. your la-zagne-ya ouaze SI-rio-sli de beste. oui choude DÈ-fi-nitte-li kipe inne tatche",
+      "pt": "Répète la sortie entière : le merci, le compliment précis, et l'invitation à rester en contact."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a08-n10",
+      "bloco": "recap",
+      "pt": "A08 bouclée, et le cours avec elle. Au revoir général, chose précise, rester en contact. C'est ça qui te fait réinviter."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Partir, c'est la partie qui décide de la prochaine fois",
+    "secoes": [
+      {
+        "titulo": "Un au revoir général suffit",
+        "corpo": "À la différence de la France, où l'on attend un au revoir individuel à chaque personne, aux États-Unis un au revoir dit vers toute la pièce suffit en général, surtout dans les réunions décontractées entre amis d'amis. Ce n'est pas de l'impolitesse : c'est simplement une autre convention."
+      },
+      {
+        "titulo": "Le compliment précis voyage",
+        "corpo": "« C'était sympa » reste avec la personne à qui tu l'as dit. « Tes lasagnes » arrive jusqu'à la cuisine. Nommer une chose précise, c'est la différence entre un invité poli et un invité qu'on a vraiment envie de réinviter."
+      },
+      {
+        "titulo": "Le message d'après",
+        "corpo": "Un texto court de remerciement le jour même, même si tu as déjà dit merci en partant, est un petit geste qui se remarque et qui est apprécié — ça coûte une ligne et laisse une bonne impression finale."
+      },
+      {
+        "titulo": "La liste de poche",
+        "corpo": "Si tout le cours s'est vidé de ta tête dans l'avion, six formules survivent et suffisent à te faire bien traiter n'importe où : do you have ___ pour ce dont tu as besoin, can I ___ pour ce que tu veux faire, where's the ___ pour ce que tu cherches, can I get ___ pour commander, no ___ please pour retirer quelque chose, et how much is ___ avant de t'engager."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de prendre quelques minutes pour partir, et c'est aussi correct de simplement lever la main et dire au revoir à toute la pièce — les deux façons sont acceptées ici, et aucune ne te fait mal paraître pour ne pas avoir dit au revoir à chaque personne une par une.",
+  "permissaoAudioKey": "eua-a08-n04",
+  "espelho": "Quiconque a déjà été hôte connaît la différence entre l'invité qui a dit au revoir depuis la porte et celui qui s'est approché pour dire merci pour les lasagnes en particulier. Tu as déjà été du côté de l'hôte ; A08 te demande simplement d'être maintenant ce second invité, en anglais.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu t'apprêtes à dire au revoir à chaque personne de la table, une par une, et tu vois que la plupart se contentent d'un signe de la main vers tout le groupe.",
+      "suaLeitura": "Je suis le seul à être formel, ou peut-être que je prends plus de temps que prévu.",
+      "oQueEAli": "L'au revoir individuel et prolongé est la coutume en France ; aux États-Unis, un au revoir général vers la pièce est tout aussi valable, surtout dans les réunions informelles. Aucune des deux façons n'est incorrecte — ce sont simplement des coutumes différentes.",
+      "oQueVoceFaz": "Fais ce qui te semble naturel : dis au revoir à l'hôte directement, et au reste avec un au revoir général si l'ambiance est décontractée.",
+      "oQueMelhora": "Tu pars sans avoir l'impression d'avoir enfreint une règle que personne d'autre dans la pièce ne suivait vraiment.",
+      "ondeNaoVale": "Pas dans un dîner formel ou restreint, avec peu d'invités — là, il vaut mieux dire au revoir directement à chaque personne, comme tu le ferais chez toi.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a08-n04"]
+    },
+    {
+      "sinal": "Tu as déjà remercié en sortant du dîner, et tu ne sais pas si envoyer un message après est nécessaire ou excessif.",
+      "suaLeitura": "J'ai déjà dit merci en personne, envoyer un message après serait insister inutilement.",
+      "oQueEAli": "Un message court de remerciement le jour même est un geste supplémentaire bien vu, pas une répétition inutile — il renforce le merci verbal et laisse une impression finale que l'hôte se rappelle souvent avec plaisir.",
+      "oQueVoceFaz": "Envoie une ligne courte et sincère, sans avoir besoin de justifier pourquoi tu le fais.",
+      "oQueMelhora": "Tu gardes une relation ouverte pour la prochaine invitation, avec très peu d'effort de ta part.",
+      "ondeNaoVale": "Pas nécessaire dans des rencontres très décontractées, comme un repas rapide avec de nouvelles connaissances sans grande proximité — là, le merci de vive voix conclut déjà le moment.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a08-n08"]
+    }
+  ]
+}

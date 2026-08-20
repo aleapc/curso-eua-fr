@@ -1,0 +1,247 @@
+{
+  "id": "a01",
+  "slot": "A01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "Comment ils parlent quand ce n'est pas à toi",
+  "subtitulo": "Le comptoir d'un café à huit heures du matin, à vitesse réelle, et la moitié de ces phrases, tu les connais déjà",
+  "cena": "Le barista répète en deux secondes la commande de la personne juste avant toi, sans une seule pause, et pas un mot ne ralentit pour toi.",
+  "moldura": "ganha",
+  "frasePiso": "Si de cette partie tu ne retiens qu'une chose — que « going to » se dit « gonna » —, tu comprends déjà plus qu'une bonne partie des touristes n'a jamais compris ici.",
+  "fatosDatados": [
+    {
+      "id": "eua-reducciones-informales",
+      "afirmacao": "In fast, informal American English, function words routinely fuse: going to becomes gonna, want to becomes wanna, got to and have to become gotta and hafta, and what are you becomes whatcha. None of this is an error — it is how English is spoken casually across the country.",
+      "fonte": "Consenso de fontes lexicográficas (Merriam-Webster — entradas «gonna», «wanna», «gotta»; Cambridge Dictionary — «Informal contractions»)",
+      "ano": 2026,
+      "revisarAte": "2030-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a01-n05", "eua-a01-n07"]
+    },
+    {
+      "id": "eua-variedade-regional",
+      "afirmacao": "American English varies by region: the South carries a slower drawl and the plural address word y'all, the Northeast tends to run fast and clipped, and the Midwest is often described as the closest to the neutral broadcast accent (General American).",
+      "fonte": "Consenso de fontes linguísticas sobre dialetos regionais do inglês americano",
+      "ano": 2026,
+      "revisarAte": "2030-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a01-n09"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Partie vingt-neuf. Aujourd'hui tu n'parles pas, tu écoutes. Le poing garde le rythme régulier de l'anglais."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a01-n02",
+      "pt": "Tu vas entendre de l'anglais réel, rapide, sans pause pour toi. Pas besoin de comprendre chaque mot."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n03",
+      "bloco": "cena",
+      "pt": "Huit heures du matin, la queue du café. Le barista répète une commande interminable en deux secondes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o01",
+      "es": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "tts": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "pt": "👂 Ce n'est pas pour toi. Rien à résoudre — laisse passer.",
+      "pinyin": "kn aï guèt e GRAN-de LA-teï, ôte milk, EX-tra chott, tou gô"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a01-o02",
+      "es": "You got it, that's four twenty.",
+      "tts": "You got it, that's four twenty.",
+      "pt": "👂 Toujours pas pour toi. Rien à faire encore.",
+      "pinyin": "you gat it, dats for TOUÈNE-ti"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a01-n04",
+      "pt": "Tu n'as rien attrapé, et ton oreille va très bien. Chaque motif revient maintenant, plus lentement."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n05",
+      "bloco": "corpo",
+      "pt": "Premier motif, le plus courant : « going to » se réduit à « gonna ». Voici la forme entière, comme tu l'as apprise."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a01-o03",
+      "es": "I'm going to grab a coffee.",
+      "tts": "I'm going to grab a coffee.",
+      "pt": "👂 « Je vais prendre un café. » Chaque syllabe à sa place.",
+      "pinyin": "aïme GO-igne tou grab e KO-fi"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a01-o04",
+      "es": "I'm gonna grab a coffee.",
+      "tts": "I'm gonna grab a coffee.",
+      "pt": "👂 Même phrase, même café. « Going to » a perdu la moitié et personne ne l'a remarqué, sauf toi.",
+      "pinyin": "aïme GO-na grab e KO-fi"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a01-n06",
+      "pt": "Deuxième : « want to » se réduit à « wanna ». Tu as déjà utilisé cette question en entier."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o05",
+      "es": "Do you want to sit inside or outside?",
+      "tts": "Do you want to sit inside or outside?",
+      "pt": "👂 « Tu veux t'asseoir dedans ou dehors ? » Version complète et claire.",
+      "pinyin": "dou you OUONNE tou sitt inn-SAÏDE or aoute-SAÏDE"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o06",
+      "es": "Wanna sit inside or outside?",
+      "tts": "Wanna sit inside or outside?",
+      "pt": "👂 Même question, une syllabe en moins au début.",
+      "pinyin": "OUO-na sitt inn-SAÏDE or aoute-SAÏDE"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n07",
+      "bloco": "capsula",
+      "pt": "Troisième : quand quelqu'un dit « have to » ou « got to », tu vas l'entendre comme « hafta » et « gotta ». Et quand on demande « what are you », ça se réduit à « whatcha »."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a01-o07",
+      "es": "I have to go, I'm gonna be late.",
+      "tts": "I have to go, I'm gonna be late.",
+      "pt": "👂 « Je dois y aller, je vais être en retard. » Complète.",
+      "pinyin": "aï HAF-tou gô, aïme GO-na bi lèïte"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-a01-o08",
+      "es": "I gotta go, I'm gonna be late.",
+      "tts": "I gotta go, I'm gonna be late.",
+      "pt": "👂 Même urgence, deux mots plus courts.",
+      "pinyin": "aï GA-ta gô, aïme GO-na bi lèïte"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o09",
+      "es": "Whatcha having today?",
+      "tts": "Whatcha having today?",
+      "pt": "👂 « Tu prends quoi aujourd'hui ? » — « what are you » devenu un seul mot.",
+      "pinyin": "OUA-tcha JA-ving tou-DÈÏ"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a01-n08",
+      "pt": "Aucune de ces formes n'est une erreur. C'est comme sonne l'anglais décontracté dans tout le pays, pas un relâchement."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n09",
+      "bloco": "capsula",
+      "pt": "L'accent change aussi : le Sud étire les voyelles et dit « y'all », le Nord-Est parle vite, le Midwest sonne le plus neutre."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o10",
+      "es": "Y'all want anything else with that?",
+      "tts": "Y'all want anything else with that?",
+      "pt": "👂 « Y'all » — « vous », du Sud. Sert pour un groupe, jamais pour une seule personne.",
+      "pinyin": "yol OUONNE ÈNI-thigne els ouizz dat"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a01-n10",
+      "pt": "Retour au comptoir : la même phrase du tout début, avec les quatre réductions déjà dans ton oreille."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a01-o01",
+      "es": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "tts": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "pt": "👂 Un grand café, lait d'avoine, shot en plus, à emporter. Rapide, mais ce n'est plus du bruit.",
+      "pinyin": "kn aï guèt e GRAN-de LA-teï, ôte milk, EX-tra chott, tou gô"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n11",
+      "bloco": "permissao",
+      "pt": "Attraper un mot sur cinq et continuer d'écouter, c'est très bien. Personne ne note la qualité de ton oreille."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a01-n12",
+      "bloco": "recap",
+      "pt": "A01 bouclée. Gonna, wanna, gotta, whatcha : quatre usures sur des phrases que tu connaissais déjà."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Le ear module : pourquoi ici, tu n'parles pas",
+    "secoes": [
+      {
+        "titulo": "Reconnaître et produire sont deux savoirs distincts",
+        "corpo": "Tu sais déjà dire « going to », « want to », « have to » et « what are you » en entier et clairement. Ce que cette partie entraîne, c'est la compétence séparée de les reconnaître usés, à vitesse réelle, dans une vraie conversation — d'où des étapes exclusivement d'écoute."
+      },
+      {
+        "titulo": "Ces réductions sont la norme, pas l'exception",
+        "corpo": "Gonna, wanna, gotta et whatcha ne sont ni de l'argot d'une seule ville ni celui d'un groupe social : c'est ainsi que parle presque tout le monde aux États-Unis en contexte informel. Un voyageur qui n'a entendu que la version soignée a été traité en visiteur du début à la fin."
+      },
+      {
+        "titulo": "La variété régionale est réelle",
+        "corpo": "Le Sud, le Nord-Est, le Midwest et la côte Ouest sonnent différemment les uns des autres. On te dit que cette variété existe plutôt que de fabriquer un accent artificiel avec une seule voix, qui t'apprendrait un accent qui n'appartient à aucun lieu réel."
+      }
+    ]
+  },
+  "permissao": "Attraper un mot sur cinq et continuer d'écouter, c'est très bien ; garde ce mot, utilise-le, et laisse filer le reste. Tu ne corrigeras jamais personne pour parler ainsi — ce n'est pas du relâchement, c'est simplement la vitesse réelle de la langue. Et toi, tu n'auras jamais besoin de parler aussi vite : comprendre est tout le travail d'aujourd'hui.",
+  "permissaoAudioKey": "eua-a01-n11",
+  "espelho": "Laisser un silence complet à la fin de ta phrase est ce qui, à leurs oreilles, peut sonner étrange — dans ce que tu viens d'entendre, il n'y avait jamais un tel trou, et une pause de cette taille signale en général que le sujet est clos et que c'est à l'autre de parler.",
+  "fichasCulturais": [
+    {
+      "sinal": "Le barista te répond lentement et clairement, puis dit la même chose deux fois plus vite au client habituel juste après.",
+      "suaLeitura": "Il y a un instant je comprenais, et là je ne comprends plus rien — mon anglais ne fonctionne qu'avec quelqu'un de patient.",
+      "oQueEAli": "La parole adressée à un visiteur arrive naturellement plus lente et plus complète ; celle adressée à un habitué, non. Ce qui a changé dans cette seconde, c'est le destinataire, pas ton niveau d'anglais.",
+      "oQueVoceFaz": "Reste dans la conversation. Compte le rythme plutôt que de chasser chaque consonne, et accroche-toi au mot que tu as vraiment saisi.",
+      "oQueMelhora": "Tu continues à suivre la moitié rapide de la conversation au lieu de décrocher — et c'est souvent là que se trouve la vraie recommandation ou la réponse dont tu avais besoin.",
+      "ondeNaoVale": "Pas à un comptoir d'hôtel, d'aéroport ou dans tout lieu conçu spécifiquement pour les touristes — là, la vitesse de visiteur est la seule qui existe, toute la journée.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a01-n04"]
+    }
+  ]
+}

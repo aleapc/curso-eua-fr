@@ -1,0 +1,84 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Demander ce que tu veux vraiment",
+  "subtitulo": "« No ___, please » et « ___ without ___ » pour ajuster la commande",
+  "introAudioKey": "eua-b12-q-i",
+  "introPt": "Le taco est arrivé avec de la coriandre alors que tu l'avais demandé sans. Écoute la correction à table et décide ce qui correspond.",
+  "cenario": "À table, pendant que le serveur prend la commande.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b12-q01",
+      "voz": "target_en_f",
+      "es": "A taco without cilantro, please.",
+      "tts": "A taco without cilantro, please.",
+      "pinyin": "e TA-kô ouizz-AOUTE si-LANNE-trô, pliize",
+      "pt": "Un taco sans coriandre, s'il vous plaît."
+    },
+    {
+      "audioKey": "eua-b12-q02",
+      "voz": "target_en_m",
+      "es": "Got it — one taco, no cilantro.",
+      "tts": "Got it — one taco, no cilantro.",
+      "pinyin": "gate itte — ouanne TA-kô, nô si-LANNE-trô",
+      "pt": "C'est noté : un taco, sans coriandre."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quelle est la forme la plus courte pour retirer quelque chose d'une commande ?",
+      "opcoes": [
+        "___ without ___",
+        "No ___, please",
+        "Do you have ___?",
+        "Can I get ___?"
+      ],
+      "correta": 1,
+      "explica": "« No ___, please » est la version rapide : sert à retirer directement quelque chose, comme les glaçons ou l'oignon."
+    },
+    {
+      "pergunta": "Quelle formule construit toute la commande depuis le départ sans un ingrédient ?",
+      "opcoes": [
+        "___ without ___",
+        "No ___, please",
+        "I'm looking for ___",
+        "How much is ___?"
+      ],
+      "correta": 0,
+      "explica": "« A burger without cheese, please » construit toute la commande sans l'ingrédient dès le début."
+    },
+    {
+      "pergunta": "Le serveur répète toute ta commande à voix haute. Qu'est-ce que ça signifie ?",
+      "opcoes": [
+        "Qu'il doute de ton anglais",
+        "C'est la confirmation standard, ça arrive à n'importe quel client",
+        "Que tu as fait quelque chose de mal",
+        "Qu'il va te facturer un supplément"
+      ],
+      "correta": 1,
+      "explica": "Répéter la commande à voix haute fait partie normale du service à table américain, pas un doute sur ta façon de parler."
+    },
+    {
+      "pergunta": "Pourquoi cette formule ne sert-elle pas à communiquer une allergie ?",
+      "opcoes": [
+        "Parce qu'elle ne fonctionne qu'avec les boissons",
+        "Parce qu'elle retire une préférence, pas un risque pour la santé",
+        "Parce qu'elle est trop formelle",
+        "Parce que la cuisine ne la comprend pas"
+      ],
+      "correta": 1,
+      "explica": "« No ___, please » retire quelque chose que tu n'aimes pas. Pour une allergie, il faut une autre phrase avec plus de poids, apprise en B13."
+    },
+    {
+      "pergunta": "Quel mot fait en anglais le travail que fait en français le conditionnel ou le « s'il vous plaît » ?",
+      "opcoes": [
+        "Please",
+        "Can",
+        "Get",
+        "Have"
+      ],
+      "correta": 0,
+      "explica": "À la fin de presque toute demande, « please » adoucit la phrase. Sans lui, « No ice » sonne comme un ordre sec."
+    }
+  ]
+}

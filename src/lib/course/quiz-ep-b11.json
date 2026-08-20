@@ -1,0 +1,92 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — La première tournée",
+  "subtitulo": "« Can I get ___? » de la table à l'addition, et pourquoi le pourboire est le salaire",
+  "introAudioKey": "eua-b11-q-i",
+  "introPt": "Ils se sont assis pour manger et il y a quatre étapes avant de payer : table, boisson, plat et addition. Écoute l'ordre et décide ce qui correspond à chaque moment.",
+  "cenario": "Un restaurant avec service à table, sans réservation, à l'heure du repas.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b11-q01",
+      "voz": "target_en_f",
+      "es": "Can I get a table for two?",
+      "tts": "Can I get a table for two?",
+      "pinyin": "kn aï guète e TÈÏ-boule for tou",
+      "pt": "Vous nous donnez une table pour deux ?"
+    },
+    {
+      "audioKey": "eua-b11-q02",
+      "voz": "target_en_m",
+      "es": "Sure, right this way.",
+      "tts": "Sure, right this way.",
+      "pinyin": "choure, raïte diss ouèï",
+      "pt": "Bien sûr, par ici."
+    },
+    {
+      "audioKey": "eua-b11-q03",
+      "voz": "target_en_f",
+      "es": "Can I get the check, please?",
+      "tts": "Can I get the check, please?",
+      "pinyin": "kn aï guète de tchèke, pliize",
+      "pt": "Je peux avoir l'addition, s'il vous plaît ?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quelle formule sert à commander une table, une boisson, un plat et l'addition ?",
+      "opcoes": [
+        "Do you have ___?",
+        "Can I get ___?",
+        "Where's the ___?",
+        "How much is ___?"
+      ],
+      "correta": 1,
+      "explica": "« Can I get » plus ce que tu veux est le cheval de bataille du restaurant : ça marche à table, au bar et au comptoir."
+    },
+    {
+      "pergunta": "Vous avez fini de manger et la serveuse ne revient pas. Que fais-tu ?",
+      "opcoes": [
+        "Tu attends assis qu'elle s'en souvienne",
+        "Tu demandes l'addition : « Can I get the check? »",
+        "Tu pars sans payer",
+        "Tu lui demandes l'heure"
+      ],
+      "correta": 1,
+      "explica": "Aux États-Unis, l'addition n'arrive pas toute seule : il faut la demander. Sans cette phrase, on peut te laisser assis tout l'après-midi."
+    },
+    {
+      "pergunta": "Quel est le salaire de base fédéral d'un serveur par heure ?",
+      "opcoes": [
+        "15 $",
+        "2,13 $",
+        "7,25 $",
+        "Il n'a pas de salaire de base"
+      ],
+      "correta": 1,
+      "explica": "Le salaire de base fédéral d'un travailleur à pourboire n'est que de 2,13 $ de l'heure ; le pourboire constitue la majeure partie du vrai salaire."
+    },
+    {
+      "pergunta": "Quel pourcentage de pourboire est la norme dans un restaurant avec service complet ?",
+      "opcoes": [
+        "5-10 %",
+        "18-20 %",
+        "35-40 %",
+        "On ne laisse pas de pourboire"
+      ],
+      "correta": 1,
+      "explica": "La moyenne effective tourne autour de 19 %. Moins de 15 % se lit comme une plainte sur le service."
+    },
+    {
+      "pergunta": "Tu commandes une bière et on te demande une pièce d'identité même si tu as visiblement l'âge légal. Qu'est-ce qui fonctionne ?",
+      "opcoes": [
+        "La photo du passeport sur le téléphone",
+        "Le passeport physique",
+        "Ta parole comme quoi tu as l'âge",
+        "Rien, c'est seulement pour les mineurs"
+      ],
+      "correta": 1,
+      "explica": "C'est la coutume de demander une pièce d'identité à tout âge ; le document physique fonctionne, la photo sur le téléphone ne compte pas."
+    }
+  ]
+}

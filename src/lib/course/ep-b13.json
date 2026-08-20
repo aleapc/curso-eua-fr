@@ -1,0 +1,236 @@
+{
+  "id": "b13",
+  "slot": "B13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "13A",
+  "titulo": "La phrase qui ne se dit pas à moitié",
+  "subtitulo": "La phrase fixe pour déclarer une restriction de santé, et la carte écrite en renfort",
+  "cena": "Le plat est déjà en route et tu ne sais pas s'il contient de la cacahuète ; tu dois le dire avant qu'il arrive à table, pas après.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas dire une allergie en anglais sans hésiter et sans en minimiser l'importance, même si c'est la première fois que tu le dis à voix haute hors de chez toi.",
+  "permissao": "Tu n'as pas à expliquer la réaction ni à te justifier. Dire « I'm allergic to ___ » une seule fois, clairement et sans gêne, suffit déjà. Répète-le autant de fois qu'il le faut jusqu'à ce qu'on te confirme.",
+  "permissaoAudioKey": "eua-b13-n07",
+  "espelho": "Dans ton pays aussi, tu signalerais une allergie avant de manger quelque chose d'inconnu ; la seule différence ici, c'est le mot exact et le fait qu'aux États-Unis, la cuisine prend souvent ça très au sérieux par obligation légale, pas seulement par courtoisie.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu dis que tu es allergique aux cacahuètes et le serveur file directement en cuisine sans finir de prendre le reste de la commande, ou revient avec le chef en personne.",
+      "suaLeitura": "Il exagère, c'est juste une information de plus dans la commande.",
+      "oQueEAli": "Par la loi fédérale, les restaurants aux États-Unis doivent traiter les allergènes déclarés comme une information critique : beaucoup forment leur personnel à confirmer avec la cuisine sur le moment, pas après.",
+      "oQueVoceFaz": "Laisse-lui le temps. Confirme à son retour : « Yes, peanuts — no peanuts at all. »",
+      "oQueMelhora": "Tu reçois un plat auquel tu as vraiment confiance, au lieu d'un plat que tu espérais seulement correct.",
+      "ondeNaoVale": "Ça ne s'applique pas de la même façon à un stand de rue ou un petit food truck sans cuisine séparée : là, le risque de contamination croisée est plus élevé même s'ils veulent t'aider, et il vaut mieux demander avant de commander.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b13-n06"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "falcpa-alergenos-mayores",
+      "afirmacao": "By federal law, U.S. food labels must clearly name any of the nine major allergens they contain: milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy and sesame.",
+      "fonte": "FDA — Food Allergen Labeling and Consumer Protection Act (FALCPA), enmendada em 2021 para incluir sésamo",
+      "ano": 2023,
+      "revisarAte": "2027-06-01",
+      "evidencia": "FATO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b13-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "pt": "Partie treize. Voyelle pure encore une fois : a-LLER-gic, pas allergic traîné. Claire et courte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b13-n02",
+      "bloco": "cena",
+      "pt": "Le plat est déjà en route et tu ne sais pas s'il contient de la cacahuète. Tu dois le dire avant qu'il n'arrive à table, pas après."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b13-p01",
+      "promptPt": "Hier tu as demandé le café sans sucre. Répète cette formule maintenant avec l'oignon. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "WITHOUT",
+      "audioKey": "eua-b13-t01",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nô ONNE-yonze, pliize",
+      "pt": "Sans oignon, s'il vous plaît."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b13-n03",
+      "tom": "protege",
+      "pt": "Cette phrase ne s'ajuste ni ne se raccourcit : c'est un marteau, pas une formule. Elle se dit entière, toujours pareille."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïme e-LEUR-jike tou PI-natse",
+      "pt": "Je suis allergique aux cacahuètes."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b13-p02",
+      "promptPt": "Avant de commander, dis au serveur que tu es allergique aux cacahuètes. Parle maintenant.",
+      "audioKey": "eua-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïme e-LEUR-jike tou PI-natse",
+      "pt": "Je suis allergique aux cacahuètes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b13-r01",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gate itte, aïll lète de KI-tchenne nôou",
+      "pt": "C'est noté, je préviens la cuisine."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b13-p03",
+      "promptPt": "Le serveur est parti sans bien confirmer. Répète la phrase une fois de plus, calmement. Parle maintenant.",
+      "audioKey": "eua-b13-t03",
+      "es": "I'm allergic to shellfish. It's serious.",
+      "tts": "I'm allergic to shellfish. It's serious.",
+      "pinyin": "aïme e-LEUR-jike tou CHÈLE-fiche. itse SI-rio-se",
+      "pt": "Je suis allergique aux fruits de mer. C'est sérieux."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b13-n04",
+      "pt": "Si tu veux la renforcer, ajoute « It's serious » : ça ne change pas la formule, ça donne juste du poids à l'avertissement."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b13-p04",
+      "promptPt": "Tu es à la pharmacie et tu dois confirmer avant d'acheter un médicament. Dis que tu es allergique à la pénicilline. Parle maintenant.",
+      "audioKey": "eua-b13-t04",
+      "es": "I'm allergic to penicillin.",
+      "tts": "I'm allergic to penicillin.",
+      "pinyin": "aïme e-LEUR-jike tou pè-ni-SI-linne",
+      "pt": "Je suis allergique à la pénicilline."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b13-p06",
+      "promptPt": "Au buffet du petit-déjeuner, un plateau de pain a des noix dessus et tu ne sais pas lesquelles. Signale aussi cette allergie, avant de te servir. Parle maintenant.",
+      "audioKey": "eua-b13-t06",
+      "es": "I'm allergic to tree nuts.",
+      "tts": "I'm allergic to tree nuts.",
+      "pinyin": "aïme e-LEUR-jike tou tri natse",
+      "pt": "Je suis allergique aux fruits à coque."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b13-p07",
+      "promptPt": "Ce même buffet sert un plat avec une crème que tu ne reconnais pas. Dis que tu es aussi allergique aux produits laitiers. Parle maintenant.",
+      "audioKey": "eua-b13-t07",
+      "es": "I'm allergic to dairy.",
+      "tts": "I'm allergic to dairy.",
+      "pinyin": "aïme e-LEUR-jike tou DÈ-ri",
+      "pt": "Je suis allergique aux produits laitiers."
+    },
+    {
+      "consulta": ["saude/minha-alergia"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "speak to the chef",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b13-p08",
+      "promptPt": "Le serveur est parti en cuisine, mais tu veux une confirmation plus directe avant que le plat n'arrive. Demande à parler au chef. Parle maintenant.",
+      "audioKey": "eua-b13-t08",
+      "es": "Can I speak to the chef?",
+      "tts": "Can I speak to the chef?",
+      "pinyin": "kn aï spike tou de chèfe",
+      "pt": "Je peux parler au chef ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b13-n05",
+      "pt": "La voix n'est pas la seule chose que tu apportes : la carte écrite avec ton allergie ne dépend pas d'une bonne prononciation."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b13-p05",
+      "promptPt": "En plus de le dire, montre la carte. Demande au serveur de la lire. Parle maintenant.",
+      "audioKey": "eua-b13-t05",
+      "es": "Can I show you this card?",
+      "tts": "Can I show you this card?",
+      "pinyin": "kn aï chôou you diss karde",
+      "pt": "Je peux vous montrer cette carte ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b13-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Si le serveur court en cuisine ou revient avec le chef, il n'exagère pas : la loi traite une allergie déclarée comme critique."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b13-n07",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas à expliquer la réaction ni à te justifier. Le dire une fois, clairement, suffit. Répète-le jusqu'à confirmation."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b13-n08",
+      "bloco": "recap",
+      "pt": "B13 bouclée. « I'm allergic to » plus quoi que ce soit, toujours entière, plus la carte écrite en renfort."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Pourquoi cette phrase n'est pas une formule",
+    "secoes": [
+      {
+        "titulo": "Phrase-marteau, pas formule ouverte",
+        "corpo": "« I'm allergic to ___ » se dit toujours entière et de la même façon. À la différence de « Can I get ___? » ou « Do you have ___? », il n'y a ici aucune place pour improviser le registre : changer sa forme lui enlève du poids juste au moment où c'est le plus important."
+      },
+      {
+        "titulo": "La carte écrite en renfort",
+        "corpo": "Dans un moment de stress ou avec un accent fort, la voix peut faillir. La carte avec l'allergie écrite en anglais ne dépend ni de la prononciation ni du fait d'être compris du premier coup."
+      },
+      {
+        "titulo": "La loi derrière la réaction du personnel",
+        "corpo": "La loi fédérale sur l'étiquetage des allergènes oblige à déclarer neuf allergènes majeurs sur tout produit emballé. Beaucoup de restaurants forment leur personnel avec le même niveau de sérieux, même si ce n'est pas obligatoire en salle."
+      },
+      {
+        "titulo": "Ce n'est pas la même chose que B12",
+        "corpo": "B12 retire une préférence — sans oignon, sans glaçons. B13 communique un risque pour la santé. La cuisine les traite différemment, et toi aussi tu devrais : l'un est un goût, l'autre est une question de sécurité."
+      }
+    ]
+  }
+}

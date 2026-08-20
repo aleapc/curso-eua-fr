@@ -1,0 +1,82 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — On t'invite chez quelqu'un",
+  "subtitulo": "Quoi apporter, à quelle heure arriver",
+  "introAudioKey": "eua-i08-q-i",
+  "introPt": "On t'invite à dîner chez un ami. Écoute comment il demande quoi apporter et comment il se comporte en arrivant.",
+  "cenario": "Un dîner informel chez quelqu'un, aux États-Unis.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i08-q01",
+      "voz": "target_en_m",
+      "es": "Would you like to come over for dinner on Friday?",
+      "tts": "Would you like to come over for dinner on Friday?",
+      "pinyin": "ououde you laïke tou kame ôveur for DI-neur onne FRAÏ-dèï",
+      "pt": "Tu aimerais venir dîner vendredi ?"
+    },
+    {
+      "audioKey": "eua-i08-q02",
+      "voz": "target_en_f",
+      "es": "What can I bring?",
+      "tts": "What can I bring?",
+      "pinyin": "ouatte kn aï bringue",
+      "pt": "Qu'est-ce que je peux apporter ?"
+    },
+    {
+      "audioKey": "eua-i08-q03",
+      "voz": "target_en_m",
+      "es": "Just bring yourself, but a bottle of wine is always welcome.",
+      "tts": "Just bring yourself, but a bottle of wine is always welcome.",
+      "pinyin": "djaste bringue your-SÈLFE, batte e BO-teule of ouaïne iz OLE-ouèïze OUÈLE-came",
+      "pt": "Viens juste toi, mais une bouteille de vin est toujours bienvenue."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Que demande directement le voyageur en acceptant l'invitation ?",
+      "opcoes": ["What time is it?", "What can I bring?", "How much is it?", "Where's the restroom?"],
+      "correta": 1,
+      "explica": "Demander quoi apporter est la norme attendue, pas un manque de tact."
+    },
+    {
+      "pergunta": "Qu'est-il normal d'apporter à un dîner informel chez quelqu'un ?",
+      "opcoes": [
+        "Rien, arriver les mains vides",
+        "Une bouteille de vin ou un dessert",
+        "Un cadeau cher et élaboré",
+        "Uniquement des fleurs jaunes"
+      ],
+      "correta": 1,
+      "explica": "Le geste compte plus que la valeur du cadeau."
+    },
+    {
+      "pergunta": "Quelle ponctualité le voyageur doit-il avoir pour un dîner informel à la maison ?",
+      "opcoes": [
+        "Exactement à l'heure, à la seconde près",
+        "Une marge allant jusqu'à quinze minutes est normale",
+        "Il peut arriver quand il veut, l'heure n'a pas d'importance",
+        "Il doit arriver une heure avant"
+      ],
+      "correta": 1,
+      "explica": "Une petite marge après l'heure dite est acceptée dans ce contexte informel."
+    },
+    {
+      "pergunta": "L'hôte est en train de mettre la table. Que propose le voyageur ?",
+      "opcoes": ["Can I help with anything?", "How much is it?", "Where's the kitchen?", "I lost my phone"],
+      "correta": 0,
+      "explica": "Proposer son aide fait partie du rituel attendu d'un bon invité."
+    },
+    {
+      "pergunta": "Que fait le voyageur avant de partir ?",
+      "opcoes": [
+        "Il part sans rien dire",
+        "Il remercie et propose d'aider à débarrasser",
+        "Il demande l'addition",
+        "Il demande l'heure de fermeture"
+      ],
+      "correta": 1,
+      "explica": "Remercier et proposer d'aider à la fin conclut bien la soirée."
+    }
+  ]
+}

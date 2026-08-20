@@ -1,0 +1,278 @@
+{
+  "id": "b17",
+  "slot": "B17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "17A",
+  "titulo": "La douleur qui décide si tu vas à la pharmacie ou à l'hôpital",
+  "subtitulo": "Demander quelque chose contre le malaise, signaler ce que tu as perdu, et pourquoi le mauvais hôpital peut te ruiner",
+  "cena": "Tu as mal au ventre depuis hier soir, tu ne sais pas si c'est quelque chose qui passe avec un médicament de pharmacie ou si tu dois voir un médecin, et l'horloge tourne.",
+  "moldura": "protege",
+  "frasePiso": "Tu vas distinguer un malaise de pharmacie d'une vraie urgence, et tu vas savoir où mettre ton argent et ton temps.",
+  "permissao": "Tu n'as pas à te diagnostiquer toi-même. Demander quelque chose contre le malaise à la pharmacie est une première étape valable ; si ça ne va pas mieux, passer à un médecin n'est pas exagérer, c'est ce qu'on attend.",
+  "permissaoAudioKey": "eua-b17-n09",
+  "espelho": "Dans ton pays aussi, tu choisis entre la pharmacie et l'hôpital selon la gravité de ce que tu ressens ; la seule différence ici, c'est que sans assurance médicale, cette décision est aussi une décision d'argent, et se tromper coûte bien plus cher que chez toi.",
+  "fichasCulturais": [
+    {
+      "sinal": "À la pharmacie, tu vois un comptoir séparé de la caisse normale, avec un guichet et des gens qui attendent en silence.",
+      "suaLeitura": "C'est une autre file de la même pharmacie, pour la même chose.",
+      "oQueEAli": "Ce comptoir est celui des médicaments sur ordonnance (pharmacist counter), différent de la caisse des articles généraux. C'est là que sont délivrés les médicaments nécessitant une ordonnance, pas les médicaments en vente libre.",
+      "oQueVoceFaz": "Si tu as besoin de quelque chose de simple — pour le mal de tête, le ventre, une allergie légère — tu le cherches toi-même dans les rayons ou tu demandes à la caisse normale, pas à ce guichet.",
+      "oQueMelhora": "Tu règles le simple en quelques minutes, sans faire la queue pour quelque chose qui ne nécessite pas d'ordonnance.",
+      "ondeNaoVale": "Ça ne s'applique pas si le médicament que tu cherches nécessite une ordonnance aux États-Unis même s'il est en vente libre dans ton pays ; là, tu as besoin de ce guichet et, probablement, d'un médecin.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b17-n05"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "er-sin-seguro-quiebra",
+      "afirmacao": "Without travel insurance, a single visit to the emergency room can run $1,500 to $3,000 or more before any treatment — and an air ambulance flight can cost around $40,000. Travel insurance is not optional here.",
+      "valor": "US$1.500-3.000+ (ER) · ~US$40.000 (ambulância aérea)",
+      "fonte": "Síntese de custos médicos de emergência nos EUA reportados por seguradoras de viagem e comparadores de preço hospitalar",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "alto",
+      "audioKeys": ["eua-b17-n06", "eua-b17-n07"]
+    },
+    {
+      "id": "urgent-care-alternativa",
+      "afirmacao": "For anything that is not life-threatening — a bad cough, a sprained ankle, a stomach bug — go to an urgent care clinic, not the ER. It is faster and dramatically cheaper.",
+      "fonte": "Prática padrão do sistema de saúde dos EUA",
+      "ano": 2025,
+      "revisarAte": "2027-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Partie dix-sept. Rythme régulier, sans se presser : I need SOME-thing FOR the PAIN. Chaque mot avec son propre poids."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b17-n02",
+      "bloco": "cena",
+      "pt": "Tu as mal au ventre depuis hier soir. Pharmacie ou médecin, tu ne sais pas, et l'horloge continue de tourner."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b17-p01",
+      "promptPt": "Comme dans la partie précédente, demande où se trouve quelque chose dont tu as besoin près de l'hôtel. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "WHERE",
+      "audioKey": "eua-b17-t01",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "ouèrze di aïse ma-CHINE",
+      "pt": "Où est la machine à glaçons ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b17-n03",
+      "bloco": "corpo",
+      "pt": "Première étape, presque toujours : la pharmacie. La même formule du premier jour, avec le symptôme au lieu de l'objet."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you jav SAMME-thigne for e STO-mak-èïke",
+      "pt": "Vous avez quelque chose pour le mal de ventre ?"
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "something for a stomachache",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b17-p02",
+      "promptPt": "Tu arrives à la pharmacie. Demande s'ils ont quelque chose pour le mal de ventre. Parle maintenant.",
+      "audioKey": "eua-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you jav SAMME-thigne for e STO-mak-èïke",
+      "pt": "Vous avez quelque chose pour le mal de ventre ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b17-r01",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "diss choude jèlpe. tèïke itte ouizz foude",
+      "pt": "Ça devrait aider. Prends-le avec de la nourriture."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "something for a fever",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b17-p05",
+      "promptPt": "De retour à l'hôtel, en plus du ventre tu commences à avoir de la fièvre. Demande à la pharmacie s'ils ont aussi quelque chose pour ça. Parle maintenant.",
+      "audioKey": "eua-b17-t05",
+      "es": "Do you have something for a fever?",
+      "tts": "Do you have something for a fever?",
+      "pinyin": "dou you jav SAMME-thigne for e FI-veur",
+      "pt": "Vous avez quelque chose pour la fièvre ?"
+    },
+    {
+      "consulta": ["saude/guardia"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WHERE",
+      "encaixe": "nearest 24-hour pharmacy",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b17-p06",
+      "promptPt": "C'est déjà la nuit et la pharmacie de l'hôtel est fermée. Demande où se trouve la pharmacie de garde vingt-quatre heures la plus proche. Parle maintenant.",
+      "audioKey": "eua-b17-t06",
+      "es": "Where's the nearest 24-hour pharmacy?",
+      "tts": "Where's the nearest 24-hour pharmacy?",
+      "pinyin": "ouèrze de NI-reste touènne-ti for aoueur FAR-ma-si",
+      "pt": "Où est la pharmacie de garde vingt-quatre heures la plus proche ?"
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my medicine isn't working",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b17-p07",
+      "promptPt": "Quelques heures ont passé depuis que tu as pris le médicament et la douleur est toujours là. Dis à quelqu'un de la pharmacie que ça ne fonctionne pas. Parle maintenant.",
+      "audioKey": "eua-b17-t07",
+      "es": "My medicine isn't working.",
+      "tts": "My medicine isn't working.",
+      "pinyin": "maï MÈ-di-sinne IZ-ente OUEUR-kigne",
+      "pt": "Mon médicament ne fait pas effet."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "see a doctor",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b17-p03",
+      "promptPt": "Le médicament n'a pas aidé et la douleur est toujours là des heures après. Demande si tu peux voir un médecin. Parle maintenant.",
+      "audioKey": "eua-b17-t03",
+      "es": "Can I see a doctor?",
+      "tts": "Can I see a doctor?",
+      "pinyin": "kn aï si e DAK-teur",
+      "pt": "Je peux voir un médecin ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b17-n04",
+      "pt": "C'est ici que deux chemins très différents se séparent : la clinique d'urgence, ou les urgences de l'hôpital."
+    },
+    {
+      "consulta": ["saude/algo-para"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "le comptoir de la pharmacie",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b17-p08",
+      "promptPt": "Le pharmacien s'occupe de quelqu'un d'autre au guichet, et ton cas ne peut plus attendre. Attire son attention avec le même mot que toujours. Parle maintenant.",
+      "audioKey": "eua-b17-t08",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b17-n05",
+      "bloco": "capsula",
+      "pt": "Sans danger vital — toux forte, cheville tordue — la clinique d'urgence est plus rapide et moins chère que les urgences."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b17-n06",
+      "tom": "protege",
+      "pt": "Sans assurance voyage, une seule visite aux urgences peut coûter entre mille cinq cents et trois mille dollars avant tout traitement."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b17-n07",
+      "pt": "Et une ambulance aérienne peut atteindre quarante mille dollars. L'assurance voyage n'est pas optionnelle ici."
+    },
+    {
+      "consulta": ["saude/112"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my passport",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b17-p04",
+      "promptPt": "Au milieu de tout ça, tu réalises aussi que tu ne trouves plus ton passeport. Signale-le avec la même formule que pour la chambre. Parle maintenant.",
+      "audioKey": "eua-b17-t04",
+      "es": "I lost my passport.",
+      "tts": "I lost my passport.",
+      "pinyin": "aï loste maï PASSE-porte",
+      "pt": "J'ai perdu mon passeport."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b17-n08",
+      "tom": "ganha",
+      "pt": "Si c'est vraiment grave — douleur à la poitrine, difficulté à respirer — le numéro est le 911 dans tout le pays."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b17-n09",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas à te diagnostiquer toi-même. Commencer par la pharmacie est valable ; sinon, voir un médecin n'est pas exagérer."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b17-n10",
+      "bloco": "recap",
+      "pt": "B17 bouclée. Pharmacie d'abord, urgences pour ce qui n'attend pas, hôpital seulement pour le grave, et 911 si c'est vraiment sérieux."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Pharmacie, clinique ou urgences : comment décider",
+    "secoes": [
+      {
+        "titulo": "L'échelle de décision",
+        "corpo": "Pharmacie pour un malaise léger → clinique d'urgence (urgent care) pour quelque chose qui n'attend pas mais ne met pas la vie en danger → urgences de l'hôpital (ER) seulement pour ce qui est vraiment grave. Chaque échelon coûte plus cher que le précédent, en argent et en temps d'attente."
+      },
+      {
+        "titulo": "Pourquoi l'ER sans assurance peut ruiner le voyage",
+        "corpo": "Une visite aux urgences sans assurance peut coûter entre mille cinq cents et trois mille dollars avant tout vrai traitement, et une ambulance aérienne peut atteindre quarante mille. L'assurance voyage n'est pas un luxe : c'est ce qui évite qu'un petit accident devienne une dette."
+      },
+      {
+        "titulo": "Le 911 est universel",
+        "corpo": "Il fonctionne dans tout le pays, vingt-quatre heures sur vingt-quatre, pour toute vraie urgence : douleur à la poitrine, difficulté à respirer, saignement qui ne s'arrête pas. N'hésite pas à l'utiliser si la situation le justifie."
+      },
+      {
+        "titulo": "Le comptoir des ordonnances, séparé de la caisse",
+        "corpo": "Dans beaucoup de pharmacies américaines, les médicaments sur ordonnance sont délivrés à un comptoir séparé du reste du magasin. Pour quelque chose en vente libre — mal de tête, allergie légère — tu n'as pas besoin de faire cette queue."
+      }
+    ]
+  }
+}

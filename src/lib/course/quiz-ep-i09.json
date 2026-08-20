@@ -1,0 +1,95 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Un après-midi à faire ce qu'ils font",
+  "subtitulo": "Demander ce qui se passe, et demander à venir aussi",
+  "introAudioKey": "eua-i09-q-i",
+  "introPt": "Un voyageur découvre le farmers market du samedi en demandant à quelqu'un du coin, et demande à l'accompagner.",
+  "cenario": "Une conversation qui transforme un plan de week-end en invitation.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i09-q01",
+      "voz": "target_en_m",
+      "es": "So what are you guys up to this weekend?",
+      "tts": "So what are you guys up to this weekend?",
+      "pinyin": "sô ouatte ar you gaïze appe tou diss OUIKE-ènde",
+      "pt": "Et alors, vous faites quoi ce week-end ?"
+    },
+    {
+      "audioKey": "eua-i09-q02",
+      "voz": "target_en_f",
+      "es": "Do you have anything going on at the park this weekend?",
+      "tts": "Do you have anything going on at the park this weekend?",
+      "pinyin": "dou you jav È-ni-thigne GÔ-igne onne atte de parke diss OUIKE-ènde",
+      "pt": "Il se passe quelque chose au parc ce week-end ?"
+    },
+    {
+      "audioKey": "eua-i09-q03",
+      "voz": "target_en_m",
+      "es": "Yeah, there's a farmers market on Saturday morning.",
+      "tts": "Yeah, there's a farmers market on Saturday morning.",
+      "pinyin": "yèa, dèrze e FAR-meurze MAR-kète onne SA-teur-dèï MOR-nigne",
+      "pt": "Oui, il y a un marché de producteurs samedi matin."
+    },
+    {
+      "audioKey": "eua-i09-q04",
+      "voz": "target_en_f",
+      "es": "Can I come with you guys?",
+      "tts": "Can I come with you guys?",
+      "pinyin": "kn aï kame ouizz you gaïze",
+      "pt": "Je peux venir avec vous ?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qu'est-ce qu'un « farmers market » ?",
+      "opcoes": [
+        "Un magasin permanent",
+        "Un marché qui s'installe un jour fixe puis repart",
+        "Un marché uniquement en ligne",
+        "Un marché réservé aux touristes"
+      ],
+      "correta": 1,
+      "explica": "Il apparaît un jour précis puis se démonte après, comme un marché itinérant."
+    },
+    {
+      "pergunta": "Quelle formule utilise-t-on pour demander s'il se passe quelque chose au parc ?",
+      "opcoes": ["WHAT-TIME", "HAVE", "WITHOUT", "EXCUSE"],
+      "correta": 1,
+      "explica": "Do you have anything going on… est la formule de B06 appliquée à un événement."
+    },
+    {
+      "pergunta": "Qu'obtient-on avec « Can I come with you guys? » ?",
+      "opcoes": [
+        "Ça transforme une information en invitation à se joindre",
+        "Ça demande un prix",
+        "Ça termine la conversation",
+        "Ça appelle un taxi"
+      ],
+      "correta": 0,
+      "explica": "Ça fait passer d'entendre parler d'un plan à en faire partie."
+    },
+    {
+      "pergunta": "Une fois au marché, comment se comporte le voyageur ?",
+      "opcoes": [
+        "Uniquement en observateur",
+        "Comme n'importe quel autre client",
+        "En évitant toute interaction",
+        "En prenant seulement des photos"
+      ],
+      "correta": 1,
+      "explica": "Demander à goûter quelque chose fonctionne pareil que pour n'importe quel client local."
+    },
+    {
+      "pergunta": "Est-ce inhabituel de demander à accompagner quelqu'un qu'on connaît à peine ?",
+      "opcoes": [
+        "Oui, il faut toujours l'éviter",
+        "Non, c'est en général une question bien accueillie",
+        "Seulement si tu es local",
+        "Seulement en semaine"
+      ],
+      "correta": 1,
+      "explica": "La plupart des gens sont contents de partager leur vrai plan."
+    }
+  ]
+}

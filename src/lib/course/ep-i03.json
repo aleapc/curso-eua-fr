@@ -1,0 +1,265 @@
+{
+  "id": "i03",
+  "slot": "I03",
+  "nivel": "intermediario",
+  "numero": 3,
+  "parte": "I03",
+  "titulo": "Le plat que tu n'allais pas commander",
+  "subtitulo": "Le tableau des plats du jour change chaque jour, et une seule question te laisse choisir entre deux bonnes choses, pas deviner parmi vingt",
+  "cena": "Le menu a vingt plats et un petit tableau dit « Today's Specials » en écriture serrée que personne n'a traduite — et le serveur est déjà debout, à attendre.",
+  "decisao": "quel plat commander — laisser le serveur recommander entre deux options concrètes, plutôt que deviner parmi vingt noms que tu ne connais pas",
+  "emJogo": "dinheiro",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas choisir entre deux plats réels, avec une seule question, plutôt que commander la seule chose du menu que tu savais déjà prononcer.",
+  "moldes": ["ESCOLHA"],
+  "clique": {
+    "contagem": ["le comptoir des plats du jour", "le stand de tacos", "le magasin de vêtements"],
+    "desconto": "Personne ne t'a donné une phrase pour choisir entre des plats, une autre pour choisir entre des tailles et une autre pour choisir entre des couleurs. Tu as construit les trois avec la même question, en changeant seulement les deux choses entre lesquelles tu décides.",
+    "piso": "La prochaine fois que tu ne sauras pas quoi commander, tu ne pointeras pas au hasard : tu demanderas ce qu'on recommande, entre deux options concrètes."
+  },
+  "fichasCulturais": [
+    {
+      "sinal": "Le serveur te dit le nom de deux plats du tableau des spécialités et reste debout, à attendre ta réponse.",
+      "suaLeitura": "Je devrais connaître ces plats, ou il va me voir comme quelqu'un qui ne sait pas ce qu'il commande.",
+      "oQueEAli": "Le tableau des spécialités change tous les jours selon ce que la cuisine a de frais ; même les clients habitués ne le connaissent pas à l'avance, donc demander ce qu'on recommande ne trahit rien — c'est ce qu'on attend.",
+      "oQueVoceFaz": "Tu demandes « Which one do you recommend? » et tu laisses le serveur décider entre les deux options qu'il vient lui-même de mentionner.",
+      "oQueMelhora": "Tu manges ce que la cuisine a vraiment bien réussi aujourd'hui, plutôt que le seul plat du menu que tu savais déjà nommer.",
+      "ondeNaoVale": "Ça ne s'applique pas dans les chaînes de fast-food avec menu fixe et photos, où il n'y a pas de tableau de spécialités qui change quotidiennement.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i03-n03"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Le poing sur le mot qui compte : which do you re-co-MMEND."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i03-p01",
+      "promptPt": "Hier au café, tu as commandé sans tourner autour du pot. Aujourd'hui tu commandes encore comme ça, directement. Parle maintenant.",
+      "bloco": "callback",
+      "audioKey": "eua-i03-t01",
+      "es": "Can I get a table for two, please?",
+      "tts": "Can I get a table for two, please?",
+      "pinyin": "kn aï guète e TÈÏ-boule for tou, pliize",
+      "pt": "Vous nous donnez une table pour deux, s'il vous plaît ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i03-n02",
+      "bloco": "cena",
+      "pt": "Vingt plats au menu, un petit tableau dit « Today's Specials » sans traduction, et le serveur attend déjà."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i03-r01",
+      "es": "Today we've got the salmon or the short rib special.",
+      "tts": "Today we've got the salmon or the short rib special.",
+      "pinyin": "tou-DÈÏ oui gate de SA-monne or de chorte ribe ess-PÈ-chale",
+      "pt": "Aujourd'hui on a le saumon ou la spécialité de plat côtes."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i03-n03",
+      "bloco": "molde",
+      "pt": "La formule : tu ne demandes pas ce qui est bon, tu choisis entre deux choses qu'on t'a déjà dites. Which do you recommend, plus les deux."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-i03-t02",
+      "es": "Which do you recommend: the salmon or the short rib?",
+      "tts": "Which do you recommend: the salmon or the short rib?",
+      "pinyin": "ouitche dou you rè-co-MENDE de SA-monne or de chorte ribe",
+      "pt": "Vous recommandez lequel : le saumon ou le plat côtes ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "ESCOLHA",
+      "encaixe": "the salmon or the short rib",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i03-p02",
+      "promptPt": "Le serveur vient de nommer les deux spécialités. Renvoie-lui le choix. Parle maintenant.",
+      "audioKey": "eua-i03-t02b",
+      "es": "Which do you recommend: the salmon or the short rib?",
+      "tts": "Which do you recommend: the salmon or the short rib?",
+      "pinyin": "ouitche dou you rè-co-MENDE de SA-monne or de chorte ribe",
+      "pt": "Vous recommandez lequel : le saumon ou le plat côtes ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i03-r02",
+      "es": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "tts": "Honestly, the short rib. It's the one everyone's ordering tonight.",
+      "pinyin": "ONE-esste-li, de chorte ribe. itse de ouanne ÈVE-ri-ouanne OR-deu-rigne tou-naïte",
+      "pt": "Franchement, le plat côtes. C'est celui que tout le monde commande ce soir."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i03-p03",
+      "promptPt": "Autre table, autre jour : deux plats du tableau, et de nouveau tu renvoies la décision au serveur. Parle maintenant.",
+      "molde": "ESCOLHA",
+      "encaixe": "the pasta or the fish",
+      "audioKey": "eua-i03-t03",
+      "es": "Which do you recommend: the pasta or the fish?",
+      "tts": "Which do you recommend: the pasta or the fish?",
+      "pinyin": "ouitche dou you rè-co-MENDE de PASTE-a or de fiche",
+      "pt": "Vous recommandez lequel : les pâtes ou le poisson ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i03-p04",
+      "promptPt": "Dans un magasin de vêtements, deux t-shirts du même modèle, couleurs différentes. La même question fonctionne ici aussi. Parle maintenant.",
+      "molde": "ESCOLHA",
+      "encaixe": "the blue one or the black one",
+      "audioKey": "eua-i03-t04",
+      "es": "Which do you recommend: the blue one or the black one?",
+      "tts": "Which do you recommend: the blue one or the black one?",
+      "pinyin": "ouitche dou you rè-co-MENDE de bloue ouanne or de blake ouanne",
+      "pt": "Vous recommandez lequel : le bleu ou le noir ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i03-n04",
+      "bloco": "corpo",
+      "pt": "Maintenant, quelque chose que tu connais déjà depuis B06 : si tu ne sais pas si quelque chose existe ici, tu peux toujours demander directement."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i03-p05",
+      "promptPt": "Tu veux savoir s'il y a une soupe du jour aujourd'hui. Demande s'ils en ont. Parle maintenant.",
+      "molde": "HAVE",
+      "encaixe": "a soup of the day",
+      "audioKey": "eua-i03-t05",
+      "es": "Do you have a soup of the day?",
+      "tts": "Do you have a soup of the day?",
+      "pinyin": "dou you jav e soupe of de dèï",
+      "pt": "Vous avez une soupe du jour ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i03-r03",
+      "es": "Yeah, it's on the board by the door.",
+      "tts": "Yeah, it's on the board by the door.",
+      "pinyin": "yèa, itse onne de borde baï de dôr",
+      "pt": "Oui, c'est sur le tableau près de la porte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i03-p06",
+      "promptPt": "Tu ne l'as pas vu. Demande où est le tableau. Parle maintenant.",
+      "molde": "WHERE",
+      "encaixe": "the specials board",
+      "audioKey": "eua-i03-t06",
+      "es": "Where's the specials board?",
+      "tts": "Where's the specials board?",
+      "pinyin": "ouèrze de ess-PÈ-chalze borde",
+      "pt": "Où est le tableau des spécialités ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i03-p07",
+      "promptPt": "Tu as choisi la spécialité de plat côtes, mais l'oignon ne te réussit pas. Commande-le sans. Parle maintenant.",
+      "molde": "WITHOUT",
+      "encaixe": "onions on that",
+      "audioKey": "eua-i03-t07",
+      "es": "No onions on that, please.",
+      "tts": "No onions on that, please.",
+      "pinyin": "nô ONNE-yonze onne dat, pliize",
+      "pt": "Sans oignon dessus, s'il vous plaît."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i03-n05",
+      "bloco": "capsula",
+      "pt": "Le serveur t'a déjà dit les deux spécialités. Ce n'est pas un examen : même les habitués posent la même question chaque soir."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i03-p08",
+      "promptPt": "Tu as déjà choisi la spécialité de plat côtes. Confirme-le avec le serveur. Parle maintenant.",
+      "audioKey": "eua-i03-t08",
+      "es": "I'll have the short rib, please.",
+      "tts": "I'll have the short rib, please.",
+      "pinyin": "aïll jav de chorte ribe, pliize",
+      "pt": "Je vais prendre le plat côtes, s'il vous plaît."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i03-n06",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de connaître tout le menu. Choisir entre deux options qu'on t'a données toi-même est déjà une décision complète."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i03-n07",
+      "bloco": "clique",
+      "pt": "Tu as choisi entre deux plats et entre deux t-shirts. Personne ne t'a donné ces phrases : tu les as construites avec une seule question."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i03-s01",
+      "es": "Which do you recommend: the salmon or the short rib? Do you have a soup of the day?",
+      "tts": "Which do you recommend: the salmon or the short rib? Do you have a soup of the day?",
+      "pinyin": "ouitche dou you rè-co-MENDE de SA-monne or de chorte ribe ? dou you jav e soupe of de dèï",
+      "pt": "Répète choisir entre deux options et demander si quelque chose existe."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i03-n08",
+      "bloco": "recap",
+      "pt": "I03 bouclée. Which do you recommend laisse la maison décider pour toi — et sert aussi en dehors du restaurant."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin de connaître tout le menu avant de t'asseoir. Demander ce qu'on recommande entre deux options concrètes est exactement ce que fait un client habitué — ça ne trahit rien, ça le confirme.",
+  "permissaoAudioKey": "eua-i03-n06",
+  "espelho": "Demander au serveur de choisir entre deux options du plat du jour dans ta propre langue, c'est quelque chose que tu as déjà fait sans y penser deux fois ; ici, la seule différence, c'est la langue dans laquelle tu le demandes.",
+  "aprofundar": {
+    "titulo": "Une formule pour choisir, pas pour deviner",
+    "secoes": [
+      {
+        "titulo": "La formule ESCOLHA",
+        "corpo": "Which do you recommend, plus deux choses concrètes séparées par « or », est une formule ouverte : elle sert pour des plats, des tailles, des couleurs, n'importe quelle paire d'options réelles devant toi."
+      },
+      {
+        "titulo": "Le tableau change chaque jour",
+        "corpo": "Les spécialités du jour dépendent de ce que la cuisine a de frais ; même les clients habitués ne les mémorisent pas, donc demander ne te trahit pas comme touriste."
+      },
+      {
+        "titulo": "Ça se combine avec ce que tu sais déjà",
+        "corpo": "Do you have, Where's et no ___ please continuent de fonctionner exactement pareil dans cette même scène — ce ne sont pas de nouvelles formules, ce sont les mêmes avec un autre remplissage."
+      }
+    ]
+  }
+}

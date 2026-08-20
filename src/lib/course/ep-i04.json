@@ -1,0 +1,241 @@
+{
+  "id": "i04",
+  "slot": "I04",
+  "nivel": "intermediario",
+  "numero": 4,
+  "parte": "I04",
+  "titulo": "La dernière tournée",
+  "subtitulo": "Last call arrive plus tôt que tu ne le crois, et ouvrir une addition au bar t'évite de sortir ta carte à chaque fois",
+  "cena": "Les lumières du bar montent d'un coup à deux heures du matin, quelqu'un crie « last call » et tu ne sais toujours pas si ta carte est restée ouverte au bar ou si elle est déjà repartie avec un autre client.",
+  "decisao": "combien de temps tu restes et comment tu clôtures l'addition — ouvrir une tab en arrivant t'évite de payer chaque tournée séparément, et last call marque quand ça se termine vraiment",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas ouvrir ton addition en arrivant et la clôturer toi-même avant qu'on éteigne les lumières, sans courir chercher le barman à deux heures du matin.",
+  "fichasCulturais": [
+    {
+      "sinal": "Les lumières du bar s'allument d'un coup et quelqu'un crie « last call », et tu as encore la moitié d'une bière à la main.",
+      "suaLeitura": "Ils ferment déjà, je dois partir en courant tout de suite.",
+      "oQueEAli": "« Last call » est l'annonce qu'ils ne prendront plus de commandes, pas que l'endroit ferme cette seconde-là — il reste en général une quinzaine ou une vingtaine de minutes pour finir ta boisson et clôturer l'addition.",
+      "oQueVoceFaz": "Si tu veux une dernière boisson, commande-la dès que tu entends « last call » ; sinon, commence à clôturer ton addition tranquillement.",
+      "oQueMelhora": "Tu termines la soirée sans précipitation ni surprise, plutôt que d'être surpris encore en train de boire quand les lumières s'allument.",
+      "ondeNaoVale": "Ça ne s'applique pas aux bars avec une heure de fermeture plus tôt affichée sur la porte, où l'annonce réelle peut arriver avant minuit.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-i04-n04"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i04-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "pt": "Aujourd'hui le flick, le coup final : last CALL, pas last cal. La consonne finale se fait bien entendre."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i04-p01",
+      "promptPt": "Hier tu as demandé à partir de quelle heure ils servaient le petit-déjeuner. Aujourd'hui tu utilises la même formule pour le bar. Demande à quelle heure il ferme. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the bar close",
+      "audioKey": "eua-i04-t01",
+      "es": "What time does the bar close?",
+      "tts": "What time does the bar close?",
+      "pinyin": "ouatte taïme daze de bar klôouze",
+      "pt": "Le bar ferme à quelle heure ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i04-n02",
+      "bloco": "cena",
+      "pt": "Il est deux heures du matin, les lumières montent d'un coup, et tu ne sais toujours pas si ta carte est restée ouverte au bar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i04-n03",
+      "bloco": "corpo",
+      "pt": "Avant ça, en arrivant, il y a une étape qui t'évite de sortir ta carte à chaque tournée : ouvrir une addition."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r01",
+      "es": "Would you like to start a tab?",
+      "tts": "Would you like to start a tab?",
+      "pinyin": "ououde you laïke tou starte e tabe",
+      "pt": "Vous voulez ouvrir une addition ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i04-p02",
+      "promptPt": "Tu acceptes : tu veux laisser la carte ouverte toute la soirée. Confirme. Parle maintenant.",
+      "audioKey": "eua-i04-t02",
+      "es": "Yes, please. Here's my card.",
+      "tts": "Yes, please. Here's my card.",
+      "pinyin": "yèsse, pliize. jirze maï karde",
+      "pt": "Oui, s'il vous plaît. Voici ma carte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i04-p03",
+      "promptPt": "Tu passes d'un bar à l'autre et tu veux savoir s'il te reste du temps avant la dernière tournée. Demande à quelle heure est last call. Parle maintenant.",
+      "molde": "WHAT-TIME",
+      "encaixe": "is last call",
+      "audioKey": "eua-i04-t03",
+      "es": "What time is last call?",
+      "tts": "What time is last call?",
+      "pinyin": "ouatte taïme iz laste kole",
+      "pt": "La dernière tournée, c'est à quelle heure ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r02",
+      "es": "One forty-five. We close at two.",
+      "tts": "One forty-five. We close at two.",
+      "pinyin": "ouanne for-ti-FAÏVE. oui klôouze atte tou",
+      "pt": "À une heure quarante-cinq. On ferme à deux heures."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i04-n04",
+      "bloco": "capsula",
+      "pt": "Quand on crie last call, tu as des minutes, pas des secondes. C'est ton signal pour commander la dernière ou commencer à clôturer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i04-p04",
+      "promptPt": "Tu as entendu last call et tu veux vraiment en reprendre une. Commande-la. Parle maintenant.",
+      "audioKey": "eua-i04-t04",
+      "es": "I'll take one more, please.",
+      "tts": "I'll take one more, please.",
+      "pinyin": "aïll tèïke ouanne môr, pliize",
+      "pt": "Je vais en prendre une de plus, s'il vous plaît."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i04-p05",
+      "promptPt": "C'est l'heure de clôturer l'addition. Demande qu'on ferme ta tab. Parle maintenant.",
+      "audioKey": "eua-i04-t05",
+      "es": "Can I close out my tab?",
+      "tts": "Can I close out my tab?",
+      "pinyin": "kn aï klôouze aoute maï tabe",
+      "pt": "Je peux clôturer mon addition ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r03",
+      "es": "Sure, one second.",
+      "tts": "Sure, one second.",
+      "pinyin": "choure, ouanne SÈ-konde",
+      "pt": "Bien sûr, un instant."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i04-p06",
+      "promptPt": "Un ami t'invite ailleurs demain. Demande à quelle heure ils ouvrent, pour ne pas arriver trop tôt. Parle maintenant.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you guys open",
+      "audioKey": "eua-i04-t06",
+      "es": "What time do you guys open?",
+      "tts": "What time do you guys open?",
+      "pinyin": "ouatte taïme dou you gaïze ôpeune",
+      "pt": "Vous ouvrez à quelle heure ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i04-r04",
+      "es": "You're all set. Have a good night.",
+      "tts": "You're all set. Have a good night.",
+      "pinyin": "your ole sète. jav e goude naïte",
+      "pt": "Tout est réglé. Bonne soirée."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i04-p07",
+      "promptPt": "Dis au revoir au barman avant de sortir. Parle maintenant.",
+      "audioKey": "eua-i04-t07",
+      "es": "Thanks, you too.",
+      "tts": "Thanks, you too.",
+      "pinyin": "thanxe, you tou",
+      "pt": "Merci, toi aussi."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i04-p08",
+      "promptPt": "Un ami t'invite à un autre bar avant celui-ci. Demande à quelle heure il ouvre. Parle maintenant.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does that place open",
+      "audioKey": "eua-i04-t08",
+      "es": "What time does that place open?",
+      "tts": "What time does that place open?",
+      "pinyin": "ouatte taïme daze dat plèïsse ôpeune",
+      "pt": "Cet endroit ouvre à quelle heure ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i04-n05",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de calculer le pourboire à chaque fois. Laisse-le en clôturant toute l'addition, une seule fois."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i04-s01",
+      "es": "What time is last call? Can I close out my tab?",
+      "tts": "What time is last call? Can I close out my tab?",
+      "pinyin": "ouatte taïme iz laste kole ? kn aï klôouze aoute maï tabe",
+      "pt": "Répète demander l'heure et clôturer l'addition."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i04-n06",
+      "bloco": "recap",
+      "pt": "I04 bouclée. Start a tab ouvre l'addition, last call prévient qu'il reste des minutes, close out my tab la clôture — l'horloge de B18."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin de courir dès que tu entends last call. Il te reste encore plusieurs minutes pour commander ta dernière boisson ou clôturer l'addition tranquillement — ce n'est pas une alarme incendie.",
+  "permissaoAudioKey": "eua-i04-n05",
+  "espelho": "Quiconque a déjà ouvert une addition dans un bar de sa propre ville pour ne pas sortir sa carte à chaque tournée connaît déjà ce système ; la seule nouveauté ici, c'est le mot tab et l'annonce de last call.",
+  "aprofundar": {
+    "titulo": "La tab et l'horloge du bar",
+    "secoes": [
+      {
+        "titulo": "La tab évite de payer tournée par tournée",
+        "corpo": "Laisser la carte ouverte en arrivant (« start a tab ») est normal et attendu dans les bars américains ; tu payes tout ensemble à la fin, avec un seul pourboire."
+      },
+      {
+        "titulo": "Last call n'est pas une fermeture immédiate",
+        "corpo": "C'est la dernière annonce pour commander ; il reste en général quinze ou vingt minutes avant la fermeture réelle et l'extinction des lumières."
+      },
+      {
+        "titulo": "What time reste la même formule",
+        "corpo": "Bar, check-out, cuisine, petit-déjeuner — la formule de B18 ne change pas ; seul ce que tu demandes change."
+      }
+    ]
+  }
+}

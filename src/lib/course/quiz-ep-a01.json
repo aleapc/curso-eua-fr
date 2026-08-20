@@ -1,0 +1,82 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Comment ils parlent quand ce n'est pas à toi",
+  "subtitulo": "Reconnaître l'anglais rapide et informel au comptoir",
+  "introAudioKey": "eua-a01-q-i",
+  "introPt": "Écoute un barista répéter une longue commande à toute vitesse, puis réponds sur ce que tu as entendu.",
+  "cenario": "Un café bondé à huit heures du matin, à vitesse réelle.",
+  "dialogo": [
+    {
+      "audioKey": "eua-a01-q01",
+      "voz": "target_en_m",
+      "es": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "tts": "Can I get a grande latte, oat milk, extra shot, to go?",
+      "pt": "Un grand café, lait d'avoine, shot en plus, à emporter ?"
+    },
+    {
+      "audioKey": "eua-a01-q02",
+      "voz": "target_en_f",
+      "es": "You got it, that's four twenty.",
+      "tts": "You got it, that's four twenty.",
+      "pt": "C'est noté, ça fait quatre vingt."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Que signifie « gonna » en anglais familier ?",
+      "opcoes": [
+        "Going to",
+        "Got a",
+        "Going on",
+        "Give me"
+      ],
+      "correta": 0,
+      "explica": "« Going to » se réduit à « gonna » dans la langue rapide et informelle."
+    },
+    {
+      "pergunta": "Que veut dire « Wanna sit inside or outside ? » ?",
+      "opcoes": [
+        "Ça coûte combien pour s'asseoir ?",
+        "Tu veux t'asseoir dedans ou dehors ?",
+        "Ils ferment à quelle heure ?",
+        "Vous avez une table libre ?"
+      ],
+      "correta": 1,
+      "explica": "« Wanna » est « want to » : la question n'a pas changé, elle s'est juste réduite."
+    },
+    {
+      "pergunta": "Utiliser « gonna », « wanna » ou « gotta » est-ce une erreur d'anglais ?",
+      "opcoes": [
+        "Oui, c'est du relâchement",
+        "Non, c'est de l'anglais informel ordinaire dans tout le pays",
+        "Seuls les enfants l'utilisent",
+        "Ça ne s'utilise que dans le Sud"
+      ],
+      "correta": 1,
+      "explica": "Cette réduction est normale et répandue, ni une erreur ni l'argot d'un seul groupe."
+    },
+    {
+      "pergunta": "« Whatcha » est la forme réduite de quoi ?",
+      "opcoes": [
+        "What are you",
+        "What time",
+        "Where are you",
+        "Watch out"
+      ],
+      "correta": 0,
+      "explica": "« What are you » se contracte en un seul mot : « whatcha »."
+    },
+    {
+      "pergunta": "Le barista te parle lentement, puis très vite au client habituel. Qu'est-ce qui a changé ?",
+      "opcoes": [
+        "Ton anglais s'est soudainement dégradé",
+        "C'est le destinataire qui a changé, pas la langue",
+        "Le barista a été impoli avec toi",
+        "C'est un dialecte complètement différent"
+      ],
+      "correta": 1,
+      "explica": "La parole adressée à un visiteur vient en général plus lentement ; celle adressée à quelqu'un de connu, non."
+    }
+  ]
+}

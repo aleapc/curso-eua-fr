@@ -1,0 +1,82 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Les mêmes cinq questions de toujours",
+  "subtitulo": "Réponses prêtes et une sortie amicale",
+  "introAudioKey": "eua-i05-q-i",
+  "introPt": "Un chauffeur de taxi pose les questions habituelles. Écoute les réponses prêtes et la formule pour choisir entre deux choses.",
+  "cenario": "Discussion informelle avec un inconnu aux États-Unis.",
+  "dialogo": [
+    {
+      "audioKey": "eua-i05-q01",
+      "voz": "target_en_m",
+      "es": "So, where are you from?",
+      "tts": "So, where are you from?",
+      "pinyin": "sô, ouèr ar you from",
+      "pt": "Et alors, tu viens d'où ?"
+    },
+    {
+      "audioKey": "eua-i05-q02",
+      "voz": "target_en_f",
+      "es": "I'm from France.",
+      "tts": "I'm from France.",
+      "pinyin": "aïme from franse",
+      "pt": "Je suis de France."
+    },
+    {
+      "audioKey": "eua-i05-q03",
+      "voz": "target_en_m",
+      "es": "Do you prefer the beach or the mountains?",
+      "tts": "Do you prefer the beach or the mountains?",
+      "pinyin": "dou you pri-FEUR de bitche or de MAOUNE-tènze",
+      "pt": "Tu préfères la plage ou la montagne ?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Pourquoi vaut-il mieux avoir des réponses prêtes pour ces questions ?",
+      "opcoes": [
+        "Parce que c'est un examen difficile",
+        "Parce qu'elles se répètent presque à l'identique avec chaque inconnu",
+        "Parce que personne ne les pose vraiment",
+        "Parce que seuls les chauffeurs de taxi les posent"
+      ],
+      "correta": 1,
+      "explica": "La même poignée de questions se répète avec presque tout le monde."
+    },
+    {
+      "pergunta": "Qu'est-ce qui reste fixe dans la formule PREFERENCIA ?",
+      "opcoes": ["Les deux options exactes", "« Do you prefer »", "Le nom de la personne", "L'heure"],
+      "correta": 1,
+      "explica": "« Do you prefer » ouvre la formule ; les deux choses entre lesquelles on choisit changent."
+    },
+    {
+      "pergunta": "Dans un magasin, tu vois deux couleurs du même produit. Que demandes-tu ?",
+      "opcoes": [
+        "Do you prefer the red one or the green one?",
+        "What time do you close?",
+        "Can I close out my tab?",
+        "Where's the restroom?"
+      ],
+      "correta": 0,
+      "explica": "La même formule de cet épisode fonctionne en dehors de la conversation sociale."
+    },
+    {
+      "pergunta": "Quelle réponse fonctionne le mieux pour « what have you liked most » ?",
+      "opcoes": ["« Everything », générique", "Quelque chose de précis, comme un plat", "Ne pas répondre", "Changer de sujet"],
+      "correta": 1,
+      "explica": "Le précis donne à l'autre personne quelque chose de réel pour continuer la discussion."
+    },
+    {
+      "pergunta": "Comment sors-tu de la conversation calmement ?",
+      "opcoes": [
+        "Well, it was nice talking to you. Take care.",
+        "En partant sans rien dire",
+        "En ignorant la question suivante",
+        "En demandant l'addition"
+      ],
+      "correta": 0,
+      "explica": "Une phrase courte et chaleureuse conclut la discussion sans brusquerie."
+    }
+  ]
+}

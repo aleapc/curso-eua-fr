@@ -1,0 +1,321 @@
+{
+  "id": "b10",
+  "slot": "B10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "3C",
+  "titulo": "Lis-le avant de le demander",
+  "subtitulo": "Six panneaux qui changent ce que tu fais, et la formule pour quand il n'y a pas de panneau",
+  "cena": "Tu es planté devant un couloir avec trois portes, les mains pleines, et la seule information utile sur laquelle utiliser se trouve sur une petite plaque au-dessus de chacune.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas lire six panneaux en anglais sans les traduire mot à mot, et tu vas demander ce qui n'a pas de panneau avec une seule formule.",
+  "moldes": ["LOOKING"],
+  "clique": {
+    "contagem": [
+      "la porte d'embarquement",
+      "la pharmacie de l'aéroport",
+      "le comptoir de location de voitures",
+      "la cabine d'essayage du magasin"
+    ],
+    "desconto": "Personne ne t'a donné une phrase pour chaque comptoir où tu ne connaissais pas le nom exact de ce que tu cherchais. Tu as construit les quatre avec « I'm looking for » et tu as laissé l'autre personne compléter.",
+    "piso": "La prochaine fois que tu ne trouves pas le nom exact de quelque chose en anglais, tu ne resteras pas silencieux : tu indiqueras l'intention et tu laisseras l'autre finir la phrase."
+  },
+  "permissao": "Tu n'as pas besoin de lire tout le panneau. Reconnaître un mot ou le pictogramme suffit déjà pour savoir quoi faire ; personne ne va te demander de traduire le reste à voix haute.",
+  "permissaoAudioKey": "eua-b10-n08",
+  "espelho": "Dans ton propre pays aussi, il y a des panneaux que tu lis sans y penser deux fois — poussez, tirez, entrée interdite — la seule nouveauté ici, c'est que certains mots ne se devinent pas d'après leur apparence.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu vois une file de gens debout sans aucun panneau « FILE » ni cordon, mais tout le monde garde la même distance les uns des autres face à un comptoir.",
+      "suaLeitura": "Il n'y a pas de vraie file ; je peux aller directement au comptoir.",
+      "oQueEAli": "Aux États-Unis, la file se forme toute seule même sans panneau : la dernière personne debout est la fin de la ligne, et la doubler se remarque autant que s'il y avait un cordon.",
+      "oQueVoceFaz": "Tu demandes « Is this the line? » avant de t'approcher du comptoir, et tu te places derrière la dernière personne.",
+      "oQueMelhora": "Tu entres dans le système que tout le monde suit déjà, au lieu de devenir l'exception visible.",
+      "ondeNaoVale": "Ça ne s'applique pas à un comptoir clairement vide sans personne qui attend : là, il n'y a pas de file à respecter.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b10-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "pt": "Partie dix. La paume à plat marque la voyelle pure de l'anglais, sans la traîner : EX-it, pas un mot français."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b10-n02",
+      "bloco": "cena",
+      "pt": "Trois portes devant toi, les mains pleines, et le seul indice sur laquelle utiliser est sur une petite plaque au-dessus."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b10-p01",
+      "promptPt": "La personne au comptoir de la compagnie aérienne te redemande combien de temps tu restes. Réponds que c'est deux semaines. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "HAVE",
+      "audioKey": "eua-b10-t01",
+      "es": "Do you have a pen? I need to fill this out.",
+      "tts": "Do you have a pen? I need to fill this out.",
+      "pinyin": "dou you jav e pène ? aï nide tou fille diss aoute",
+      "pt": "Vous avez un stylo ? Je dois remplir ça."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n03",
+      "bloco": "corpo",
+      "pt": "Attention à celui-ci : EXIT ne se devine pas d'après sa forme. Exit, c'est la sortie, la porte par laquelle tu sors."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-t02",
+      "es": "EXIT",
+      "tts": "Exit.",
+      "pinyin": "ÈGUE-zite",
+      "pt": "sortie"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b10-n04",
+      "pt": "OUT OF ORDER ne parle pas d'une commande : ça dit que cette machine ou ces toilettes sont en panne."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t03",
+      "es": "OUT OF ORDER",
+      "tts": "Out of order.",
+      "pinyin": "aoute of OR-deur",
+      "pt": "hors service"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-t04",
+      "es": "PULL · PUSH",
+      "tts": "Pull. Push.",
+      "pinyin": "poull · pouche",
+      "pt": "tirer · pousser"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n05",
+      "pt": "« Pull » ressemble à ton pull-over, mais sur une porte c'est tirer vers toi. « Push » veut dire pousser. Lis-le avant la poignée."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t05",
+      "es": "RESTROOM · OUT OF SERVICE",
+      "tts": "Restroom. Out of service.",
+      "pinyin": "RÈSTE-roume · aoute of SEUR-visse",
+      "pt": "toilettes · hors service"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b10-n06",
+      "bloco": "molde",
+      "pt": "Et pour quand il n'y a pas de panneau, la formule : « I'm looking for » et ce que tu cherches. Tu n'as pas besoin de connaître le nom exact."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïme LOU-kigne for maï guèïte",
+      "pt": "Je cherche ma porte d'embarquement."
+    },
+    {
+      "consulta": ["chegar/embarque"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "my gate",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b10-p02",
+      "promptPt": "L'écran a changé et tu ne reconnais plus le numéro. Dis à quelqu'un de l'aéroport que tu cherches ta porte. Parle maintenant.",
+      "audioKey": "eua-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïme LOU-kigne for maï guèïte",
+      "pt": "Je cherche ma porte d'embarquement."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-r01",
+      "es": "It's down that way, past the food court.",
+      "tts": "It's down that way, past the food court.",
+      "pinyin": "itse daoune dat ouèï, paste de foude korte",
+      "pt": "C'est par là, après l'espace restauration."
+    },
+    {
+      "consulta": ["saude/farmacia"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "a pharmacy",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b10-p03",
+      "promptPt": "Tu as mal à la tête et tu ne vois aucun panneau de pharmacie. Dis à un employé ce que tu cherches. Parle maintenant.",
+      "audioKey": "eua-b10-t07",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aïme LOU-kigne for e FAR-ma-si",
+      "pt": "Je cherche une pharmacie."
+    },
+    {
+      "consulta": ["taxi/renta"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "the rental car counter",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b10-p04",
+      "promptPt": "Tu es sorti par la mauvaise porte et tu ne vois aucun comptoir de location de voitures. Demande à un agent de sécurité. Parle maintenant.",
+      "audioKey": "eua-b10-t08",
+      "es": "I'm looking for the rental car counter.",
+      "tts": "I'm looking for the rental car counter.",
+      "pinyin": "aïme LOU-kigne for de RENNE-tale kar KAOUNE-teur",
+      "pt": "Je cherche le comptoir de location de voitures."
+    },
+    {
+      "consulta": ["compras/probador"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "a fitting room",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b10-p05",
+      "promptPt": "Tu as déjà choisi tes vêtements mais tu ne vois pas les cabines d'essayage. Tu ne connais pas le mot exact ; essaie avec la formule. Parle maintenant.",
+      "audioKey": "eua-b10-t09",
+      "es": "I'm looking for a fitting room.",
+      "tts": "I'm looking for a fitting room.",
+      "pinyin": "aïme LOU-kigne for e FI-tigne roume",
+      "pt": "Je cherche une cabine d'essayage."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b10-r02",
+      "es": "Right this way, follow me.",
+      "tts": "Right this way, follow me.",
+      "pinyin": "raïte diss ouèï, FA-lô mi",
+      "pt": "Par ici, suivez-moi."
+    },
+    {
+      "consulta": ["chegar/embarque"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "the baggage claim",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b10-p06",
+      "promptPt": "Tu descends de l'avion et tu ne vois aucun panneau vers les bagages. Demande où c'est. Parle maintenant.",
+      "audioKey": "eua-b10-t10",
+      "es": "Where's the baggage claim?",
+      "tts": "Where's the baggage claim?",
+      "pinyin": "ouèrze de BA-guidje klèïme",
+      "pt": "Où est le tapis à bagages ?"
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "go through here",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b10-p07",
+      "promptPt": "Le panneau dit PERSONNEL SEULEMENT et tu n'es pas sûr que ça te concerne. Demande. Parle maintenant.",
+      "audioKey": "eua-b10-t11",
+      "es": "Can I go through here?",
+      "tts": "Can I go through here?",
+      "pinyin": "kn aï gôou throu jir",
+      "pt": "Je peux passer par ici ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n07",
+      "bloco": "capsula",
+      "pt": "Sans panneau de file, les gens se rangent quand même : la dernière personne debout est la fin de la ligne. Demande avant de passer au comptoir."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b10-n08",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de lire tout le panneau. Avec un mot ou le dessin, tu sais déjà quoi faire."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n09",
+      "bloco": "clique",
+      "pt": "Ta porte, une pharmacie, la location de voitures, une cabine d'essayage. Personne ne t'a donné quatre phrases : une seule formule."
+    },
+    {
+      "consulta": ["reparo/apontar"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "LOOKING",
+      "encaixe": "the lost and found",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b10-p08",
+      "promptPt": "Tu es descendu de l'avion et tu réalises que tu as laissé tes écouteurs sur le siège. Tu ne connais pas le nom exact du comptoir ; essaie avec la formule. Parle maintenant.",
+      "audioKey": "eua-b10-x1",
+      "es": "I'm looking for the lost and found.",
+      "tts": "I'm looking for the lost and found.",
+      "pinyin": "aïme LOU-kigne for de loste annde faoundde",
+      "pt": "Je cherche le bureau des objets trouvés."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b10-s01",
+      "es": "I'm looking for my gate. I'm looking for a pharmacy. I'm looking for the rental car counter.",
+      "tts": "I'm looking for my gate. I'm looking for a pharmacy. I'm looking for the rental car counter.",
+      "pinyin": "aïme LOU-kigne for maï guèïte. aïme LOU-kigne for e FAR-ma-si. aïme LOU-kigne for de RENNE-tale kar KAOUNE-teur",
+      "pt": "Répète la même formule avec trois choses différentes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b10-n10",
+      "bloco": "recap",
+      "pt": "B10 bouclée. Exit, out of order, pull, push, restroom, et une formule pour quand il n'y a pas de panneau."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Des panneaux qui ne se traduisent pas mot à mot",
+    "secoes": [
+      {
+        "titulo": "Le mot qui coûte le plus cher à mal lire",
+        "corpo": "EXIT ne se devine pas d'après sa forme : c'est la sortie. C'est le mot d'anglais d'aéroport dont la mauvaise lecture a le plus de conséquences pratiques, parce que se tromper te fait chercher la mauvaise porte au pire moment."
+      },
+      {
+        "titulo": "La formule ouverte",
+        "corpo": "« I'm looking for » plus ce que tu cherches couvre n'importe quel lieu ou objet sans connaître le nom exact en anglais. L'autre personne complète ce qui manque ; toi, tu indiques juste l'intention."
+      },
+      {
+        "titulo": "Restroom, pas toilet",
+        "corpo": "Tu l'as déjà vu en B06 : dans un lieu public, on demande « restroom », jamais « toilet ». Ici, tu le relis sur la plaque ; le mot est le même dans les deux sens."
+      },
+      {
+        "titulo": "La file sans panneau",
+        "corpo": "Beaucoup de comptoirs aux États-Unis n'ont ni cordon ni panneau FILE. La file existe quand même : c'est la file des gens debout. Demander « Is this the line? » évite le mauvais moment d'avoir l'air de l'avoir doublée."
+      }
+    ]
+  }
+}

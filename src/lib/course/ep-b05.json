@@ -1,0 +1,243 @@
+{
+  "id": "b05",
+  "slot": "B05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "2A",
+  "titulo": "Trois réponses, et tu t'arrêtes",
+  "subtitulo": "Motif, durée et hébergement face à l'agent des douanes : courts, vrais et prouvables",
+  "cena": "L'agent des douanes a déjà le stylo sur ton formulaire, et il ne reste plus entre toi et le tampon que trois phrases courtes et vraies.",
+  "moldura": "protege",
+  "frasePiso": "Réponds seulement à ce qu'on t'a demandé ; la réservation enregistrée porte le reste.",
+  "permissao": "C'est normal de répondre en trois mots et de t'arrêter là. Une réponse courte et vraie ne sonne pas suspecte ici ; l'allonger avec des détails que personne n'a demandés est justement ce qui ralentit le comptoir.",
+  "permissaoAudioKey": "eua-b05-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "L'agent pose une question courte et tu te surprends à ajouter une explication que personne n'a demandée : pourquoi tu as choisi ce voyage, ce que tu as fait la dernière fois, à quel point tu es content.",
+      "suaLeitura": "Plus de détails, ça sonne plus aimable, ou ça montre que je n'ai rien à cacher.",
+      "oQueEAli": "Le comptoir traite toute la journée une file de réponses courtes et bien assorties ; une réponse qui s'étire au-delà de ce qui a été demandé se lit comme quelque chose à revérifier, pas comme de la chaleur.",
+      "oQueVoceFaz": "Réponds seulement à ce qu'on t'a demandé, puis arrête-toi et attends la question suivante.",
+      "oQueMelhora": "L'échange avance au rythme que l'agent a déjà adopté, et tu quittes le comptoir plus vite, pas plus lentement.",
+      "ondeNaoVale": "Ça ne s'applique pas quand l'agent pose explicitement une question à plusieurs volets ou t'invite à donner plus de détails ; là, répondre à tout ce qu'il a demandé est bien la bonne réponse, pas une exception.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b05-n01"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "eua-cbp-decide-estadia",
+      "afirmacao": "L'agent des douanes américaines (CBP) décide, au moment de ton entrée, jusqu'à quand tu peux rester. Avoir une ESTA valide ne fixe pas automatiquement cette date : c'est l'agent qui la fixe, selon tes réponses et ce que tu montres.",
+      "fonte": "U.S. Customs and Border Protection (CBP) — Admission and Parole",
+      "ano": 2026,
+      "revisarAte": "2026-12-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": ["eua-b05-n02"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Pas un examen d'anglais. L'agent décide ta durée de séjour. Trois missions : pourquoi, combien, où. Vérité courte, et tu t'arrêtes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r01",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "ouatse de PEURE-pose of your VI-zite",
+      "pt": "Quel est le motif de votre visite ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b05-p01",
+      "promptPt": "L'agent demande le motif de ton voyage. Tu es en vacances. Réponds en une seule phrase courte. Parle maintenant.",
+      "audioKey": "eua-b05-t01",
+      "es": "I'm here on vacation.",
+      "tts": "I'm here on vacation.",
+      "pinyin": "aïme jir onne vè-KÈÏ-chonne",
+      "pt": "Je suis en vacances."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r02",
+      "es": "How many days will you be staying?",
+      "tts": "How many days will you be staying?",
+      "pinyin": "jaou MÈ-ni dèïze ouill you bi STÈÏ-igne",
+      "pt": "Combien de jours allez-vous rester ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b05-n02",
+      "bloco": "corpo",
+      "pt": "Utilise ton vrai chiffre, pas celui de l'exemple. L'agent le compare à ta réservation pour fixer ta durée autorisée."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b05-p02",
+      "promptPt": "Ton itinéraire réel est de dix jours. Donne seulement la durée. Parle maintenant.",
+      "audioKey": "eua-b05-t02",
+      "es": "Ten days.",
+      "tts": "Ten days.",
+      "pinyin": "tenne dèïze",
+      "pt": "Dix jours."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r03",
+      "es": "Where will you be staying?",
+      "tts": "Where will you be staying?",
+      "pinyin": "ouère ouill you bi STÈÏ-igne",
+      "pt": "Où allez-vous loger ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b05-n03",
+      "pt": "Passe l'histoire de comment tu as trouvé l'hôtel : dis juste le nom. Ta réservation porte l'adresse complète."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b05-p03",
+      "promptPt": "L'agent demande où tu vas loger. Ton hébergement confirmé est l'hôtel de ta réservation enregistrée. Réponds court. Parle maintenant.",
+      "audioKey": "eua-b05-t03",
+      "es": "I'm staying at this hotel.",
+      "tts": "I'm staying at this hotel.",
+      "pinyin": "aïme STÈÏ-igne atte diss jô-TÈLE",
+      "pt": "Je loge dans cet hôtel."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r04",
+      "es": "Do you have the reservation?",
+      "tts": "Do you have the reservation?",
+      "pinyin": "dou you jav de rè-zeur-VÈÏ-chonne",
+      "pt": "Vous avez la réservation ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b05-p04",
+      "promptPt": "L'agent demande la preuve. Remets la confirmation enregistrée sans ajouter d'explication. Parle maintenant.",
+      "audioKey": "eua-b05-t04",
+      "es": "Yes. Here it is.",
+      "tts": "Yes. Here it is.",
+      "pinyin": "yèsse. jir itte iz",
+      "pt": "Oui. La voici."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b05-r05",
+      "es": "Thank you. Welcome.",
+      "tts": "Thank you. Welcome.",
+      "pinyin": "thanke you. OUÈLE-came",
+      "pt": "Merci. Bienvenue."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b05-px1",
+      "promptPt": "Tu n'as pas bien saisi ce que l'agent a demandé. Demande qu'il répète, simplement et sans trop t'excuser. Parle maintenant.",
+      "audioKey": "eua-b05-x1",
+      "es": "Could you repeat the question, please?",
+      "tts": "Could you repeat the question, please?",
+      "pinyin": "koude you ri-PITE de KOUÈSE-tchionne, pliize",
+      "pt": "Pourriez-vous répéter la question, s'il vous plaît ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b05-px2",
+      "promptPt": "Tu as besoin de deux secondes pour trouver la réservation sur ton téléphone. Demande un instant. Parle maintenant.",
+      "audioKey": "eua-b05-x2",
+      "es": "One moment, please.",
+      "tts": "One moment, please.",
+      "pinyin": "ouanne MÔ-mente, pliize",
+      "pt": "Un instant, s'il vous plaît."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b05-px3",
+      "promptPt": "L'agent demande si quelqu'un d'autre voyage avec toi. Réponds court : tu voyages seul. Parle maintenant.",
+      "audioKey": "eua-b05-x3",
+      "es": "I'm traveling alone.",
+      "tts": "I'm traveling alone.",
+      "pinyin": "aïme TRA-veu-lingue e-LÔOUNE",
+      "pt": "Je voyage seul."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b05-px4",
+      "promptPt": "Avant de tamponner ton passeport, l'agent demande si tu as quelque chose à déclarer. Réponds court et vrai. Parle maintenant.",
+      "audioKey": "eua-b05-x4",
+      "es": "No, nothing to declare.",
+      "tts": "No, nothing to declare.",
+      "pinyin": "nô, NA-thigne tou di-KLÈRE",
+      "pt": "Non, rien à déclarer."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b05-s01",
+      "es": "I'm here on vacation. Ten days. I'm staying at this hotel.",
+      "tts": "I'm here on vacation. Ten days. I'm staying at this hotel.",
+      "pinyin": "aïme jir onne vè-KÈÏ-chonne. tenne dèïze. aïme STÈÏ-igne atte diss jô-TÈLE",
+      "pt": "Répète les trois réponses avec une coupure nette après chacune."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b05-n04",
+      "bloco": "recap",
+      "pt": "B05 bouclée. Motif, durée, hébergement, preuve si on la demande : trois réponses courtes. Court n'est pas évasif."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Le comptoir des douanes est un exercice d'assortiment",
+    "secoes": [
+      {
+        "titulo": "Vrai bat fluide",
+        "corpo": "Ne copie jamais le chiffre de ce cours si ton itinéraire dit autre chose. Change le chiffre pour le vrai ; la structure reste la même."
+      },
+      {
+        "titulo": "Une question, une réponse",
+        "corpo": "Motif, durée et hébergement sont des données séparées. Ne les regroupe pas toutes d'un coup, sauf si l'agent les demande ensemble."
+      },
+      {
+        "titulo": "Laisse le document parler",
+        "corpo": "Quand on te demande la preuve, « Yes. Here it is » fait passer l'échange de la mémoire à la preuve.",
+        "exemplos": [
+          { "es": "Do you have the reservation?", "pt": "Vous avez la réservation ?" },
+          { "es": "Yes. Here it is.", "pt": "Oui. La voici." }
+        ]
+      },
+      {
+        "titulo": "Revérifie la règle",
+        "corpo": "Les procédures d'entrée peuvent changer. Revérifie le guide officiel de CBP et de l'ambassade avant de voyager."
+      }
+    ]
+  }
+}

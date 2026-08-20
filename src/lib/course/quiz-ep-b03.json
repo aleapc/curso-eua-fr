@@ -1,0 +1,97 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Excuse me et l'échelle de réparation",
+  "subtitulo": "Quand attirer l'attention, quand demander plus lentement et quand demander par écrit",
+  "introAudioKey": "eua-b03-q-i",
+  "introPt": "Au comptoir de la compagnie aérienne, l'agent a donné l'heure d'embarquement très vite. Écoute comment le voyageur monte l'échelle de réparation, un échelon à la fois.",
+  "cenario": "Au comptoir de la compagnie aérienne, avec une file qui grandit derrière le voyageur.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b03-q01",
+      "voz": "target_en_f",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi ?"
+    },
+    {
+      "audioKey": "eua-b03-q02",
+      "voz": "target_en_m",
+      "es": "Yes? What can I do for you?",
+      "tts": "Yes? What can I do for you?",
+      "pinyin": "yèsse ? ouatte kn aï dou for you",
+      "pt": "Oui ? Comment puis-je vous aider ?"
+    },
+    {
+      "audioKey": "eua-b03-q03",
+      "voz": "target_en_f",
+      "es": "Sorry, I didn't catch that.",
+      "tts": "Sorry, I didn't catch that.",
+      "pinyin": "SO-ri, aï DI-dente katche dat",
+      "pt": "Désolé, je n'ai pas compris."
+    },
+    {
+      "audioKey": "eua-b03-q04",
+      "voz": "target_en_f",
+      "es": "Could you speak more slowly, please?",
+      "tts": "Could you speak more slowly, please?",
+      "pinyin": "koude you spike môr SLÔOU-li, pliize",
+      "pt": "Pourriez-vous parler plus lentement, s'il vous plaît ?"
+    },
+    {
+      "audioKey": "eua-b03-q05",
+      "voz": "target_en_m",
+      "es": "Of course. Boarding starts at four fifteen.",
+      "tts": "Of course. Boarding starts at four fifteen.",
+      "pinyin": "of korse. BOR-dingue starze atte for fif-TINE",
+      "pt": "Bien sûr. L'embarquement commence à quatre heures quinze."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "À quoi sert « excuse me ? » avec un ton de question dans cet échange ?",
+      "opcoes": [
+        "À s'excuser pour une erreur",
+        "À attirer l'attention de quelqu'un qui s'en va",
+        "À demander l'addition",
+        "À terminer la conversation"
+      ],
+      "correta": 1,
+      "explica": "C'est le même mot d'ouverture habituel, dirigé pour récupérer l'attention de l'agent."
+    },
+    {
+      "pergunta": "Quel échelon vient en premier quand tu n'as pas compris quelque chose ?",
+      "opcoes": [
+        "Demander qu'on l'écrive",
+        "Dire que tu n'as pas saisi ce qui a été dit",
+        "Demander qu'on l'épelle",
+        "Répéter la question depuis le début"
+      ],
+      "correta": 1,
+      "explica": "« Sorry, I didn't catch that » est le plus petit échelon : il nomme la coupure avant de demander davantage."
+    },
+    {
+      "pergunta": "Parler plus lentement n'a pas résolu un chiffre. Que fais-tu ?",
+      "opcoes": [
+        "Tu demandes qu'on l'écrive",
+        "Tu redemandes une troisième fois de la même façon",
+        "Tu hoches la tête et continues",
+        "Tu changes de sujet"
+      ],
+      "correta": 0,
+      "explica": "Un troisième essai d'écoute change rarement le résultat ; demander par écrit donne un objet vérifiable."
+    },
+    {
+      "pergunta": "Quelle est la différence entre « excuse me » et « sorry » ?",
+      "opcoes": [
+        "Ils sont toujours interchangeables",
+        "Excuse me ouvre ou demande le passage ; sorry répare quelque chose qui s'est déjà produit",
+        "Sorry est plus formel",
+        "Excuse me ne s'utilise que dans les aéroports"
+      ],
+      "correta": 1,
+      "explica": "Excuse me annonce avant le mouvement ou attire l'attention ; sorry s'utilise quand il y a déjà eu un choc ou une erreur."
+    }
+  ]
+}

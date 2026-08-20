@@ -1,0 +1,235 @@
+{
+  "id": "a03",
+  "slot": "A03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Qui ils croient être",
+  "subtitulo": "Quelqu'un qui n'a jamais mis les pieds en Sicile te dit, très sérieusement, qu'il est italien — et la question qui ouvre cette phrase au lieu de la refermer",
+  "cena": "Un voisin de table vient de te dire « je suis italien » et, deux phrases plus tard, il est clair qu'il est né dans l'Ohio et n'a jamais quitté le pays.",
+  "moldura": "ganha",
+  "frasePiso": "Tu n'as pas besoin d'une théorie sur les États-Unis. Tu as besoin d'une question honnête et de la patience d'écouter une réponse plus longue que prévu.",
+  "fatosDatados": [
+    {
+      "id": "eua-ascendencia-autoidentificacao",
+      "afirmacao": "Many Americans describe their identity by an ancestor's country of origin — 'I'm Italian,' 'I'm Irish' — even when their family has lived in the United States for several generations; the US Census Bureau collects this as self-reported ancestry, a category distinct from citizenship or birthplace.",
+      "fonte": "U.S. Census Bureau, American Community Survey — «Ancestry»",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a03-n03"]
+    },
+    {
+      "id": "eua-individualismo",
+      "afirmacao": "Surveys of American national values consistently find self-reliance and individual achievement described as central to how Americans see themselves, alongside the idea, taught from childhood, that a person's origin should not limit how far they can go — the American Dream.",
+      "fonte": "Consenso de pesquisas de valores nacionais (Pew Research Center)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": ["eua-a03-n05"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Aujourd'hui, tu arrêtes d'être touriste dans la conversation, pas en sachant plus, mais en posant de meilleures questions."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a03-n02",
+      "bloco": "callback",
+      "pt": "Révision d'hier. Le vol a été fatigant et quelqu'un te demande comment tu vas. Réponds avec humour, sans te plaindre."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a03-p01",
+      "promptPt": "Parle maintenant.",
+      "audioKey": "eua-a03-t01",
+      "es": "I'm surviving.",
+      "tts": "I'm surviving.",
+      "pinyin": "aïme seur-VAÏ-vigne",
+      "pt": "Je survis."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a03-n03",
+      "bloco": "cena",
+      "pt": "À table, quelqu'un dit « je suis italien ». Deux phrases plus tard : né dans l'Ohio, jamais quitté le pays."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o01",
+      "es": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "tts": "Yeah, I'm Italian — my great-grandpa came from Sicily.",
+      "pt": "Oui, je suis italien — mon arrière-grand-père venait de Sicile.",
+      "pinyin": "yèa, aïme i-TA-lienne — maï GRÈÏTE-grane-pa kèïme from si-SI-li"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a03-n04",
+      "bloco": "corpo",
+      "pt": "Il ne se trompe pas : ici, se décrire par l'origine de sa famille est normal, même sans y avoir mis les pieds."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a03-p02",
+      "promptPt": "Ouvre la porte au lieu de passer à côté. Demande s'il y est déjà allé. Parle maintenant.",
+      "audioKey": "eua-a03-t02",
+      "es": "Have you ever been to Sicily?",
+      "tts": "Have you ever been to Sicily?",
+      "pinyin": "jav you E-veur binne tou si-SI-li",
+      "pt": "Tu es déjà allé en Sicile ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o02",
+      "es": "No, never. Someday, though.",
+      "tts": "No, never. Someday, though.",
+      "pt": "Non, jamais. Un jour, quand même.",
+      "pinyin": "nô, NÈ-veur. SAME-dèï, dôou"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a03-n05",
+      "bloco": "capsula",
+      "pt": "Remarque ce que tu n'as pas fait : tu n'as pas dit que c'était étrange, ni triste, ni drôle. Ce n'est pas à toi de le juger."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a03-p03",
+      "promptPt": "Tu ne le savais vraiment pas. Dis-le simplement, sans jugement. Parle maintenant.",
+      "audioKey": "eua-a03-t03",
+      "es": "I didn't know it worked that way.",
+      "tts": "I didn't know it worked that way.",
+      "pinyin": "aï DI-dente nôou itte OUEURKTE dat ouèï",
+      "pt": "Je ne savais pas que ça marchait comme ça."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-a03-n06",
+      "pt": "L'autre face de la même pièce : ici, on grandit en entendant que d'où tu viens ne devrait pas limiter jusqu'où tu peux aller."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a03-p04",
+      "promptPt": "Pose une question concrète plutôt qu'une théorie : où il vit maintenant. Parle maintenant.",
+      "audioKey": "eua-a03-t04",
+      "es": "So where's home for you these days?",
+      "tts": "So where's home for you these days?",
+      "pinyin": "sô ouèrz jôme for you diz dèïze",
+      "pt": "Et alors, tu habites où en ce moment ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-a03-o03",
+      "es": "Cleveland, born and raised.",
+      "tts": "Cleveland, born and raised.",
+      "pt": "Cleveland, né et élevé là-bas.",
+      "pinyin": "KLI-vlande, borne annde rèïzde"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-a03-p05",
+      "promptPt": "Propose quelque chose de toi, brièvement. Parle maintenant.",
+      "audioKey": "eua-a03-t05",
+      "es": "My family's from Jalisco, actually.",
+      "tts": "My family's from Jalisco, actually.",
+      "pinyin": "maï FA-mi-liz from ja-LIS-kô, AK-tchou-a-li",
+      "pt": "Ma famille vient de Jalisco, en fait."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-a03-p06",
+      "promptPt": "Tu demandes juste qu'il t'en dise plus, sans rien ajouter. Parle maintenant.",
+      "audioKey": "eua-a03-t06",
+      "es": "Tell me more about that.",
+      "tts": "Tell me more about that.",
+      "pinyin": "tèl mi môr e-BAOUTE dat",
+      "pt": "Raconte-moi en plus."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-a03-s01",
+      "es": "Have you ever been to Sicily? I didn't know it worked that way. So where's home for you these days?",
+      "tts": "Have you ever been to Sicily? I didn't know it worked that way. So where's home for you these days?",
+      "pinyin": "jav you E-veur binne tou si-SI-li. aï DI-dente nôou itte OUEURKTE dat ouèï. sô ouèrz jôme for you diz dèïze",
+      "pt": "Répète les trois questions qui ouvrent cette conversation sans la détourner."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-a03-n07",
+      "bloco": "recap",
+      "pt": "A03 bouclée. Demande s'il connaît le lieu, demande où il vit maintenant, et dis que tu ne le savais pas. Pas besoin de jugement."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "L'origine de la famille et le lieu d'aujourd'hui, deux questions distinctes",
+    "secoes": [
+      {
+        "titulo": "« Je suis italien » n'est pas une confusion",
+        "corpo": "Le recensement américain enregistre l'ascendance comme une catégorie distincte de la nationalité ou du lieu de naissance, précisément parce que des millions de personnes s'identifient ainsi. Ce n'est pas qu'elles ne savent pas d'où elles viennent ; c'est une autre façon de raconter qui elles sont."
+      },
+      {
+        "titulo": "Le mythe enseigné dès l'enfance",
+        "corpo": "L'idée que l'origine d'une personne ne devrait pas limiter jusqu'où elle peut aller — l'« American Dream » — revient sans cesse dans la façon dont les Américains décrivent leurs propres valeurs. Ce n'est pas toujours vrai en pratique, mais c'est l'histoire que la plupart reconnaissent comme la leur."
+      },
+      {
+        "titulo": "Pourquoi demander le lieu d'AUJOURD'HUI est la porte sûre",
+        "corpo": "Demander où quelqu'un vit maintenant, ou s'il a visité le pays de ses grands-parents, c'est une question à laquelle n'importe qui peut répondre sans prendre position. Ça te donne une histoire réelle sans demander à personne de défendre une théorie face à un inconnu."
+      }
+    ]
+  },
+  "permissao": "Ce n'est pas grave de ne rien savoir de tout ça et de le dire. « Je ne savais pas que ça marchait comme ça » est une phrase complète et respectable — bien mieux que de renvoyer un résumé de l'identité américaine à quelqu'un qui la vit tous les jours, ce qui est exactement l'erreur que cette partie cherche à éviter.",
+  "permissaoAudioKey": "eua-a03-n05",
+  "espelho": "Quiconque vient d'un pays qui débat de sa propre histoire d'origine — qui est arrivé le premier, d'où vient ton nom de famille, ce qu'on raconte à l'école — connaît déjà cette forme de l'intérieur. La seule différence ici, c'est que tu l'écoutes en invité, donc la contribution utile est une question, pas une conclusion.",
+  "fichasCulturais": [
+    {
+      "sinal": "Quelqu'un dit « je suis italien », « je suis irlandais » ou « je suis allemand » et tu sais, à sa façon de parler et à son lieu de naissance, qu'il n'a jamais vécu dans ce pays.",
+      "suaLeitura": "Il exagère, ou il ne comprend pas bien ce que ça veut dire d'être de quelque part.",
+      "oQueEAli": "Se décrire par l'origine de sa famille, même des générations après l'émigration, est une façon courante et acceptée de raconter sa propre histoire aux États-Unis — pas une confusion sur la nationalité, ni une tentative de s'approprier une autre culture.",
+      "oQueVoceFaz": "Demande l'histoire concrète : d'où venait le membre de la famille, s'il y est déjà allé, ce qui se conserve à la maison.",
+      "oQueMelhora": "Tu obtiens une histoire réelle et précise, presque toujours plus intéressante que la sympathie ou la correction que tu t'apprêtais à offrir.",
+      "ondeNaoVale": "Ce n'est pas pareil quand quelqu'un revendique une culture vivante dont il ne fait pas partie pour en tirer un avantage ou se l'approprier — ici, il s'agit seulement de la façon dont les gens racontent l'origine de leur propre famille.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a03-n04"]
+    },
+    {
+      "sinal": "Quelqu'un mentionne que sa famille est arrivée d'un autre pays en fuyant quelque chose de difficile, et tu ne sais pas si tu dois en demander plus ou changer de sujet.",
+      "suaLeitura": "Continuer à poser des questions sur quelque chose d'aussi lourd serait indiscret.",
+      "oQueEAli": "Beaucoup de familles américaines ont une histoire d'arrivée récente et la racontent avec fierté, pas comme un secret — demander avec un intérêt sincère est en général bien accueilli, tant que ça n'est pas suivi d'un jugement de ta part sur le côté triste ou admirable de cette histoire.",
+      "oQueVoceFaz": "Demande calmement, sans qualificatif : « raconte-moi en plus » fonctionne mieux que n'importe quel avis.",
+      "oQueMelhora": "La conversation devient réelle au lieu de rester à la surface de la sympathie polie.",
+      "ondeNaoVale": "Pas si la personne change de sujet ou raccourcit sa réponse — c'est le signal qu'elle a dit ce qu'elle voulait dire pour l'instant.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-a03-n05"]
+    }
+  ]
+}

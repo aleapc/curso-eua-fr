@@ -1,0 +1,268 @@
+{
+  "id": "b01",
+  "slot": "B01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "Le mot que le bagagiste comprend vraiment",
+  "subtitulo": "Les quatre gestes qui font que ton anglais se comprend du premier coup, du taxi jusqu'au comptoir",
+  "cena": "Le bagagiste vient de monter ta valise dans la chambre et reste planté à la porte, attendant un seul mot en anglais qui lui dise si c'est fini ou si tu vas lui demander autre chose.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas conclure ton premier échange en anglais avec quatre gestes, pas avec des règles. La plupart des gens ne les apprennent jamais, et c'est pour ça qu'on ne les comprend jamais bien.",
+  "permissao": "C'est normal de sonner français en parlant anglais. Personne ne va noter ton accent ; la seule chose qu'on te demande, c'est que la syllabe forte ressorte clairement et que la consonne finale ne se perde pas.",
+  "permissaoAudioKey": "eua-b01-n06",
+  "espelho": "En français, avaler une syllabe en parlant vite passe presque inaperçu — « chuis » pour « je suis » — parce que l'oreille comble le trou toute seule. En anglais, avaler la consonne finale d'un mot que l'autre connaît déjà change le mot tout entier : « thanks » sans le « s » final cesse de sonner comme « merci » et commence à sonner comme rien du tout.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tu dis un mot que vous connaissez tous les deux — « water », « thanks » — et la personne en face marque une pause et te demande de répéter.",
+      "suaLeitura": "Mon anglais est tellement mauvais que même les mots faciles ne passent pas.",
+      "oQueEAli": "Le mot existe déjà exactement pareil dans son oreille ; ce qui le rend méconnaissable, c'est que le français ne referme pas les mots sur une consonne prononcée de la même façon, et l'anglais si. Ce n'est pas que tu parles mal : c'est qu'il manque la fermeture.",
+      "oQueVoceFaz": "Tu le répètes un peu plus lentement, en marquant le coup sur la syllabe forte et en fermant bien la dernière consonne : THANKS, pas THAN-queu.",
+      "oQueMelhora": "Les mots que tu reconnais déjà — et entre l'aéroport et l'hôtel il y en a plusieurs — cessent d'être les premiers à ne pas passer.",
+      "ondeNaoVale": "Ça ne s'applique pas avec le personnel d'un comptoir international habitué aux accents du monde entier ; là, on te comprendra du premier coup quoi qu'il arrive.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b01-n01", "eua-b01-n02"]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "ingles-ritmo-acentual",
+      "afirmacao": "L'anglais est une langue à rythme accentuel : les syllabes fortes tombent à intervalles réguliers et les faibles se compressent ou disparaissent presque. Le français est à rythme syllabique : chaque syllabe dure à peu près le même temps. C'est pourquoi une phrase anglaise dite « régulièrement », syllabe par syllabe, sonne robotique et parfois cesse d'être comprise.",
+      "fonte": "Descripción fonológica estándar del inglés como lengua de ritmo acentual frente al español silábico (bibliografía de fonética contrastiva inglés-español para hispanohablantes), adaptada ao contraste com o francês.",
+      "ano": 2026,
+      "revisarAte": "2031-01-01",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": ["eua-b01-n01"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b01-n01",
+      "gesto": 1,
+      "mapaGestos": true,
+      "bloco": "aquecimento",
+      "pt": "Partie une. Quatre gestes : coup pour le rythme, paume pour la voyelle, poing sur la syllabe forte, morsure pour le th."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-t01",
+      "gesto": 4,
+      "bloco": "corpo",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "thanxe (mords légèrement la langue entre les dents)",
+      "pt": "Merci. Ferme bien le « s » final, ne le laisse pas tomber."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b01-p01",
+      "promptPt": "Le bagagiste pose ta valise près du lit et attend une seconde avant de partir. Remercie-le, en fermant bien le « s » final. Parle maintenant.",
+      "audioKey": "eua-b01-t01",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "thanxe",
+      "pt": "Merci."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b01-n02",
+      "gesto": 1,
+      "pt": "L'anglais ne répartit pas le temps également : la forte s'étire, les autres s'écrasent. Ex-CUSE me, pas ex-cu-se-me."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t02",
+      "gesto": 1,
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi / pardon. Le coup tombe sur CUSE."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b01-p02",
+      "promptPt": "Tu traînes ta valise dans un couloir étroit de l'hôtel et quelqu'un te bloque le passage sans te voir. Demande le passage en marquant bien le coup sur CUSE. Parle maintenant.",
+      "audioKey": "eua-b01-t02",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b01-n03",
+      "gesto": 2,
+      "bloco": "corpo",
+      "pt": "Water ne se dit pas en entier : la deuxième syllabe s'avale. WAH-teur, paume relâchée sur le -ter, on l'entend à peine."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t03",
+      "gesto": 2,
+      "es": "Water, please.",
+      "tts": "Water, please.",
+      "pinyin": "OUA-deur, pliize",
+      "pt": "De l'eau, s'il vous plaît. La deuxième syllabe de water disparaît presque."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b01-p03",
+      "promptPt": "Tu descends de l'avion la bouche sèche et le steward te propose à boire. Demande de l'eau, en relâchant la deuxième syllabe de water. Parle maintenant.",
+      "audioKey": "eua-b01-t03",
+      "es": "Water, please.",
+      "tts": "Water, please.",
+      "pinyin": "OUA-deur, pliize",
+      "pt": "De l'eau, s'il vous plaît."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b01-n04",
+      "gesto": 3,
+      "pt": "Receipt cache le piège classique : la syllabe forte n'est pas la première. Re-CEET, le poing sur la deuxième."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-t04",
+      "gesto": 3,
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "kn aï guète e ri-SITE",
+      "pt": "Je peux avoir un reçu ? Le coup tombe sur SIT, pas sur RI."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b01-p04",
+      "promptPt": "Tu as payé le taxi de l'aéroport et tu veux garder le reçu pour tes frais de voyage. Demande le reçu en marquant le coup sur la bonne syllabe. Parle maintenant.",
+      "audioKey": "eua-b01-t04",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "kn aï guète e ri-SITE",
+      "pt": "Je peux avoir un reçu ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b01-n05",
+      "gesto": 4,
+      "bloco": "capsula",
+      "pt": "La morsure, c'est le th : la langue dépasse un peu entre les dents. Ni f ni s ; un son nouveau, il suffit de s'en approcher."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b01-t05",
+      "gesto": 4,
+      "es": "The restroom, please.",
+      "tts": "The restroom, please.",
+      "pinyin": "de RÈSTE-roume, pliize (the avec la morsure, pas fe ni se)",
+      "pt": "Les toilettes, s'il vous plaît."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b01-p05",
+      "promptPt": "Tu viens de passer deux heures de vol et la première chose dont tu as besoin en descendant, ce sont les toilettes. Demande où elles se trouvent, en mordant bien le th de « the ». Parle maintenant.",
+      "audioKey": "eua-b01-t05",
+      "es": "The restroom, please.",
+      "tts": "The restroom, please.",
+      "pinyin": "de RÈSTE-roume, pliize",
+      "pt": "Les toilettes, s'il vous plaît."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b01-p06",
+      "promptPt": "Le bagagiste te demande si tu as besoin d'autre chose avant de partir. Dis-lui que non, avec une phrase courte et le rythme inégal de l'anglais. Parle maintenant.",
+      "audioKey": "eua-b01-x1",
+      "es": "No, thanks.",
+      "tts": "No, thanks.",
+      "pinyin": "nô, thanxe",
+      "pt": "Non, merci."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b01-p07",
+      "promptPt": "Un passager te bouscule sans faire exprès dans l'allée de l'avion et s'excuse. Réponds que ce n'est pas grave, avec la voyelle relâchée sur la deuxième syllabe de « problem ». Parle maintenant.",
+      "audioKey": "eua-b01-x2",
+      "es": "No problem.",
+      "tts": "No problem.",
+      "pinyin": "nô PRA-bleum",
+      "pt": "Pas de problème."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b01-p08",
+      "promptPt": "Le bagagiste montre l'ascenseur sans rien dire de plus. Confirme la direction avec un mot qui combine la morsure du th et le coup. Parle maintenant.",
+      "audioKey": "eua-b01-x3",
+      "es": "This way?",
+      "tts": "This way?",
+      "pinyin": "dis ouèï (this avec la morsure, way avec le coup)",
+      "pt": "Par ici ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b01-s01",
+      "es": "Thanks. Excuse me. Water, please.",
+      "tts": "Thanks. Excuse me. Water, please.",
+      "pinyin": "thanxe. ex-KIOUZE mi. OUA-deur, pliize",
+      "pt": "Répète les trois avec leur coup et leur voyelle relâchée, sans aplatir le rythme."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b01-n06",
+      "bloco": "recap",
+      "pt": "B01 bouclée. Coup, voyelle relâchée, poing sur la syllabe forte, morsure sur le th : ces gestes reviennent dans chaque partie."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Pourquoi l'anglais « avale » ses propres mots",
+    "secoes": [
+      {
+        "titulo": "Rythme accentuel, pas syllabique",
+        "corpo": "Le français répartit le temps par syllabe ; l'anglais le répartit par accent. Une phrase anglaise dite avec le rythme régulier du français sonne forcée et parfois cesse d'être comprise, parce que l'oreille anglophone attend que les syllabes faibles s'écrasent.",
+        "exemplos": [
+          { "es": "Water, please.", "pt": "OUA-deur, pliize — la deuxième syllabe de water se fait à peine entendre" },
+          { "es": "Can I get a receipt?", "pt": "le coup tombe sur SIT, pas sur la première syllabe" }
+        ]
+      },
+      {
+        "titulo": "La consonne finale n'est pas facultative",
+        "corpo": "Le français referme rarement un mot sur une consonne bien articulée ; l'anglais le fait tout le temps. Avaler le « s » de thanks ou celui de restroom n'est pas un détail d'accent : ça change quel mot l'autre personne a entendu."
+      },
+      {
+        "titulo": "Le th n'est ni un f ni un s",
+        "corpo": "Faire dépasser à peine le bout de la langue entre les dents suffit à produire le son. Pas besoin de perfection : rien qu'en s'en approchant, ça se distingue déjà de « fanks » ou « sanks »."
+      },
+      {
+        "titulo": "Permission de sonner étranger",
+        "corpo": "L'objectif de B01 n'est pas d'effacer l'accent français : c'est que la syllabe forte et la consonne finale ressortent clairement. Ça suffit pour être compris du premier coup."
+      }
+    ]
+  }
+}

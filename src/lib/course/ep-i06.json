@@ -1,0 +1,242 @@
+{
+  "id": "i06",
+  "slot": "I06",
+  "nivel": "intermediario",
+  "numero": 6,
+  "parte": "I06",
+  "titulo": "Ce que tu as fait hier",
+  "subtitulo": "I went, I had, I loved it — trois pièces fixes qui transforment ta journée d'hier en une histoire racontable",
+  "cena": "Quelqu'un te demande ce que tu as fait hier, et tout ce que tu sais dire en anglais vit au présent — tu veux raconter l'histoire, pas donner un rapport.",
+  "decisao": "raconter la journée d'hier avec trois pièces fixes au passé, plutôt que tout décrire au présent comme si ça se passait maintenant",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Tu n'as pas besoin de tout le passé de la langue. Tu as besoin de trois pièces fixes, et tu les connais déjà toutes les trois.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Jusqu'ici, tout vivait au présent — demande ceci, demande cela. Aujourd'hui : trois pièces fixes pour raconter hier."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i06-p01",
+      "promptPt": "Hier soir, on t'a demandé d'où tu venais. Aujourd'hui quelqu'un d'autre te pose la même question. Réponds comme hier. Parle maintenant.",
+      "bloco": "callback",
+      "audioKey": "eua-i06-t01",
+      "es": "I'm from France.",
+      "tts": "I'm from France.",
+      "pinyin": "aïme from franse",
+      "pt": "Je suis de France."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i06-n02",
+      "bloco": "cena",
+      "pt": "Quelqu'un te demande ce que tu as fait hier, et tout ce que tu sais dire vit au présent."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r01",
+      "es": "So what did you do yesterday?",
+      "tts": "So what did you do yesterday?",
+      "pinyin": "sô ouatte dide you dou YÈSSE-teur-dèï",
+      "pt": "Et alors, tu as fait quoi hier ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i06-n03",
+      "bloco": "corpo",
+      "pt": "I went — je suis allé. C'est une pièce fixe, pas une règle à calculer. Où tu es allé porte toute la phrase."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i06-p02",
+      "promptPt": "Dis où tu es allé hier. Parle maintenant.",
+      "audioKey": "eua-i06-t02",
+      "es": "I went to a diner downtown.",
+      "tts": "I went to a diner downtown.",
+      "pinyin": "aï ouènte tou e DAÏ-neur daoune-TAOUNE",
+      "pt": "Je suis allé dans un diner au centre-ville."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r02",
+      "es": "Nice, what did you have?",
+      "tts": "Nice, what did you have?",
+      "pinyin": "naïsse, ouatte dide you jav",
+      "pt": "Chouette, tu as mangé quoi ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i06-n04",
+      "pt": "I had — j'ai mangé. Même idée, autre pièce fixe. L'histoire continue de se construire toute seule."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i06-p03",
+      "promptPt": "Dis ce que tu as mangé. Parle maintenant.",
+      "audioKey": "eua-i06-t03",
+      "es": "I had a burger and fries.",
+      "tts": "I had a burger and fries.",
+      "pinyin": "aï jade e BEUR-gueur annde fraïze",
+      "pt": "J'ai mangé un burger avec des frites."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i06-n05",
+      "bloco": "capsula",
+      "pt": "Et la pièce qui conclut avec émotion : I loved it. Pas besoin d'expliquer pourquoi, ça suffit."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i06-p04",
+      "promptPt": "Dis que tu as adoré. Parle maintenant.",
+      "audioKey": "eua-i06-t04",
+      "es": "I loved it.",
+      "tts": "I loved it.",
+      "pinyin": "aï lavde itte",
+      "pt": "J'ai adoré."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r03",
+      "es": "Anything go wrong on the trip so far?",
+      "tts": "Anything go wrong on the trip so far?",
+      "pinyin": "È-ni-thigne gôou rongue onne de tripe sô far",
+      "pt": "Quelque chose s'est mal passé sur le voyage jusqu'ici ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i06-n06",
+      "pt": "Voici que revient la formule de B16, maintenant comme anecdote — quelque chose qui s'est déjà passé, pas quelque chose que tu règles sur le moment."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i06-p05",
+      "promptPt": "Raconte, comme une anecdote déjà résolue, que tu as perdu ton téléphone à l'aéroport. Parle maintenant.",
+      "molde": "WENT-WRONG",
+      "encaixe": "my phone",
+      "audioKey": "eua-i06-t05",
+      "es": "I lost my phone at the airport, actually.",
+      "tts": "I lost my phone at the airport, actually.",
+      "pinyin": "aï loste maï fôoune atte di EUR-porte, AK-tchou-a-li",
+      "pt": "En fait, j'ai perdu mon téléphone à l'aéroport."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-i06-r04",
+      "es": "Oh no, did you get it back?",
+      "tts": "Oh no, did you get it back?",
+      "pinyin": "ô nô, dide you guète itte bake",
+      "pt": "Oh non, tu l'as récupéré ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i06-p06",
+      "promptPt": "Conclus l'anecdote : oui, tu l'as récupéré. Parle maintenant.",
+      "audioKey": "eua-i06-t06",
+      "es": "Yeah, someone turned it in.",
+      "tts": "Yeah, someone turned it in.",
+      "pinyin": "yèa, SAMME-ouanne teurnde itte inne",
+      "pt": "Oui, quelqu'un l'a rendu."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i06-n07",
+      "pt": "Et la discussion peut se tourner vers l'avenir sans nouvelle formule : I'm going to, plus ce que tu prévois."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-i06-p07",
+      "promptPt": "Dis ce que tu vas faire aujourd'hui. Parle maintenant.",
+      "audioKey": "eua-i06-t07",
+      "es": "I'm going to check out a market today.",
+      "tts": "I'm going to check out a market today.",
+      "pinyin": "aïme GÔ-igne tou tchèke aoute e MAR-kète tou-dèï",
+      "pt": "Aujourd'hui je vais aller voir un marché."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-i06-p08",
+      "promptPt": "Conclus la discussion avec chaleur avant de partir. Parle maintenant.",
+      "audioKey": "eua-i06-t08",
+      "es": "It was great talking to you.",
+      "tts": "It was great talking to you.",
+      "pinyin": "itte ouaze grèïte TO-kigne tou you",
+      "pt": "Ça m'a fait très plaisir de discuter avec toi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-i06-n08",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas besoin de tout le passé de la langue. Avec I went, I had et I loved it, tu as déjà toute ta journée racontée."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-i06-s01",
+      "es": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "tts": "I went to a diner downtown. I had a burger and fries. I loved it.",
+      "pinyin": "aï ouènte tou e DAÏ-neur daoune-TAOUNE. aï jade e BEUR-gueur annde fraïze. aï lavde itte",
+      "pt": "Répète l'histoire complète : tu es allé, tu as mangé, tu as adoré."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-i06-n09",
+      "bloco": "recap",
+      "pt": "I06 bouclée. I went, I had, I loved it racontent hier ; I lost my ___ revient comme anecdote, pas comme urgence."
+    }
+  ],
+  "permissao": "Tu n'as pas besoin de conjuguer quoi que ce soit de nouveau pour raconter ta journée. I went, I had et I loved it sont des pièces fixes, mémorisées entières — pas une règle à calculer à chaque fois.",
+  "permissaoAudioKey": "eua-i06-n08",
+  "espelho": "Raconter à un ami « je suis allé, j'ai mangé, j'ai adoré » en français est déjà la forme compressée et naturelle dont la plupart des gens racontent leur journée — l'anglais te demande juste de porter cette même compression dans trois pièces fixes du passé.",
+  "fichasCulturais": [],
+  "aprofundar": {
+    "titulo": "Trois pièces, c'est tout un voyage",
+    "secoes": [
+      {
+        "titulo": "Le motif se généralise",
+        "corpo": "I went, I had et I loved it sont des exemples concrets d'un passé bien plus vaste (le simple past), mais tu n'as pas besoin de la règle grammaticale pour utiliser ces trois pièces correctement et souvent."
+      },
+      {
+        "titulo": "L'urgence devient anecdote",
+        "corpo": "I lost my ___, la formule de B16, ne change pas de forme quand elle est racontée comme une histoire — seul le ton change : ce n'est plus une urgence, c'est quelque chose qui est déjà résolu."
+      },
+      {
+        "titulo": "I'm going to couvre le futur plus facilement",
+        "corpo": "Plutôt que d'apprendre un temps futur à part, I'm going to plus un verbe simple règle presque n'importe quel projet que tu veux raconter."
+      }
+    ]
+  }
+}

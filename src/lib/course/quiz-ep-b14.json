@@ -1,0 +1,84 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — L'addition n'est jamais le chiffre du menu",
+  "subtitulo": "La taxe qui monte à la caisse et le service déjà inclus pour un grand groupe",
+  "introAudioKey": "eua-b14-q-i",
+  "introPt": "Vous êtes quatre à table et vous voulez payer séparément. Écoute comment ils le demandent et ce que répond le serveur.",
+  "cenario": "À la fin du repas, avec la machine de paiement sur la table.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b14-q01",
+      "voz": "target_en_f",
+      "es": "Can I get separate checks?",
+      "tts": "Can I get separate checks?",
+      "pinyin": "kn aï guète SÈ-pa-rate tchèkse",
+      "pt": "Vous pouvez nous faire des additions séparées ?"
+    },
+    {
+      "audioKey": "eua-b14-q02",
+      "voz": "target_en_m",
+      "es": "Sure, four ways?",
+      "tts": "Sure, four ways?",
+      "pinyin": "choure, for ouèïze",
+      "pt": "Bien sûr, en quatre parts ?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Le menu disait 48 $ et la machine affiche 54,12 $. Pourquoi ?",
+      "opcoes": [
+        "On t'a surfacturé par erreur",
+        "Le prix du menu n'inclut jamais la taxe de vente",
+        "C'est un supplément pour avoir parlé français",
+        "Tu as changé de plat sans t'en rendre compte"
+      ],
+      "correta": 1,
+      "explica": "La taxe de vente s'ajoute à la caisse ou à l'addition, elle n'apparaît jamais dans le prix imprimé sur le menu."
+    },
+    {
+      "pergunta": "Quelle est la moyenne nationale de la taxe de vente ?",
+      "opcoes": [
+        "0 % dans tout le pays",
+        "Environ 7,5 %, avec des variations selon l'État",
+        "Toujours exactement 10 %",
+        "25 %"
+      ],
+      "correta": 1,
+      "explica": "Elle tourne autour de 7,5 % en moyenne, jusqu'à presque 10 % dans des villes comme Los Angeles ou Chicago, et 0 % dans quelques États."
+    },
+    {
+      "pergunta": "Vous êtes huit et l'addition dit déjà « Gratuity (18%) included ». Que fais-tu ?",
+      "opcoes": [
+        "Tu ajoutes encore 18-20 % par-dessus, comme d'habitude",
+        "Tu n'ajoutes rien de plus : ce supplément couvre déjà le service",
+        "Tu refuses de payer, c'est illégal",
+        "Tu demandes qu'on le retire sans raison"
+      ],
+      "correta": 1,
+      "explica": "Pour les groupes de six ou plus, le service est souvent déjà inclus. Ajouter un autre pourboire par-dessus paye deux fois la même chose."
+    },
+    {
+      "pergunta": "Légalement, qu'est-ce que ces 18 % automatiques pour un grand groupe ?",
+      "opcoes": [
+        "Un pourboire volontaire (tip)",
+        "Un supplément de service obligatoire (service charge)",
+        "Une taxe fédérale",
+        "Une réduction"
+      ],
+      "correta": 1,
+      "explica": "Le fisc américain distingue tip et service charge. Le supplément automatique pour grand groupe est ce dernier : déjà décidé, tu ne le choisis pas."
+    },
+    {
+      "pergunta": "Quand vaut-il mieux demander des additions séparées ?",
+      "opcoes": [
+        "Après qu'elle a déjà été imprimée comme une seule",
+        "Avant qu'on apporte l'addition",
+        "Ce n'est jamais possible de le demander",
+        "Seulement si vous êtes plus de dix"
+      ],
+      "correta": 1,
+      "explica": "Le demander avant que l'addition soit imprimée fait gagner du temps ; diviser une addition déjà imprimée est plus compliqué pour tout le monde."
+    }
+  ]
+}

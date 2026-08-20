@@ -1,0 +1,262 @@
+{
+  "id": "b08",
+  "slot": "B08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "3A",
+  "titulo": "La question dont la réponse tient dans ta tête",
+  "subtitulo": "Où sont les toilettes, où est l'ascenseur, et que faire quand la réponse devient un paragraphe",
+  "cena": "Un inconnu au coin de la rue est déjà en train de dessiner le trajet dans l'air avec ses deux mains, trois rues plus loin, et tu n'as toujours pas décidé combien de tout ça tu as vraiment besoin.",
+  "moldura": "ganha",
+  "frasePiso": "La meilleure question de direction est celle qui te laisse une prochaine étape que tu peux vraiment utiliser.",
+  "moldes": ["WHERE"],
+  "clique": {
+    "contagem": [
+      "le comptoir du hall",
+      "le couloir de l'étage",
+      "le coin de la rue"
+    ],
+    "desconto": "Personne ne t'a donné une question différente pour les toilettes, l'ascenseur et la porte. Tu as changé seulement le lieu que tu cherchais ; la formule est restée pareille.",
+    "piso": "La prochaine fois que tu auras besoin d'un lieu connu, tu n'improviseras pas toute la phrase. Tu diras where's the et le lieu, et ça suffira."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Poing sur le WHERE's : WHERE's the. Ça sert pour n'importe quel lieu connu que tu as besoin de trouver, peu importe où tu es."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b08-p00",
+      "promptPt": "Dans le hall de l'hôtel, tu veux laisser ta valise un instant avant de monter dans la chambre. Demande si tu peux le faire. Parle maintenant.",
+      "audioKey": "eua-b08-x0",
+      "es": "Can I leave my bag here for a minute?",
+      "tts": "Can I leave my bag here for a minute?",
+      "pinyin": "kn aï live maï bague jir for e MI-nite",
+      "pt": "Je peux laisser mon sac ici un instant ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b08-n02",
+      "bloco": "cena",
+      "pt": "Un inconnu va te répondre avec trois rues et les deux mains en l'air. Commence plus petit : where's the tient déjà dans ta tête."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b08-n03",
+      "bloco": "molde",
+      "pt": "La formule : where's the et le lieu. Elle reste pareille ; seul ce que tu cherches change."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-t01",
+      "es": "Where's the restroom?",
+      "tts": "Where's the restroom?",
+      "pinyin": "ouèrze de RÈSTE-roume",
+      "pt": "Où sont les toilettes ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "restroom",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b08-p01",
+      "promptPt": "Dans le hall de l'hôtel, tu as besoin des toilettes avant de monter dans la chambre. Demande où elles se trouvent. Parle maintenant.",
+      "audioKey": "eua-b08-t01",
+      "es": "Where's the restroom?",
+      "tts": "Where's the restroom?",
+      "pinyin": "ouèrze de RÈSTE-roume",
+      "pt": "Où sont les toilettes ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r01",
+      "es": "Right down the hall, on the left.",
+      "tts": "Right down the hall, on the left.",
+      "pinyin": "raïte daoune de jole, onne de lèfte",
+      "pt": "Tout au fond du couloir, à gauche."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b08-n04",
+      "bloco": "corpo",
+      "pt": "Même formule, autre lieu. L'ascenseur aussi est un lieu connu que tu cherches dans le même bâtiment."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "elevator",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b08-p02",
+      "promptPt": "Tu as les valises et tu ne vois pas d'escalier à proximité. Demande où se trouve l'ascenseur. Parle maintenant.",
+      "audioKey": "eua-b08-t02",
+      "es": "Where's the elevator?",
+      "tts": "Where's the elevator?",
+      "pinyin": "ouèrze de È-le-vèï-teur",
+      "pt": "Où est l'ascenseur ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r02",
+      "es": "Just around the corner.",
+      "tts": "Just around the corner.",
+      "pinyin": "djaste e-RAOUNDE de KOR-neur",
+      "pt": "Juste après le coin."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "front desk",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b08-p03",
+      "promptPt": "Tu dois retourner à la réception, mais depuis ce couloir tu ne te souviens plus par où. Demande où elle se trouve. Parle maintenant.",
+      "audioKey": "eua-b08-t03",
+      "es": "Where's the front desk?",
+      "tts": "Where's the front desk?",
+      "pinyin": "ouèrze de fronte deske",
+      "pt": "Où est la réception ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b08-n05",
+      "bloco": "capsula",
+      "pt": "Parfois tu ne sais même pas comment ça s'appelle en anglais. Ne force pas la formule : indique l'intention et laisse l'autre compléter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-t04",
+      "es": "I'm looking for a pharmacy.",
+      "tts": "I'm looking for a pharmacy.",
+      "pinyin": "aïme LOU-kigne for e FAR-ma-si",
+      "pt": "Je cherche une pharmacie. Quand tu ne sais pas bien quel mot utiliser, tu indiques l'intention comme ça."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b08-p04",
+      "promptPt": "On t'a donné un trajet de trois rues et tu as déjà perdu le fil à mi-chemin. Réduis la réponse en demandant juste si c'est loin. Parle maintenant.",
+      "audioKey": "eua-b08-t05",
+      "es": "Is it far?",
+      "tts": "Is it far?",
+      "pinyin": "iz itte far",
+      "pt": "C'est loin ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b08-r03",
+      "es": "No, it's two blocks away.",
+      "tts": "No, it's two blocks away.",
+      "pinyin": "nô, itse tou blokse e-OUÈÏ",
+      "pt": "Non, c'est à deux rues."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b08-p05",
+      "promptPt": "Deux rues ne te dit toujours pas clairement quel coin de rue. Demande qu'on te le montre sur la carte. Parle maintenant.",
+      "audioKey": "eua-b08-t06",
+      "es": "Can you show me on the map?",
+      "tts": "Can you show me on the map?",
+      "pinyin": "kn you chôou mi onne de mape",
+      "pt": "Vous pouvez me le montrer sur la carte ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHERE",
+      "encaixe": "nearest ATM",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b08-px1",
+      "promptPt": "Tu n'as que ta carte et tu as besoin de liquide. Demande où est le distributeur le plus proche. Parle maintenant.",
+      "audioKey": "eua-b08-x1",
+      "es": "Where's the nearest ATM?",
+      "tts": "Where's the nearest ATM?",
+      "pinyin": "ouèrze de NI-reste èï-ti-ÈME",
+      "pt": "Où est le distributeur le plus proche ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "HAVE",
+      "encaixe": "an umbrella",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b08-px2",
+      "promptPt": "Il pleut et tu vas sortir de l'hôtel. À la réception, demande s'ils ont un parapluie à te prêter. Parle maintenant.",
+      "audioKey": "eua-b08-x2",
+      "es": "Do you have an umbrella?",
+      "tts": "Do you have an umbrella?",
+      "pinyin": "dou you jav ane amme-BRÈ-la",
+      "pt": "Vous avez un parapluie ?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "EXCUSE",
+      "encaixe": "le comptoir de la réception",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b08-px3",
+      "promptPt": "Le réceptionniste te tourne le dos, en train de ranger des clés. Attire son attention avant de demander pour le parapluie. Parle maintenant.",
+      "audioKey": "eua-b08-x3",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZE mi",
+      "pt": "Excusez-moi ?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b08-s01",
+      "es": "Where's the restroom? Where's the elevator? Is it far?",
+      "tts": "Where's the restroom? Where's the elevator? Is it far?",
+      "pinyin": "ouèrze de RÈSTE-roume ? ouèrze de È-le-vèï-teur ? iz itte far",
+      "pt": "Répète la formule avec deux lieux différents et le réducteur de distance."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b08-n06",
+      "bloco": "recap",
+      "pt": "B08 bouclée. Where's the pour un lieu connu, is it far pour réduire la réponse, la carte quand même ça ne suffit pas."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Un lieu connu, pas tout un paragraphe",
+    "secoes": [
+      {
+        "titulo": "Where's the, et seul le lieu change",
+        "corpo": "Utilise-la pour n'importe quel lieu défini dont tu sais qu'il existe à proximité : les toilettes, l'ascenseur, la réception.",
+        "exemplos": [
+          { "es": "Where's the restroom?", "pt": "Où sont les toilettes ?" },
+          { "es": "Where's the elevator?", "pt": "Où est l'ascenseur ?" }
+        ]
+      },
+      {
+        "titulo": "« I'm looking for ___ » est la formule sœur pour quand tu n'as pas le mot exact",
+        "corpo": "Indique l'intention et laisse l'autre compléter, plutôt que de forcer la formule avec un mot que tu ne connais pas encore."
+      },
+      {
+        "titulo": "Ne mémorise pas tout le paragraphe",
+        "corpo": "Les mots de direction sont surtout réceptifs pour l'instant. Ton travail productif, c'est de réduire la réponse avec is it far ou de la basculer vers la carte."
+      }
+    ]
+  }
+}

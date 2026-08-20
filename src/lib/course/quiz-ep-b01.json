@@ -1,0 +1,90 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — Les quatre gestes",
+  "subtitulo": "Reconnais le coup, la voyelle relâchée, la morsure et la consonne finale dans une scène d'arrivée",
+  "introAudioKey": "eua-b01-q-i",
+  "introPt": "Tu viens d'atterrir. Un bagagiste monte ta valise dans la chambre et attend une seconde avant de partir. Écoute le court échange et fais attention à où tombe l'accent tonique.",
+  "cenario": "Dans le couloir de l'hôtel, le bagagiste pose la valise et attend des instructions.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b01-q01",
+      "voz": "target_en_m",
+      "es": "Here's your bag. Anything else?",
+      "tts": "Here's your bag. Anything else?",
+      "pinyin": "jirse your bague. È-ni-thigne èlze",
+      "pt": "Voici votre valise. Autre chose ?"
+    },
+    {
+      "audioKey": "eua-b01-q02",
+      "voz": "target_en_f",
+      "es": "No, thanks.",
+      "tts": "No, thanks.",
+      "pinyin": "nô, thanxe",
+      "pt": "Non, merci."
+    },
+    {
+      "audioKey": "eua-b01-q03",
+      "voz": "target_en_m",
+      "es": "Have a good stay.",
+      "tts": "Have a good stay.",
+      "pinyin": "jav e goude stèï",
+      "pt": "Passez un bon séjour."
+    },
+    {
+      "audioKey": "eua-b01-q04",
+      "voz": "target_en_f",
+      "es": "Thanks.",
+      "tts": "Thanks.",
+      "pinyin": "thanxe",
+      "pt": "Merci."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quel geste marque la syllabe forte d'un mot en anglais ?",
+      "opcoes": ["La morsure", "Le poing", "La paume relâchée", "Le coup inégal"],
+      "correta": 1,
+      "explica": "Le poing marque la syllabe tonique : re-CEET, ex-CUSE, pas la première syllabe par défaut."
+    },
+    {
+      "pergunta": "Que se passe-t-il si tu laisses tomber le « s » final de « thanks » ?",
+      "opcoes": [
+        "Rien, ça se comprend pareil",
+        "Ça sonne comme un autre mot ou comme rien du tout",
+        "Ça devient plus formel",
+        "Ça devient une question"
+      ],
+      "correta": 1,
+      "explica": "L'anglais referme les mots sur une consonne ; sans le « s » final, « thanks » cesse d'être reconnaissable."
+    },
+    {
+      "pergunta": "Quel geste sert pour le son du « th » ?",
+      "opcoes": ["Le coup inégal", "Le poing", "La morsure", "La paume relâchée"],
+      "correta": 2,
+      "explica": "La morsure représente le fait de faire dépasser un peu la langue entre les dents, le geste qui trahit l'erreur classique du francophone."
+    },
+    {
+      "pergunta": "Pourquoi « water » sonne-t-il différemment dit « régulièrement », syllabe par syllabe ?",
+      "opcoes": [
+        "Parce que l'anglais est à rythme syllabique, comme le français",
+        "Parce que l'anglais est à rythme accentuel et la deuxième syllabe se compresse",
+        "Parce que water n'a pas d'accent",
+        "Parce qu'il n'a pas de th"
+      ],
+      "correta": 1,
+      "explica": "L'anglais répartit le temps par accent, pas par syllabe ; le dire régulièrement sonne forcé et parfois cesse d'être compris."
+    },
+    {
+      "pergunta": "À quoi servent les quatre gestes de B01 ?",
+      "opcoes": [
+        "À effacer complètement l'accent français",
+        "À mémoriser des règles de grammaire",
+        "À trahir l'erreur précise qui empêche un mot connu d'être reconnu",
+        "À imiter un accent régional des États-Unis"
+      ],
+      "correta": 2,
+      "explica": "Le geste n'illustre pas une règle : il expose l'erreur exacte du francophone. Sonner étranger est permis."
+    }
+  ]
+}

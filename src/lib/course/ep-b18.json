@@ -1,0 +1,278 @@
+{
+  "id": "b18",
+  "slot": "B18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "18A",
+  "titulo": "La valise est prête, il manque l'horloge",
+  "subtitulo": "« What time ___? » pour le dernier jour, et dire au revoir sans que ça sonne précipité",
+  "cena": "La valise est déjà fermée près de la porte, l'avion part dans l'après-midi, et tu ne sais pas jusqu'à quelle heure tu peux rester avant qu'on commence à te facturer une nuit de plus.",
+  "moldura": "ganha",
+  "frasePiso": "Tu vas boucler ton dernier jour aux États-Unis en sachant exactement l'heure de chaque limite, et tu vas dire au revoir comme quelqu'un qui sait déjà qu'il reviendra.",
+  "moldes": ["WHAT-TIME"],
+  "clique": {
+    "contagem": [
+      "l'heure du check-out",
+      "l'horaire de la navette vers l'aéroport",
+      "l'heure de fermeture de la réception",
+      "l'heure de départ de ton vol"
+    ],
+    "desconto": "Personne ne t'a donné une phrase pour chaque horaire du dernier jour. Tu as construit les quatre avec « What time » et ce que tu avais besoin de savoir.",
+    "piso": "La prochaine fois que tu auras un dernier jour avec plusieurs horaires à gérer, tu ne devineras pas : tu demanderas chacun avec la même formule, un par un."
+  },
+  "permissao": "Tu n'as pas besoin de mémoriser tous les horaires d'un coup. Tu peux demander chacun séparément, au moment où tu en as besoin ; personne n'attend que tu arrives avec l'itinéraire déjà réglé.",
+  "permissaoAudioKey": "eua-b18-n08",
+  "espelho": "Lors de n'importe quel dernier jour de voyage dans ton pays aussi, tu vérifies l'heure du check-out et le transfert vers l'aéroport avant de te détendre ; la seule différence ici, c'est la formule exacte et l'habitude de dire « Have a safe flight » plutôt qu'un au revoir plus long.",
+  "fichasCulturais": [
+    {
+      "sinal": "En partant, la personne de la réception te dit « Have a safe flight! » avec un sourire bref, presque sans s'arrêter, déjà occupée avec le client suivant.",
+      "suaLeitura": "C'était un au revoir froid ou précipité, comme si ça ne l'intéressait pas.",
+      "oQueEAli": "C'est l'au revoir standard de service aux États-Unis : court, chaleureux et rapide, sans la cérémonie plus longue à laquelle tu pourrais t'attendre ailleurs. Ça ne mesure pas à quel point tu as apprécié ton séjour.",
+      "oQueVoceFaz": "Tu réponds « Thanks so much, you too! » et tu continues ton chemin ; pas besoin d'allonger l'au revoir.",
+      "oQueMelhora": "Tu conclus l'interaction comme le ferait un habitué, sans avoir l'impression que quelque chose est resté en suspens.",
+      "ondeNaoVale": "Ça ne s'applique pas s'il y a eu une relation plus personnelle pendant le séjour — un hôte Airbnb avec qui tu as discuté plusieurs fois — là, un au revoir plus long est tout aussi attendu que chez toi.",
+      "evidencia": "CONSENSO",
+      "audioKeys": ["eua-b18-n07"]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Partie dix-huit, la dernière du module. Rythme régulier dans la question clé : WHAT TIME IS check-OUT."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b18-n02",
+      "bloco": "cena",
+      "pt": "La valise est déjà fermée près de la porte. Ton avion part dans l'après-midi, et tu ne sais pas jusqu'à quelle heure tu peux rester."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b18-p01",
+      "promptPt": "Comme hier à la pharmacie, dis que tu as besoin de quelque chose contre le mal de tête. Parle maintenant.",
+      "bloco": "callback",
+      "molde": "HAVE",
+      "audioKey": "eua-b18-t01",
+      "es": "Do you have something for a headache?",
+      "tts": "Do you have something for a headache?",
+      "pinyin": "dou you jav SAMME-thigne for e HÈDE-èïke",
+      "pt": "Vous avez quelque chose pour le mal de tête ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b18-n03",
+      "bloco": "molde",
+      "pt": "La formule du jour : « What time » plus ce que tu as besoin de savoir. Couvre le check-out, la navette, presque tout horaire."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouatte taïme iz tchèke-aoute",
+      "pt": "C'est à quelle heure le check-out ?"
+    },
+    {
+      "consulta": ["quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "is check-out",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b18-p02",
+      "promptPt": "Avant de descendre la valise, demande à quelle heure est le check-out. Parle maintenant.",
+      "audioKey": "eua-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouatte taïme iz tchèke-aoute",
+      "pt": "C'est à quelle heure le check-out ?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_m",
+      "audioKey": "eua-b18-r01",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "itse atte i-LÈ-venne, batte you kn live your bagze ouizz asse",
+      "pt": "C'est à onze heures, mais vous pouvez nous laisser vos valises."
+    },
+    {
+      "consulta": ["quarto/mala"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b18-p03",
+      "promptPt": "Ton vol part seulement dans l'après-midi. Demande si tu peux laisser ta valise à la réception. Parle maintenant.",
+      "audioKey": "eua-b18-t03",
+      "es": "Can I leave my bag here?",
+      "tts": "Can I leave my bag here?",
+      "pinyin": "kn aï live maï bague jir",
+      "pt": "Je peux laisser mon sac ici ?"
+    },
+    {
+      "consulta": ["taxi/errado"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the shuttle leave",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b18-p04",
+      "promptPt": "Tu vas prendre la navette vers l'aéroport. Demande à quelle heure elle part. Parle maintenant.",
+      "audioKey": "eua-b18-t04",
+      "es": "What time does the shuttle leave?",
+      "tts": "What time does the shuttle leave?",
+      "pinyin": "ouatte taïme daze de CHA-teule live",
+      "pt": "La navette part à quelle heure ?"
+    },
+    {
+      "consulta": ["quarto/checkin"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the front desk close",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b18-p05",
+      "promptPt": "Tu vas revenir très tard chercher ta valise. Demande jusqu'à quelle heure il y a quelqu'un à la réception. Parle maintenant.",
+      "audioKey": "eua-b18-t05",
+      "es": "What time does the front desk close?",
+      "tts": "What time does the front desk close?",
+      "pinyin": "ouatte taïme daze de fronte deske klôouze",
+      "pt": "La réception ferme à quelle heure ?"
+    },
+    {
+      "consulta": ["quarto/pedir"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does breakfast end",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b18-p06",
+      "promptPt": "Tu as descendu la valise et tu veux attraper le petit-déjeuner avant de partir vers l'aéroport. Demande jusqu'à quelle heure il est servi. Parle maintenant.",
+      "audioKey": "eua-b18-t07",
+      "es": "What time does breakfast end?",
+      "tts": "What time does breakfast end?",
+      "pinyin": "ouatte taïme daze BRÈKE-fasste ènde",
+      "pt": "Le petit-déjeuner se termine à quelle heure ?"
+    },
+    {
+      "consulta": ["quarto/checkout"],
+      "tipo": "responde",
+      "voz": "target_en_m",
+      "molde": "HOW-MUCH",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_fr_m",
+      "promptAudioKey": "eua-b18-p07",
+      "promptPt": "Ton vol part si tard que tu préférerais rester dans la chambre quelques heures de plus plutôt que laisser la valise en bas. Demande combien coûte le check-out tardif. Parle maintenant.",
+      "audioKey": "eua-b18-t08",
+      "es": "How much is a late check-out?",
+      "tts": "How much is a late check-out?",
+      "pinyin": "jaou match iz e lèïte tchèke-aoute",
+      "pt": "Combien coûte le check-out tardif ?"
+    },
+    {
+      "consulta": ["taxi/destino"],
+      "tipo": "responde",
+      "voz": "target_en_f",
+      "molde": "CAN-I",
+      "encaixe": "call a taxi",
+      "promptVoz": "guide_fr_f",
+      "promptAudioKey": "eua-b18-p08",
+      "promptPt": "La navette de l'hôtel est déjà partie sans toi. Demande à la réception s'ils peuvent t'appeler un taxi. Parle maintenant.",
+      "audioKey": "eua-b18-t09",
+      "es": "Can I call a taxi?",
+      "tts": "Can I call a taxi?",
+      "pinyin": "kn aï kole e TAK-si",
+      "pt": "Je peux appeler un taxi ?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b18-n04",
+      "pt": "Une formule, quatre horaires différents : check-out, navette, réception, et celui qu'il te reste à demander."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b18-n05",
+      "pt": "En disant au revoir, pas besoin d'allonger la phrase. « Thanks so much, we had a great time » conclut bien presque tous les départs."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_f",
+      "audioKey": "eua-b18-t06",
+      "es": "Have a safe flight!",
+      "tts": "Have a safe flight!",
+      "pinyin": "jav e sèïfe flaïte",
+      "pt": "Bon vol !"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b18-n07",
+      "bloco": "capsula",
+      "pt": "Si l'au revoir semble court, ce n'est pas de la froideur : c'est l'au revoir standard de service ici. Tu réponds « Thanks, you too! »."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b18-n08",
+      "bloco": "permissao",
+      "pt": "Tu n'as pas à mémoriser tous les horaires d'un coup. Demande chacun quand tu en as besoin."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_fr_f",
+      "audioKey": "eua-b18-n09",
+      "bloco": "clique",
+      "pt": "Tu as demandé le check-out, la navette et la réception. Personne ne t'a donné trois phrases : une seule formule."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_f",
+      "audioKey": "eua-b18-s01",
+      "es": "What time is check-out? What time does the shuttle leave?",
+      "tts": "What time is check-out? What time does the shuttle leave?",
+      "pinyin": "ouatte taïme iz tchèke-aoute ? ouatte taïme daze de CHA-teule live",
+      "pt": "Répète la même formule avec deux horaires différents."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_fr_m",
+      "audioKey": "eua-b18-n10",
+      "bloco": "recap",
+      "pt": "B18 bouclée, et avec elle, ME VIRO au complet. Dix-huit parties, une formule par maison, et un voyage que tu sais boucler seul."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Le dernier jour a sa propre horloge",
+    "secoes": [
+      {
+        "titulo": "La formule ouverte",
+        "corpo": "« What time » plus ce que tu as besoin de savoir couvre presque tout horaire : check-out, transport, heures d'ouverture. La structure ne change pas ; seule la fin de la question change."
+      },
+      {
+        "titulo": "Laisser la valise n'est pas qu'une courtoisie",
+        "corpo": "Presque tous les hôtels acceptent de garder tes bagages après le check-out sans frais supplémentaires, même si ton vol part des heures plus tard. Le demander avec « Can I leave my bag here? » évite de la porter toute la journée."
+      },
+      {
+        "titulo": "Un au revoir court n'est pas froid",
+        "corpo": "Le registre d'au revoir de service aux États-Unis est bref par nature : « Have a safe flight », « Thanks so much », et c'est tout. Ne cherche pas une cérémonie plus longue ; la brièveté est la norme, pas un manque de chaleur."
+      },
+      {
+        "titulo": "Dix-huit parties, une même méthode",
+        "corpo": "Le module ME VIRO se termine ici, sur un au revoir, pas sur un vol ni une urgence. Chaque partie a planté une formule ouverte ; ensemble, elles couvrent le voyage complet, de l'aéroport d'arrivée à celui de départ."
+      }
+    ]
+  }
+}

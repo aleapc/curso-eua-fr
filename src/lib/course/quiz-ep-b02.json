@@ -1,0 +1,97 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Saluer avant de toucher l'étagère",
+  "subtitulo": "Le bon moment pour hi, excuse me et thanks",
+  "introAudioKey": "eua-b02-q-i",
+  "introPt": "Tu vas entrer dans un petit magasin, traverser un couloir bondé et sortir. Écoute l'échange et remarque à quel moment vient chaque pièce de politesse.",
+  "cenario": "Dans un petit magasin, l'employée salue depuis le comptoir avant que le client n'atteigne l'étagère.",
+  "dialogo": [
+    {
+      "audioKey": "eua-b02-q01",
+      "voz": "target_en_f",
+      "es": "Hi there.",
+      "tts": "Hi there.",
+      "pinyin": "jaï der",
+      "pt": "Bonjour."
+    },
+    {
+      "audioKey": "eua-b02-q02",
+      "voz": "target_en_m",
+      "es": "Hi, welcome in. Let me know if you need anything.",
+      "tts": "Hi, welcome in. Let me know if you need anything.",
+      "pinyin": "jaï, OUÈLE-came inne. lète mi nôou if you nide È-ni-thigne",
+      "pt": "Bonjour, bienvenue. Dis-moi si tu as besoin de quelque chose."
+    },
+    {
+      "audioKey": "eua-b02-q03",
+      "voz": "target_en_f",
+      "es": "Just looking, thanks.",
+      "tts": "Just looking, thanks.",
+      "pinyin": "djaste LOU-kigne, thanxe",
+      "pt": "Je regarde juste, merci."
+    },
+    {
+      "audioKey": "eua-b02-q04",
+      "voz": "target_en_f",
+      "es": "Thanks so much. Have a good one.",
+      "tts": "Thanks so much. Have a good one.",
+      "pinyin": "thanxe sô match. jav e goude ouann",
+      "pt": "Merci beaucoup. Bonne journée."
+    },
+    {
+      "audioKey": "eua-b02-q05",
+      "voz": "target_en_m",
+      "es": "You too, take care.",
+      "tts": "You too, take care.",
+      "pinyin": "you tou, tèïke quère",
+      "pt": "Toi aussi, fais attention à toi."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quand dit-on « hi there » dans le magasin ?",
+      "opcoes": [
+        "Après avoir choisi ce que tu vas acheter",
+        "Avant de regarder l'étagère",
+        "Seulement si on te demande quelque chose",
+        "À la fin, en payant"
+      ],
+      "correta": 1,
+      "explica": "Le salut ouvre l'interaction ; aller directement à l'étagère sans saluer se lit comme un manque de politesse."
+    },
+    {
+      "pergunta": "Que signifie « let me know if you need anything » ?",
+      "opcoes": [
+        "Qu'on va te suivre dans le magasin",
+        "Que la parole est à toi quand tu veux parler",
+        "Que tu dois acheter quelque chose",
+        "Que le magasin va fermer"
+      ],
+      "correta": 1,
+      "explica": "Ce n'est pas une question qui exige une réponse immédiate : c'est la porte ouverte pour quand tu décides de l'utiliser."
+    },
+    {
+      "pergunta": "À quoi sert « excuse me » dans un couloir bondé ?",
+      "opcoes": [
+        "À s'excuser après avoir bousculé quelqu'un",
+        "À prévenir qu'on va bouger, avant de le faire",
+        "À demander de l'aide",
+        "À demander l'heure"
+      ],
+      "correta": 1,
+      "explica": "« Excuse me » annonce le mouvement avant qu'il n'arrive ; « sorry » est pour quand quelque chose s'est déjà produit."
+    },
+    {
+      "pergunta": "Que signifie « have a good one » en sortant d'un magasin ?",
+      "opcoes": [
+        "Une promesse qu'on va s'ennuyer de toi",
+        "La conclusion standard, comme « bonne journée »",
+        "Une invitation à revenir demain",
+        "Une question sur ta journée"
+      ],
+      "correta": 1,
+      "explica": "C'est l'au revoir normal d'un comptoir aux États-Unis, sans rien impliquer de plus."
+    }
+  ]
+}
