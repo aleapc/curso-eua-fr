@@ -93,7 +93,9 @@
       "pt": "Ça coûte combien ?"
     },
     {
-      "consulta": ["compras/preco"],
+      "consulta": [
+        "compras/quanto"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HOW-MUCH",
@@ -117,7 +119,9 @@
       "pt": "Celui-là coûte vingt-deux dollars."
     },
     {
-      "consulta": ["compras/talla"],
+      "consulta": [
+        "compras/quanto"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -132,7 +136,9 @@
       "pt": "Vous l'avez en taille L ?"
     },
     {
-      "consulta": ["compras/probador"],
+      "consulta": [
+        "compras/probador"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "CAN-I",
@@ -153,7 +159,9 @@
       "pt": "Small, medium, large ne correspond pas à ta taille habituelle. L'essayer résout mieux le doute que calculer."
     },
     {
-      "consulta": ["compras/probador"],
+      "consulta": [
+        "compras/probador"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",
@@ -177,7 +185,9 @@
       "pt": "Laisse-moi vérifier en réserve."
     },
     {
-      "consulta": ["compras/preco"],
+      "consulta": [
+        "compras/quanto"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HOW-MUCH",
@@ -192,7 +202,9 @@
       "pt": "Ça fait combien au total ?"
     },
     {
-      "consulta": ["compras/pagar"],
+      "consulta": [
+        "compras/pagar"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "GET",
@@ -246,7 +258,9 @@
       "pt": "Tu as demandé le prix du t-shirt et celui du total. Personne ne t'a donné deux phrases : une seule formule."
     },
     {
-      "consulta": ["compras/pagar"],
+      "consulta": [
+        "compras/pagar"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "GET",

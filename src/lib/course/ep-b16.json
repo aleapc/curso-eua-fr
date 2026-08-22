@@ -77,7 +77,9 @@
       "pt": "Ça fait combien au total ?"
     },
     {
-      "consulta": ["quarto/checkin"],
+      "consulta": [
+        "quarto/checkin"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "CAN-I",
@@ -92,7 +94,9 @@
       "pt": "Je peux m'enregistrer plus tôt ?"
     },
     {
-      "consulta": ["quarto/pedir"],
+      "consulta": [
+        "quarto/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -107,7 +111,9 @@
       "pt": "Vous avez une chambre plus calme ?"
     },
     {
-      "consulta": ["quarto/checkout"],
+      "consulta": [
+        "quarto/checkout"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "GET",
@@ -147,7 +153,9 @@
       "pt": "Ma carte d'accès ne fonctionne pas."
     },
     {
-      "consulta": ["reparo/nao-funciona"],
+      "consulta": [
+        "quarto/nao-funciona"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "WENT-WRONG",
@@ -162,7 +170,9 @@
       "pt": "Ma carte d'accès ne fonctionne pas."
     },
     {
-      "consulta": ["reparo/nao-funciona"],
+      "consulta": [
+        "quarto/nao-funciona"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "WENT-WRONG",
@@ -186,7 +196,9 @@
       "pt": "J'envoie quelqu'un tout de suite."
     },
     {
-      "consulta": ["quarto/pedir"],
+      "consulta": [
+        "quarto/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "WHERE",
@@ -201,7 +213,9 @@
       "pt": "Où est la machine à glaçons ?"
     },
     {
-      "consulta": ["quarto/pedir"],
+      "consulta": [
+        "quarto/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "LOOKING",

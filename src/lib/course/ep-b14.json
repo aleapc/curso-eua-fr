@@ -101,7 +101,9 @@
       "pt": "Ça inclut déjà la taxe."
     },
     {
-      "consulta": ["pagar/dividir"],
+      "consulta": [
+        "pagar/rachar"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "CAN-I",
@@ -125,7 +127,9 @@
       "pt": "Bien sûr, en quatre parts ?"
     },
     {
-      "consulta": ["pagar/pedir"],
+      "consulta": [
+        "pagar/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "GET",
@@ -152,7 +156,9 @@
       "pt": "Pour un groupe de six ou plus, 18 % de service est presque toujours déjà inclus. Lis-la avant d'ajouter un pourboire."
     },
     {
-      "consulta": ["pagar/errado"],
+      "consulta": [
+        "pagar/errado"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "CAN-I",
@@ -167,7 +173,9 @@
       "pt": "Je peux la revoir ?"
     },
     {
-      "consulta": ["mesa/conta"],
+      "consulta": [
+        "mesa/conta"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "EXCUSE",
@@ -182,7 +190,9 @@
       "pt": "Excusez-moi."
     },
     {
-      "consulta": ["mesa/conta"],
+      "consulta": [
+        "mesa/conta"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -197,7 +207,9 @@
       "pt": "Vous avez un stylo ?"
     },
     {
-      "consulta": ["pagar/dinheiro"],
+      "consulta": [
+        "pagar/dinheiro"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "CAN-I",
@@ -212,7 +224,9 @@
       "pt": "Je peux plutôt payer en liquide ?"
     },
     {
-      "consulta": ["pagar/pedir"],
+      "consulta": [
+        "pagar/pedir"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "GET",

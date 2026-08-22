@@ -137,7 +137,9 @@
       "pt": "Je cherche ma porte d'embarquement."
     },
     {
-      "consulta": ["chegar/embarque"],
+      "consulta": [
+        "chegar/embarque"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",
@@ -161,7 +163,9 @@
       "pt": "C'est par là, après l'espace restauration."
     },
     {
-      "consulta": ["saude/farmacia"],
+      "consulta": [
+        "saude/guardia"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",
@@ -176,7 +180,9 @@
       "pt": "Je cherche une pharmacie."
     },
     {
-      "consulta": ["taxi/renta"],
+      "consulta": [
+        "taxi/locadora"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",
@@ -191,7 +197,9 @@
       "pt": "Je cherche le comptoir de location de voitures."
     },
     {
-      "consulta": ["compras/probador"],
+      "consulta": [
+        "compras/probador"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",
@@ -215,7 +223,9 @@
       "pt": "Par ici, suivez-moi."
     },
     {
-      "consulta": ["chegar/embarque"],
+      "consulta": [
+        "chegar/bagagem"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "WHERE",
@@ -230,7 +240,9 @@
       "pt": "Où est le tapis à bagages ?"
     },
     {
-      "consulta": ["reparo/apontar"],
+      "consulta": [
+        "reparo/apontar"
+      ],
       "tipo": "responde",
       "voz": "target_en_m",
       "molde": "CAN-I",
@@ -266,7 +278,9 @@
       "pt": "Ta porte, une pharmacie, la location de voitures, une cabine d'essayage. Personne ne t'a donné quatre phrases : une seule formule."
     },
     {
-      "consulta": ["reparo/apontar"],
+      "consulta": [
+        "reparo/apontar"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "LOOKING",

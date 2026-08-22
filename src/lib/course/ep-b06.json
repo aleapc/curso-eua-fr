@@ -88,7 +88,9 @@
       "pt": "Vous avez le wifi ?"
     },
     {
-      "consulta": ["chegar/conexao"],
+      "consulta": [
+        "chegar/servicos"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -112,7 +114,9 @@
       "pt": "Oui, le réseau est sur le panneau."
     },
     {
-      "consulta": ["chegar/banheiro"],
+      "consulta": [
+        "chegar/banheiro"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -136,7 +140,9 @@
       "pt": "Bien sûr, au coin, après les boutiques."
     },
     {
-      "consulta": ["pagar/caixa", "chegar/dinheiro"],
+      "consulta": [
+        "pagar/dinheiro"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -160,7 +166,9 @@
       "pt": "Il y en a un juste à côté de la sortie."
     },
     {
-      "consulta": ["chegar/conexao"],
+      "consulta": [
+        "chegar/servicos"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -175,7 +183,9 @@
       "pt": "Vous avez un chargeur ?"
     },
     {
-      "consulta": ["chegar/conexao"],
+      "consulta": [
+        "chegar/servicos"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -199,7 +209,9 @@
       "pt": "Prépayée ou forfait mensuel ?"
     },
     {
-      "consulta": ["compras/tienda"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
@@ -214,7 +226,9 @@
       "pt": "Vous avez de l'eau ?"
     },
     {
-      "consulta": ["chegar/bagagem"],
+      "consulta": [
+        "chegar/bagagem"
+      ],
       "tipo": "responde",
       "voz": "target_en_f",
       "molde": "HAVE",
